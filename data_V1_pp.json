@@ -1,4 +1,4 @@
-{
+[{
   "folder": "V1/",
   "problem": "Ericson2022figure2",
   "fails": 2,
@@ -649,4 +649,5 @@
       ]
     }
   ]
-},
+}
+]
