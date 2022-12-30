@@ -1,0 +1,36 @@
+    {
+      "figure": "Ericson2022figure3_1",
+      "bad": 5,
+      "issues": [
+        {
+          "msg": "aa bb = 'ab'",
+          "ok": false,
+          "actual": "a b",
+          "expected": "aa bb"
+        },
+        {
+          "msg": "aaa bbb = ab",
+          "ok": false,
+          "actual": "a b",
+          "expected": "aaa bbb"
+        },
+        {
+          "msg": "' spacea',' spaceb' = [  ] ",
+          "ok": false,
+          "actual": "ab",
+          "expected": "  "
+        },
+        {
+          "msg": "' spacesa ',' spacesb ' = ...",
+          "ok": false,
+          "actual": "ab",
+          "expected": "  "
+        },
+        {
+          "msg": "'a z','b z' = ab",
+          "ok": false,
+          "actual": "a b",
+          "expected": "a z b z"
+        }
+      ]
+    },
