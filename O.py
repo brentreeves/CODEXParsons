@@ -45,8 +45,14 @@ class Parsons():
     # self.predicates = list(map ( self.fixem, args ))
     def fixem(self, args):
         note, result, expected = args
+
+        if ( (type(expected) is int ) or (type(expected) is float)):
+            rc = abs(  abs(result) - abs(expected)) < 0.0001
+        else:
+            rc = result == expected
+
         return {"msg": note,
-                "ok" : result == expected,
+                "ok" : rc,
                 "actual" : result,
                 "expected": expected}
 
