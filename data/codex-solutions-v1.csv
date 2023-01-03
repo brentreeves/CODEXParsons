@@ -1,0 +1,6969 @@
+prompt,scrambled_lines,codex_output,problem
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return '10:00'
+else:
+if vacation:
+if day == 0 or day == 6:
+else:
+def alarm_clock(day, vacation):
+return '10:00'
+return 'off'
+return '7:00'
+else:
+if day == 0 or day == 6:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","else:
+else:
+return '10:00'
+return 'off'
+if vacation:
+else:
+def alarm_clock(day, vacation):
+return '10:00'
+if day == 0 or day == 6:
+if day == 0 or day == 6:
+return '7:00'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'off'
+if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+return '10:00'
+if day == 0 or day == 6:
+return '10:00'
+else:
+if vacation:
+else:
+else:
+return '7:00'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def alarm_clock(day, vacation):
+return '10:00'
+else:
+else:
+if day == 0 or day == 6:
+if vacation:
+if day == 0 or day == 6:
+else:
+return '7:00'
+return '10:00'
+return 'off'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return '7:00'
+def alarm_clock(day, vacation):
+return '10:00'
+if day == 0 or day == 6:
+return '10:00'
+if vacation:
+else:
+else:
+else:
+if day == 0 or day == 6:
+return 'off'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if vacation:
+if day == 0 or day == 6:
+else:
+return 'off'
+return '7:00'
+else:
+if day == 0 or day == 6:
+return '10:00'
+def alarm_clock(day, vacation):
+return '10:00'
+else:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'off'
+if vacation:
+if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+if day == 0 or day == 6:
+else:
+return '7:00'
+return '10:00'
+else:
+return '10:00'
+else:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def alarm_clock(day, vacation):
+else:
+return 'off'
+else:
+return '10:00'
+return '10:00'
+if day == 0 or day == 6:
+return '7:00'
+if day == 0 or day == 6:
+if vacation:
+else:","def alarm_clock(day, vacation):
+  if vacation:
+    if day == 0 or day == 6:
+      return 'off'
+    else:
+      return '10:00'
+  else:
+    if day == 0 or day == 6:
+      return '10:00'
+    else:
+      return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+if vacation:
+if day == 0 or day == 6:
+return '10:00'
+return 'off'
+else:
+return '7:00'
+return '10:00'
+else:
+else:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+    else:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+return '10:00'
+return '7:00'
+return '10:00'
+else:
+else:
+if vacation:
+if day == 0 or day == 6:
+else:
+return 'off'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if day == 0 or day == 6:
+return '7:00'
+else:
+if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+if vacation:
+else:
+return '10:00'
+return '10:00'
+return 'off'
+else:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return '10:00'
+else:
+def alarm_clock(day, vacation):
+else:
+return 'off'
+if day == 0 or day == 6:
+if vacation:
+else:
+if day == 0 or day == 6:
+return '10:00'
+return '7:00'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return '10:00'
+if vacation:
+else:
+return 'off'
+def alarm_clock(day, vacation):
+return '10:00'
+if day == 0 or day == 6:
+if day == 0 or day == 6:
+else:
+return '7:00'
+else:","def alarm_clock(day, vacation):
+    if day == 0 or day == 6:
+        if vacation:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if vacation:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return '7:00'
+if vacation:
+if day == 0 or day == 6:
+return '10:00'
+else:
+else:
+else:
+return '10:00'
+if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+return 'off'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","else:
+return 'off'
+else:
+if day == 0 or day == 6:
+if day == 0 or day == 6:
+def alarm_clock(day, vacation):
+return '10:00'
+if vacation:
+else:
+return '7:00'
+return '10:00'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def alarm_clock(day, vacation):
+return '7:00'
+if day == 0 or day == 6:
+return '10:00'
+else:
+else:
+return '10:00'
+if vacation:
+return 'off'
+if day == 0 or day == 6:
+else:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","else:
+if day == 0 or day == 6:
+if day == 0 or day == 6:
+else:
+else:
+return 'off'
+return '10:00'
+def alarm_clock(day, vacation):
+return '7:00'
+return '10:00'
+if vacation:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'off'
+if day == 0 or day == 6:
+return '10:00'
+if vacation:
+else:
+if day == 0 or day == 6:
+else:
+return '7:00'
+else:
+def alarm_clock(day, vacation):
+return '10:00'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def alarm_clock(day, vacation):
+return '10:00'
+else:
+else:
+return '7:00'
+if day == 0 or day == 6:
+if vacation:
+return 'off'
+else:
+return '10:00'
+if day == 0 or day == 6:","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","else:
+else:
+if day == 0 or day == 6:
+if day == 0 or day == 6:
+if vacation:
+def alarm_clock(day, vacation):
+return '7:00'
+return '10:00'
+return 'off'
+else:
+return '10:00'","def alarm_clock(day, vacation):
+    if vacation:
+        if day == 0 or day == 6:
+            return 'off'
+        else:
+            return '10:00'
+    else:
+        if day == 0 or day == 6:
+            return '10:00'
+        else:
+            return '7:00'
+
+",Ericson2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=alist[0]
+if len(alist) > 0:
+return curmax
+for item in alist:
+def findmax(alist):
+if item > curmax:
+curmax=item","def findmax(alist):
+    curmax=alist[0]
+    if len(alist) > 0:
+        for item in alist:
+            if item > curmax:
+                curmax=item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=item
+curmax=alist[0]
+for item in alist:
+if item > curmax:
+return curmax
+def findmax(alist):
+if len(alist) > 0:","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def findmax(alist):
+curmax=alist[0]
+if item > curmax:
+return curmax
+if len(alist) > 0:
+for item in alist:
+curmax=item","def findmax(alist):
+    curmax=alist[0]
+    for item in alist:
+        if item > curmax:
+            curmax=item
+    return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def findmax(alist):
+curmax=item
+if item > curmax:
+curmax=alist[0]
+return curmax
+for item in alist:
+if len(alist) > 0:","def findmax(alist):
+    if len(alist) > 0:
+        curmax=alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax=item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if item > curmax:
+curmax=alist[0]
+for item in alist:
+if len(alist) > 0:
+return curmax
+curmax=item
+def findmax(alist):","def findmax(alist):
+    curmax = alist[0]
+    for item in alist:
+        if item > curmax:
+            curmax = item
+    return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return curmax
+if item > curmax:
+curmax=item
+if len(alist) > 0:
+curmax=alist[0]
+def findmax(alist):
+for item in alist:","def findmax(alist):
+    if len(alist) > 0:
+        curmax=alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax=item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=item
+def findmax(alist):
+for item in alist:
+return curmax
+if item > curmax:
+curmax=alist[0]
+if len(alist) > 0:","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=item
+curmax=alist[0]
+if len(alist) > 0:
+if item > curmax:
+def findmax(alist):
+for item in alist:
+return curmax","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return curmax
+if item > curmax:
+def findmax(alist):
+if len(alist) > 0:
+curmax=item
+curmax=alist[0]
+for item in alist:","def findmax(alist):
+    if len(alist) > 0:
+        curmax=alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax=item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=item
+curmax=alist[0]
+def findmax(alist):
+for item in alist:
+if len(alist) > 0:
+if item > curmax:
+return curmax","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for item in alist:
+if len(alist) > 0:
+if item > curmax:
+def findmax(alist):
+curmax=alist[0]
+return curmax
+curmax=item","def findmax(alist):
+    curmax=alist[0]
+    for item in alist:
+        if len(alist) > 0:
+            if item > curmax:
+                curmax=item
+    return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for item in alist:
+def findmax(alist):
+if item > curmax:
+curmax=item
+return curmax
+curmax=alist[0]
+if len(alist) > 0:","def findmax(alist):
+    curmax=alist[0]
+    for item in alist:
+        if item > curmax:
+            curmax=item
+    return curmax
+
+if len(alist) > 0:
+    print(findmax(alist))
+else:
+    print(""Empty list"")
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def findmax(alist):
+return curmax
+if item > curmax:
+for item in alist:
+if len(alist) > 0:
+curmax=item
+curmax=alist[0]","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def findmax(alist):
+for item in alist:
+return curmax
+curmax=item
+if item > curmax:
+curmax=alist[0]
+if len(alist) > 0:","def findmax(alist):
+    if len(alist) > 0:
+        curmax=alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax=item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=alist[0]
+return curmax
+if len(alist) > 0:
+curmax=item
+def findmax(alist):
+if item > curmax:
+for item in alist:","def findmax(alist):
+    if len(alist) > 0:
+        curmax=alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax=item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(alist) > 0:
+return curmax
+curmax=alist[0]
+if item > curmax:
+curmax=item
+for item in alist:
+def findmax(alist):","def findmax(alist):
+    curmax=alist[0]
+    for item in alist:
+        if item > curmax:
+            curmax=item
+    if len(alist) > 0:
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=item
+curmax=alist[0]
+return curmax
+for item in alist:
+def findmax(alist):
+if item > curmax:
+if len(alist) > 0:","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(alist) > 0:
+def findmax(alist):
+if item > curmax:
+for item in alist:
+curmax=item
+return curmax
+curmax=alist[0]","def findmax(alist):
+    curmax=alist[0]
+    for item in alist:
+        if item > curmax:
+            curmax=item
+    return curmax
+if len(alist) > 0:
+    print(findmax(alist))
+else:
+    print(""Empty list"")
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","curmax=item
+for item in alist:
+curmax=alist[0]
+def findmax(alist):
+return curmax
+if item > curmax:
+if len(alist) > 0:","def findmax(alist):
+    if len(alist) > 0:
+        curmax = alist[0]
+        for item in alist:
+            if item > curmax:
+                curmax = item
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(alist) > 0:
+return curmax
+curmax=item
+for item in alist:
+if item > curmax:
+def findmax(alist):
+curmax=alist[0]","def findmax(alist):
+    curmax=alist[0]
+    for item in alist:
+        if item > curmax:
+            curmax=item
+    if len(alist) > 0:
+        return curmax
+
+",Karavirta2012Figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return False
+return True
+if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+for i in range (len(numbs)-1):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if nums[i] == 2 and num [i+1] == 2:
+return False
+return True
+def has22(nums):
+for i in range (len(numbs)-1):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+if nums[i] == 2 and num [i+1] == 2:
+return False
+return True
+def has22(nums):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return True
+if nums[i] == 2 and num [i+1] == 2:
+return False
+def has22(nums):
+for i in range (len(numbs)-1):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return True
+return False
+for i in range (len(numbs)-1):
+def has22(nums):
+if nums[i] == 2 and num [i+1] == 2:","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+for i in range (len(numbs)-1):
+return True
+return False","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return False
+for i in range (len(numbs)-1):
+if nums[i] == 2 and num [i+1] == 2:
+return True
+def has22(nums):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+return False
+def has22(nums):
+if nums[i] == 2 and num [i+1] == 2:
+return True","def has22(nums):
+  for i in range (len(nums)-1):
+    if nums[i] == 2 and nums[i+1] == 2:
+      return True
+  return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def has22(nums):
+return False
+return True
+if nums[i] == 2 and num [i+1] == 2:
+for i in range (len(numbs)-1):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+return True
+return False","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+def has22(nums):
+return True
+if nums[i] == 2 and num [i+1] == 2:
+return False","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return False
+for i in range (len(numbs)-1):
+if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+return True","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+return True
+if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+return False","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+return True
+return False
+for i in range (len(numbs)-1):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+return False
+return True
+def has22(nums):
+if nums[i] == 2 and num [i+1] == 2:","def has22(nums):
+  for i in range (len(nums)-1):
+    if nums[i] == 2 and nums[i+1] == 2:
+      return True
+  return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return False
+if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+for i in range (len(numbs)-1):
+return True","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if nums[i] == 2 and num [i+1] == 2:
+return False
+def has22(nums):
+for i in range (len(numbs)-1):
+return True","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+return True
+if nums[i] == 2 and num [i+1] == 2:
+return False
+def has22(nums):","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return True
+def has22(nums):
+for i in range (len(numbs)-1):
+if nums[i] == 2 and num [i+1] == 2:
+return False","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for i in range (len(numbs)-1):
+if nums[i] == 2 and num [i+1] == 2:
+def has22(nums):
+return False
+return True","def has22(nums):
+    for i in range (len(nums)-1):
+        if nums[i] == 2 and nums[i+1] == 2:
+            return True
+    return False
+
+",Haynes-Magyar2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+new_list.append(word)
+if len(word) > 3:
+return new_list
+new_list = []
+for word in str_list:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return new_list
+new_list.append(word)
+def filter_strings(str_list):
+new_list = []
+for word in str_list:
+if len(word) > 3:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+new_list.append(word)
+return new_list
+new_list = []
+if len(word) > 3:
+for word in str_list:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(word) > 3:
+new_list = []
+for word in str_list:
+return new_list
+def filter_strings(str_list):
+new_list.append(word)","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","new_list = []
+return new_list
+for word in str_list:
+def filter_strings(str_list):
+new_list.append(word)
+if len(word) > 3:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return new_list
+def filter_strings(str_list):
+new_list.append(word)
+new_list = []
+if len(word) > 3:
+for word in str_list:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(word) > 3:
+new_list = []
+new_list.append(word)
+return new_list
+def filter_strings(str_list):
+for word in str_list:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","new_list.append(word)
+new_list = []
+for word in str_list:
+if len(word) > 3:
+return new_list
+def filter_strings(str_list):","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","new_list.append(word)
+new_list = []
+def filter_strings(str_list):
+return new_list
+for word in str_list:
+if len(word) > 3:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+for word in str_list:
+new_list.append(word)
+if len(word) > 3:
+return new_list
+new_list = []","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+if len(word) > 3:
+new_list.append(word)
+return new_list
+new_list = []
+for word in str_list:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(word) > 3:
+for word in str_list:
+def filter_strings(str_list):
+return new_list
+new_list = []
+new_list.append(word)","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+new_list.append(word)
+new_list = []
+return new_list
+for word in str_list:
+if len(word) > 3:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","new_list = []
+if len(word) > 3:
+return new_list
+def filter_strings(str_list):
+for word in str_list:
+new_list.append(word)","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(word) > 3:
+return new_list
+for word in str_list:
+new_list = []
+def filter_strings(str_list):
+new_list.append(word)","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for word in str_list:
+new_list = []
+return new_list
+def filter_strings(str_list):
+new_list.append(word)
+if len(word) > 3:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+for word in str_list:
+return new_list
+new_list.append(word)
+if len(word) > 3:
+new_list = []","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+return new_list
+if len(word) > 3:
+new_list.append(word)
+new_list = []
+for word in str_list:","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def filter_strings(str_list):
+if len(word) > 3:
+new_list.append(word)
+for word in str_list:
+return new_list
+new_list = []","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return new_list
+new_list = []
+if len(word) > 3:
+for word in str_list:
+def filter_strings(str_list):
+new_list.append(word)","def filter_strings(str_list):
+    new_list = []
+    for word in str_list:
+        if len(word) > 3:
+            new_list.append(word)
+    return new_list
+
+",Hou2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+def getSum(numlist):
+return sum
+sum = 0
+sum = sum + num","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+sum = 0
+return sum
+sum = sum + num
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+for num in numList:
+sum = sum + num
+def getSum(numlist):
+return sum","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+sum = sum + num
+sum = 0
+return sum
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def getSum(numlist):
+return sum
+for num in numList:
+sum = sum + num
+sum = 0","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+return sum
+sum = 0
+sum = sum + num
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def getSum(numlist):
+sum = sum + num
+for num in numList:
+sum = 0
+return sum","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def getSum(numlist):
+for num in numList:
+sum = 0
+sum = sum + num
+return sum","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+for num in numList:
+sum = sum + num
+return sum
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + num
+return sum
+sum = 0
+for num in numList:
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return sum
+sum = sum + num
+for num in numList:
+sum = 0
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return sum
+sum = 0
+def getSum(numlist):
+for num in numList:
+sum = sum + num","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def getSum(numlist):
+return sum
+sum = sum + num
+for num in numList:
+sum = 0","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+return sum
+sum = sum + num
+for num in numList:
+def getSum(numlist):","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+def getSum(numlist):
+sum = sum + num
+return sum
+sum = 0","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+def getSum(numlist):
+for num in numList:
+return sum
+sum = sum + num","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + num
+return sum
+def getSum(numlist):
+for num in numList:
+sum = 0","def getSum(numList):
+    sum = 0
+    for num in numList:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+for num in numList:
+def getSum(numlist):
+sum = sum + num
+return sum","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+sum = 0
+return sum
+def getSum(numlist):
+sum = sum + num","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for num in numList:
+sum = sum + num
+def getSum(numlist):
+sum = 0
+return sum","def getSum(numlist):
+    sum = 0
+    for num in numlist:
+        sum = sum + num
+    return sum
+
+",Ericson2017figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return (self.first + "" "" + self.last)
+def_str_(self):
+def initials(self):
+self.first = first
+class Person:
+return(self.first[0] + self.last[0])
+self.last = last
+def_init_(self, first, last):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.first = first
+def_init_(self, first, last):
+def initials(self):
+def_str_(self):
+return (self.first + "" "" + self.last)
+class Person:
+return(self.first[0] + self.last[0])
+self.last = last","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return(self.first[0] + self.last[0])
+def initials(self):
+class Person:
+def_str_(self):
+def_init_(self, first, last):
+self.first = first
+self.last = last
+return (self.first + "" "" + self.last)","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.last = last
+return(self.first[0] + self.last[0])
+self.first = first
+class Person:
+def_init_(self, first, last):
+return (self.first + "" "" + self.last)
+def initials(self):
+def_str_(self):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def_str_(self):
+self.last = last
+def_init_(self, first, last):
+self.first = first
+def initials(self):
+return (self.first + "" "" + self.last)
+class Person:
+return(self.first[0] + self.last[0])","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def initials(self):
+        return (self.first[0] + self.last[0])
+    def __str__(self):
+        return(self.first + "" "" + self.last)
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return(self.first[0] + self.last[0])
+def initials(self):
+self.last = last
+self.first = first
+def_init_(self, first, last):
+return (self.first + "" "" + self.last)
+def_str_(self):
+class Person:","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.first = first
+def_str_(self):
+def_init_(self, first, last):
+class Person:
+return (self.first + "" "" + self.last)
+self.last = last
+return(self.first[0] + self.last[0])
+def initials(self):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.last = last
+class Person:
+return (self.first + "" "" + self.last)
+def initials(self):
+def_str_(self):
+return(self.first[0] + self.last[0])
+self.first = first
+def_init_(self, first, last):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def initials(self):
+        return (self.first[0] + self.last[0])
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.first = first
+class Person:
+return (self.first + "" "" + self.last)
+self.last = last
+def_init_(self, first, last):
+return(self.first[0] + self.last[0])
+def initials(self):
+def_str_(self):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.last = last
+def initials(self):
+def_str_(self):
+self.first = first
+return(self.first[0] + self.last[0])
+return (self.first + "" "" + self.last)
+def_init_(self, first, last):
+class Person:","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.first = first
+class Person:
+def_str_(self):
+return (self.first + "" "" + self.last)
+def_init_(self, first, last):
+def initials(self):
+return(self.first[0] + self.last[0])
+self.last = last","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","class Person:
+return (self.first + "" "" + self.last)
+def_init_(self, first, last):
+def initials(self):
+self.first = first
+def_str_(self):
+self.last = last
+return(self.first[0] + self.last[0])","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","class Person:
+def_init_(self, first, last):
+def_str_(self):
+return(self.first[0] + self.last[0])
+def initials(self):
+self.first = first
+self.last = last
+return (self.first + "" "" + self.last)","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first[0] + self.last[0])
+    def initials(self):
+        return (self.first + "" "" + self.last)
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def_str_(self):
+return (self.first + "" "" + self.last)
+return(self.first[0] + self.last[0])
+def initials(self):
+def_init_(self, first, last):
+self.first = first
+class Person:
+self.last = last","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def initials(self):
+        return (self.first[0] + self.last[0])
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return(self.first[0] + self.last[0])
+self.last = last
+def_init_(self, first, last):
+self.first = first
+class Person:
+def_str_(self):
+return (self.first + "" "" + self.last)
+def initials(self):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.first = first
+def initials(self):
+class Person:
+return (self.first + "" "" + self.last)
+return(self.first[0] + self.last[0])
+def_init_(self, first, last):
+def_str_(self):
+self.last = last","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.first = first
+self.last = last
+return (self.first + "" "" + self.last)
+return(self.first[0] + self.last[0])
+class Person:
+def_init_(self, first, last):
+def_str_(self):
+def initials(self):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.last = last
+def_init_(self, first, last):
+def initials(self):
+self.first = first
+return(self.first[0] + self.last[0])
+class Person:
+def_str_(self):
+return (self.first + "" "" + self.last)","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","self.last = last
+self.first = first
+class Person:
+return (self.first + "" "" + self.last)
+def initials(self):
+def_str_(self):
+return(self.first[0] + self.last[0])
+def_init_(self, first, last):","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def initials(self):
+self.last = last
+return(self.first[0] + self.last[0])
+return (self.first + "" "" + self.last)
+def_str_(self):
+self.first = first
+def_init_(self, first, last):
+class Person:","class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+    def __str__(self):
+        return (self.first + "" "" + self.last)
+    def initials(self):
+        return(self.first[0] + self.last[0])
+",Ericson2022figure3
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return count
+def countInRange(target, start, end, numList):
+count = 0
+for index in range(start, end+1):
+current = numList[index]
+if current == target:
+count = count + 1","def countInRange(target, start, end, numList):
+count = 0
+for index in range(start, end+1):
+current = numList[index]
+if current == target:
+count = count + 1
+return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = count + 1
+current = numList[index]
+if current == target:
+count = 0
+return count
+def countInRange(target, start, end, numList):
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+count = 0
+for index in range(start, end+1):
+current = numList[index]
+if current == target:
+count = count + 1
+return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","current = numList[index]
+return count
+def countInRange(target, start, end, numList):
+for index in range(start, end+1):
+if current == target:
+count = 0
+count = count + 1","def countInRange(target, start, end, numList):
+count = 0
+for index in range(start, end+1):
+current = numList[index]
+if current == target:
+count = count + 1
+return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def countInRange(target, start, end, numList):
+count = count + 1
+if current == target:
+current = numList[index]
+for index in range(start, end+1):
+return count
+count = 0","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","current = numList[index]
+count = count + 1
+if current == target:
+return count
+count = 0
+def countInRange(target, start, end, numList):
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            return count
+        count = count + 1
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if current == target:
+for index in range(start, end+1):
+count = 0
+count = count + 1
+def countInRange(target, start, end, numList):
+current = numList[index]
+return count","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def countInRange(target, start, end, numList):
+return count
+current = numList[index]
+if current == target:
+count = count + 1
+count = 0
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = count + 1
+current = numList[index]
+def countInRange(target, start, end, numList):
+return count
+if current == target:
+for index in range(start, end+1):
+count = 0","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = count + 1
+def countInRange(target, start, end, numList):
+current = numList[index]
+if current == target:
+return count
+count = 0
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","current = numList[index]
+if current == target:
+for index in range(start, end+1):
+def countInRange(target, start, end, numList):
+count = 0
+return count
+count = count + 1","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = count + 1
+for index in range(start, end+1):
+return count
+if current == target:
+def countInRange(target, start, end, numList):
+count = 0
+current = numList[index]","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return count
+def countInRange(target, start, end, numList):
+current = numList[index]
+if current == target:
+count = 0
+count = count + 1
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def countInRange(target, start, end, numList):
+if current == target:
+current = numList[index]
+count = count + 1
+count = 0
+return count
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = 0
+return count
+for index in range(start, end+1):
+def countInRange(target, start, end, numList):
+count = count + 1
+current = numList[index]
+if current == target:","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+count = count + 1
+return count
+count = 0
+current = numList[index]
+if current == target:
+def countInRange(target, start, end, numList):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = count + 1
+def countInRange(target, start, end, numList):
+return count
+for index in range(start, end+1):
+count = 0
+current = numList[index]
+if current == target:","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = 0
+current = numList[index]
+if current == target:
+def countInRange(target, start, end, numList):
+return count
+count = count + 1
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return count
+count = 0
+current = numList[index]
+def countInRange(target, start, end, numList):
+count = count + 1
+for index in range(start, end+1):
+if current == target:","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","count = count + 1
+if current == target:
+current = numList[index]
+def countInRange(target, start, end, numList):
+for index in range(start, end+1):
+return count
+count = 0","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if current == target:
+return count
+def countInRange(target, start, end, numList):
+count = count + 1
+count = 0
+current = numList[index]
+for index in range(start, end+1):","def countInRange(target, start, end, numList):
+    count = 0
+    for index in range(start, end+1):
+        current = numList[index]
+        if current == target:
+            return count
+        count = count + 1
+    return count
+
+",Haynes-Magyar2022figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if len(numList) == 0:
+value = numList[index]
+def getAverageDropLowest(numList):
+lowest = value
+return (sum - lowest) / (len(numList) - 1)
+sum = sum + value
+if value < lowest:
+for index in range(len(numList)):
+sum = 0
+return 0
+lowest = numList[0]","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def getAverageDropLowest(numList):
+lowest = numList[0]
+if len(numList) == 0:
+sum = sum + value
+for index in range(len(numList)):
+lowest = value
+if value < lowest:
+return 0
+sum = 0
+return (sum - lowest) / (len(numList) - 1)
+value = numList[index]","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if value < lowest:
+for index in range(len(numList)):
+def getAverageDropLowest(numList):
+return (sum - lowest) / (len(numList) - 1)
+sum = sum + value
+lowest = numList[0]
+lowest = value
+if len(numList) == 0:
+return 0
+sum = 0
+value = numList[index]","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","lowest = value
+sum = sum + value
+lowest = numList[0]
+if value < lowest:
+def getAverageDropLowest(numList):
+for index in range(len(numList)):
+value = numList[index]
+if len(numList) == 0:
+sum = 0
+return (sum - lowest) / (len(numList) - 1)
+return 0","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+return (sum - lowest) / (len(numList) - 1)
+value = numList[index]
+for index in range(len(numList)):
+lowest = value
+if len(numList) == 0:
+if value < lowest:
+return 0
+def getAverageDropLowest(numList):
+sum = 0
+lowest = numList[0]","def getAverageDropLowest(numList):
+    sum = 0
+    lowest = numList[0]
+    if len(numList) == 0:
+        return 0
+    for index in range(len(numList)):
+        value = numList[index]
+        if value < lowest:
+            lowest = value
+        sum = sum + value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+sum = 0
+lowest = numList[0]
+return 0
+value = numList[index]
+for index in range(len(numList)):
+def getAverageDropLowest(numList):
+return (sum - lowest) / (len(numList) - 1)
+if value < lowest:
+lowest = value
+if len(numList) == 0:","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+if value < lowest:
+value = numList[index]
+for index in range(len(numList)):
+lowest = value
+def getAverageDropLowest(numList):
+lowest = numList[0]
+if len(numList) == 0:
+return 0
+sum = 0
+return (sum - lowest) / (len(numList) - 1)","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if value < lowest:
+lowest = numList[0]
+value = numList[index]
+sum = sum + value
+def getAverageDropLowest(numList):
+return 0
+if len(numList) == 0:
+return (sum - lowest) / (len(numList) - 1)
+for index in range(len(numList)):
+lowest = value
+sum = 0","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","lowest = numList[0]
+return 0
+lowest = value
+sum = sum + value
+def getAverageDropLowest(numList):
+value = numList[index]
+if value < lowest:
+if len(numList) == 0:
+for index in range(len(numList)):
+sum = 0
+return (sum - lowest) / (len(numList) - 1)","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+sum = sum + value
+lowest = value
+if len(numList) == 0:
+if value < lowest:
+for index in range(len(numList)):
+return (sum - lowest) / (len(numList) - 1)
+return 0
+lowest = numList[0]
+value = numList[index]
+def getAverageDropLowest(numList):","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return (sum - lowest) / (len(numList) - 1)
+if value < lowest:
+if len(numList) == 0:
+lowest = value
+sum = sum + value
+lowest = numList[0]
+return 0
+sum = 0
+value = numList[index]
+def getAverageDropLowest(numList):
+for index in range(len(numList)):","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        if value < lowest:
+            lowest = value
+        sum = sum + value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def getAverageDropLowest(numList):
+for index in range(len(numList)):
+lowest = value
+return 0
+if len(numList) == 0:
+sum = sum + value
+return (sum - lowest) / (len(numList) - 1)
+lowest = numList[0]
+if value < lowest:
+value = numList[index]
+sum = 0","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","lowest = value
+if value < lowest:
+value = numList[index]
+sum = sum + value
+return (sum - lowest) / (len(numList) - 1)
+if len(numList) == 0:
+return 0
+sum = 0
+lowest = numList[0]
+def getAverageDropLowest(numList):
+for index in range(len(numList)):","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        if value < lowest:
+            lowest = value
+        sum = sum + value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 0
+lowest = value
+def getAverageDropLowest(numList):
+sum = 0
+for index in range(len(numList)):
+lowest = numList[0]
+if value < lowest:
+if len(numList) == 0:
+sum = sum + value
+return (sum - lowest) / (len(numList) - 1)
+value = numList[index]","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        if value < lowest:
+            lowest = value
+        sum = sum + value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","lowest = numList[0]
+for index in range(len(numList)):
+def getAverageDropLowest(numList):
+return 0
+if len(numList) == 0:
+value = numList[index]
+if value < lowest:
+sum = 0
+return (sum - lowest) / (len(numList) - 1)
+lowest = value
+sum = sum + value","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        if value < lowest:
+            lowest = value
+        sum = sum + value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","lowest = numList[0]
+if value < lowest:
+sum = sum + value
+def getAverageDropLowest(numList):
+if len(numList) == 0:
+for index in range(len(numList)):
+return (sum - lowest) / (len(numList) - 1)
+value = numList[index]
+sum = 0
+return 0
+lowest = value","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+return 0
+if value < lowest:
+sum = 0
+if len(numList) == 0:
+def getAverageDropLowest(numList):
+return (sum - lowest) / (len(numList) - 1)
+for index in range(len(numList)):
+lowest = value
+value = numList[index]
+lowest = numList[0]","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return (sum - lowest) / (len(numList) - 1)
+if len(numList) == 0:
+sum = 0
+value = numList[index]
+lowest = numList[0]
+sum = sum + value
+if value < lowest:
+lowest = value
+def getAverageDropLowest(numList):
+return 0
+for index in range(len(numList)):","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return (sum - lowest) / (len(numList) - 1)
+for index in range(len(numList)):
+sum = 0
+def getAverageDropLowest(numList):
+lowest = numList[0]
+if len(numList) == 0:
+return 0
+sum = sum + value
+lowest = value
+value = numList[index]
+if value < lowest:","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    lowest = numList[0]
+    sum = 0
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return (sum - lowest) / (len(numList) - 1)
+for index in range(len(numList)):
+lowest = numList[0]
+lowest = value
+value = numList[index]
+if value < lowest:
+sum = sum + value
+if len(numList) == 0:
+return 0
+sum = 0
+def getAverageDropLowest(numList):","def getAverageDropLowest(numList):
+    if len(numList) == 0:
+        return 0
+    sum = 0
+    lowest = numList[0]
+    for index in range(len(numList)):
+        value = numList[index]
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    return (sum - lowest) / (len(numList) - 1)
+",Ericson2022figure8
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'too low'
+return 'correct'
+elif guess == target:
+def check_guess(guess,target):
+return 'too high'
+else:
+if guess < target:","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def check_guess(guess,target):
+else:
+return 'correct'
+if guess < target:
+return 'too low'
+elif guess == target:
+return 'too high'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","elif guess == target:
+return 'too low'
+else:
+return 'correct'
+if guess < target:
+def check_guess(guess,target):
+return 'too high'","def check_guess(guess,target):
+if guess < target:
+return 'too low'
+elif guess == target:
+return 'correct'
+else:
+return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'too high'
+return 'correct'
+else:
+def check_guess(guess,target):
+elif guess == target:
+return 'too low'
+if guess < target:","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'too high'
+if guess < target:
+return 'correct'
+elif guess == target:
+else:
+def check_guess(guess,target):
+return 'too low'","def check_guess(guess,target):
+    if guess == target:
+        return 'correct'
+    elif guess < target:
+        return 'too low'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","else:
+return 'too high'
+if guess < target:
+elif guess == target:
+return 'correct'
+def check_guess(guess,target):
+return 'too low'","def check_guess(guess,target):
+    if guess == target:
+        return 'correct'
+    elif guess < target:
+        return 'too low'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'too low'
+return 'too high'
+if guess < target:
+elif guess == target:
+def check_guess(guess,target):
+else:
+return 'correct'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if guess < target:
+elif guess == target:
+else:
+def check_guess(guess,target):
+return 'too high'
+return 'too low'
+return 'correct'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def check_guess(guess,target):
+return 'too high'
+else:
+return 'correct'
+if guess < target:
+elif guess == target:
+return 'too low'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'too low'
+elif guess == target:
+if guess < target:
+else:
+return 'too high'
+def check_guess(guess,target):
+return 'correct'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","elif guess == target:
+else:
+def check_guess(guess,target):
+return 'too low'
+return 'correct'
+return 'too high'
+if guess < target:","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","elif guess == target:
+return 'too low'
+else:
+def check_guess(guess,target):
+if guess < target:
+return 'correct'
+return 'too high'","def check_guess(guess,target):
+if guess == target:
+return 'correct'
+elif guess < target:
+return 'too low'
+else:
+return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","else:
+elif guess == target:
+return 'correct'
+if guess < target:
+return 'too low'
+return 'too high'
+def check_guess(guess,target):","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'correct'
+else:
+def check_guess(guess,target):
+elif guess == target:
+if guess < target:
+return 'too high'
+return 'too low'","def check_guess(guess,target):
+    if guess == target:
+        return 'correct'
+    elif guess < target:
+        return 'too low'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'correct'
+if guess < target:
+return 'too high'
+def check_guess(guess,target):
+elif guess == target:
+else:
+return 'too low'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def check_guess(guess,target):
+if guess < target:
+return 'correct'
+elif guess == target:
+return 'too high'
+else:
+return 'too low'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'too high'
+elif guess == target:
+return 'too low'
+def check_guess(guess,target):
+return 'correct'
+else:
+if guess < target:","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def check_guess(guess,target):
+elif guess == target:
+return 'too high'
+if guess < target:
+return 'too low'
+return 'correct'
+else:","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","elif guess == target:
+def check_guess(guess,target):
+return 'too low'
+return 'correct'
+else:
+return 'too high'
+if guess < target:","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","elif guess == target:
+else:
+if guess < target:
+return 'too high'
+def check_guess(guess,target):
+return 'correct'
+return 'too low'","def check_guess(guess,target):
+    if guess < target:
+        return 'too low'
+    elif guess == target:
+        return 'correct'
+    else:
+        return 'too high'
+
+",Ericson2022figure2
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+min = value
+if value > max:
+def isLevel(elList, start, end):
+value = elList[index]
+max = elList[start]
+if value < min:
+min = max
+return (max-min) <= 10
+max = value","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if value > max:
+max = value
+min = value
+return (max-min) <= 10
+value = elList[index]
+if value < min:
+for index in range(start, end+1):
+def isLevel(elList, start, end):
+min = max
+max = elList[start]","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+min = value
+value = elList[index]
+min = max
+max = elList[start]
+def isLevel(elList, start, end):
+return (max-min) <= 10
+if value > max:
+max = value
+if value < min:","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+max = elList[start]
+def isLevel(elList, start, end):
+min = value
+return (max-min) <= 10
+min = max
+if value > max:
+value = elList[index]
+max = value
+if value < min:","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","value = elList[index]
+def isLevel(elList, start, end):
+if value > max:
+min = value
+if value < min:
+for index in range(start, end+1):
+max = value
+return (max-min) <= 10
+max = elList[start]
+min = max","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","min = value
+if value < min:
+for index in range(start, end+1):
+value = elList[index]
+max = value
+max = elList[start]
+min = max
+return (max-min) <= 10
+def isLevel(elList, start, end):
+if value > max:","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+min = max
+if value > max:
+min = value
+value = elList[index]
+if value < min:
+max = value
+max = elList[start]
+def isLevel(elList, start, end):
+return (max-min) <= 10","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def isLevel(elList, start, end):
+return (max-min) <= 10
+max = elList[start]
+if value < min:
+value = elList[index]
+min = max
+if value > max:
+min = value
+max = value
+for index in range(start, end+1):","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","value = elList[index]
+def isLevel(elList, start, end):
+max = elList[start]
+min = max
+max = value
+if value < min:
+if value > max:
+min = value
+return (max-min) <= 10
+for index in range(start, end+1):","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","min = value
+min = max
+value = elList[index]
+return (max-min) <= 10
+max = elList[start]
+if value < min:
+def isLevel(elList, start, end):
+max = value
+for index in range(start, end+1):
+if value > max:","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if value > max:
+max = value
+min = value
+min = max
+max = elList[start]
+value = elList[index]
+if value < min:
+for index in range(start, end+1):
+def isLevel(elList, start, end):
+return (max-min) <= 10","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if value > max:
+if value < min:
+min = value
+min = max
+return (max-min) <= 10
+value = elList[index]
+for index in range(start, end+1):
+max = elList[start]
+max = value
+def isLevel(elList, start, end):","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def isLevel(elList, start, end):
+for index in range(start, end+1):
+max = elList[start]
+min = max
+if value > max:
+min = value
+return (max-min) <= 10
+if value < min:
+value = elList[index]
+max = value","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","min = value
+max = elList[start]
+return (max-min) <= 10
+min = max
+if value < min:
+for index in range(start, end+1):
+max = value
+def isLevel(elList, start, end):
+value = elList[index]
+if value > max:","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","max = elList[start]
+max = value
+min = value
+for index in range(start, end+1):
+min = max
+if value > max:
+value = elList[index]
+if value < min:
+def isLevel(elList, start, end):
+return (max-min) <= 10","def isLevel(elList, start, end):
+    max = elList[start]
+    min = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+if value < min:
+max = value
+max = elList[start]
+min = value
+return (max-min) <= 10
+def isLevel(elList, start, end):
+if value > max:
+value = elList[index]
+min = max","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return (max-min) <= 10
+if value < min:
+def isLevel(elList, start, end):
+min = max
+for index in range(start, end+1):
+min = value
+if value > max:
+max = elList[start]
+max = value
+value = elList[index]","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start, end+1):
+return (max-min) <= 10
+max = elList[start]
+if value > max:
+if value < min:
+def isLevel(elList, start, end):
+value = elList[index]
+min = value
+max = value
+min = max","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def isLevel(elList, start, end):
+min = value
+for index in range(start, end+1):
+max = value
+max = elList[start]
+if value > max:
+min = max
+return (max-min) <= 10
+value = elList[index]
+if value < min:","def isLevel(elList, start, end):
+    min = elList[start]
+    max = elList[start]
+    for index in range(start, end+1):
+        value = elList[index]
+        if value < min:
+            min = value
+        if value > max:
+            max = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","value = elList[index]
+if value > max:
+return (max-min) <= 10
+max = elList[start]
+max = value
+min = max
+min = value
+def isLevel(elList, start, end):
+if value < min:
+for index in range(start, end+1):","def isLevel(elList, start, end):
+    max = elList[start]
+    min = max
+    for index in range(start, end+1):
+        value = elList[index]
+        if value > max:
+            max = value
+        if value < min:
+            min = value
+    return (max-min) <= 10
+
+",Ericson2018figure5
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range (len(li)-1,-1,-1):
+return 'All odd'
+if(li(index)) % 2 == 0:
+return lambda x : x + li(index)
+def last_even_adder(li):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li[index]) % 2 == 0:
+            return lambda x : x + li[index]
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'All odd'
+return lambda x : x + li(index)
+for index in range (len(li)-1,-1,-1):
+if(li(index)) % 2 == 0:
+def last_even_adder(li):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if(li(index)) % 2 == 0:
+return 'All odd'
+return lambda x : x + li(index)
+def last_even_adder(li):
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return 'All odd'
+        return lambda x : x + li(index)
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if(li(index)) % 2 == 0:
+for index in range (len(li)-1,-1,-1):
+return lambda x : x + li(index)
+return 'All odd'
+def last_even_adder(li):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li[index]) % 2 == 0:
+            return lambda x : x + li[index]
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return lambda x : x + li(index)
+return 'All odd'
+if(li(index)) % 2 == 0:
+def last_even_adder(li):
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'All odd'
+if(li(index)) % 2 == 0:
+return lambda x : x + li(index)
+for index in range (len(li)-1,-1,-1):
+def last_even_adder(li):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return lambda x : x + li(index)
+return 'All odd'
+if(li(index)) % 2 == 0:
+for index in range (len(li)-1,-1,-1):
+def last_even_adder(li):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def last_even_adder(li):
+if(li(index)) % 2 == 0:
+return lambda x : x + li(index)
+return 'All odd'
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li[index]) % 2 == 0:
+            return lambda x : x + li[index]
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def last_even_adder(li):
+return 'All odd'
+return lambda x : x + li(index)
+if(li(index)) % 2 == 0:
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def last_even_adder(li):
+return lambda x : x + li(index)
+for index in range (len(li)-1,-1,-1):
+return 'All odd'
+if(li(index)) % 2 == 0:","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return lambda x : x + li(index)
+def last_even_adder(li):
+return 'All odd'
+if(li(index)) % 2 == 0:
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def last_even_adder(li):
+for index in range (len(li)-1,-1,-1):
+return lambda x : x + li(index)
+if(li(index)) % 2 == 0:
+return 'All odd'","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li[index]) % 2 == 0:
+            return lambda x : x + li[index]
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return lambda x : x + li(index)
+return 'All odd'
+for index in range (len(li)-1,-1,-1):
+def last_even_adder(li):
+if(li(index)) % 2 == 0:","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range (len(li)-1,-1,-1):
+def last_even_adder(li):
+if(li(index)) % 2 == 0:
+return 'All odd'
+return lambda x : x + li(index)","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li[index]) % 2 == 0:
+            return lambda x : x + li[index]
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'All odd'
+def last_even_adder(li):
+return lambda x : x + li(index)
+if(li(index)) % 2 == 0:
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'All odd'
+for index in range (len(li)-1,-1,-1):
+return lambda x : x + li(index)
+def last_even_adder(li):
+if(li(index)) % 2 == 0:","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if(li(index)) % 2 == 0:
+return lambda x : x + li(index)
+def last_even_adder(li):
+return 'All odd'
+for index in range (len(li)-1,-1,-1):","def last_even_adder(li):
+for index in range (len(li)-1,-1,-1):
+if(li(index)) % 2 == 0:
+return lambda x : x + li(index)
+return 'All odd'
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'All odd'
+if(li(index)) % 2 == 0:
+for index in range (len(li)-1,-1,-1):
+def last_even_adder(li):
+return lambda x : x + li(index)","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 'All odd'
+def last_even_adder(li):
+for index in range (len(li)-1,-1,-1):
+return lambda x : x + li(index)
+if(li(index)) % 2 == 0:","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li[index]) % 2 == 0:
+            return lambda x : x + li[index]
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range (len(li)-1,-1,-1):
+def last_even_adder(li):
+return 'All odd'
+return lambda x : x + li(index)
+if(li(index)) % 2 == 0:","def last_even_adder(li):
+    for index in range (len(li)-1,-1,-1):
+        if(li(index)) % 2 == 0:
+            return lambda x : x + li(index)
+    return 'All odd'
+
+",Weinmann2021figure1
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","def avgValuesInRange(numList, start, end):
+sum = 0
+if (end - start + 1) >= 1:
+value = numList[index]
+sum = sum + value
+return sum / (end - start + 1)
+for index in range(start,end-1):
+return 0","def avgValuesInRange(numList, start, end):
+    sum = 0
+    if (end - start + 1) >= 1:
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+for index in range(start,end-1):
+def avgValuesInRange(numList, start, end):
+value = numList[index]
+return sum / (end - start + 1)
+return 0","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+value = numList[index]
+for index in range(start,end-1):
+return sum / (end - start + 1)
+return 0
+def avgValuesInRange(numList, start, end):
+if (end - start + 1) >= 1:
+sum = 0","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+sum = 0
+for index in range(start,end-1):
+value = numList[index]
+if (end - start + 1) >= 1:
+return sum / (end - start + 1)
+def avgValuesInRange(numList, start, end):
+return 0","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+sum = sum + value
+for index in range(start,end-1):
+def avgValuesInRange(numList, start, end):
+return sum / (end - start + 1)
+value = numList[index]
+if (end - start + 1) >= 1:
+return 0","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    else:
+        return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+for index in range(start,end-1):
+value = numList[index]
+def avgValuesInRange(numList, start, end):
+if (end - start + 1) >= 1:
+sum = 0
+return sum / (end - start + 1)
+return 0","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 0
+if (end - start + 1) >= 1:
+def avgValuesInRange(numList, start, end):
+sum = 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+return sum / (end - start + 1)","def avgValuesInRange(numList, start, end):
+    sum = 0
+    for index in range(start,end-1):
+        value = numList[index]
+        sum = sum + value
+    if (end - start + 1) >= 1:
+        return sum / (end - start + 1)
+    else:
+        return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start,end-1):
+if (end - start + 1) >= 1:
+sum = sum + value
+def avgValuesInRange(numList, start, end):
+sum = 0
+value = numList[index]
+return sum / (end - start + 1)
+return 0","def avgValuesInRange(numList, start, end):
+    sum = 0
+    if (end - start + 1) >= 1:
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start,end-1):
+value = numList[index]
+if (end - start + 1) >= 1:
+sum = sum + value
+def avgValuesInRange(numList, start, end):
+return sum / (end - start + 1)
+return 0
+sum = 0","def avgValuesInRange(numList, start, end):
+    sum = 0
+    if (end - start + 1) >= 1:
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 0
+sum = 0
+value = numList[index]
+if (end - start + 1) >= 1:
+for index in range(start,end-1):
+sum = sum + value
+return sum / (end - start + 1)
+def avgValuesInRange(numList, start, end):","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start,end-1):
+sum = sum + value
+value = numList[index]
+def avgValuesInRange(numList, start, end):
+sum = 0
+if (end - start + 1) >= 1:
+return 0
+return sum / (end - start + 1)","def avgValuesInRange(numList, start, end):
+    sum = 0
+    if (end - start + 1) >= 1:
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = sum + value
+return 0
+sum = 0
+value = numList[index]
+def avgValuesInRange(numList, start, end):
+return sum / (end - start + 1)
+for index in range(start,end-1):
+if (end - start + 1) >= 1:","def avgValuesInRange(numList, start, end):
+    sum = 0
+    for index in range(start,end-1):
+        value = numList[index]
+        sum = sum + value
+    if (end - start + 1) >= 1:
+        return sum / (end - start + 1)
+    else:
+        return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if (end - start + 1) >= 1:
+for index in range(start,end-1):
+value = numList[index]
+def avgValuesInRange(numList, start, end):
+sum = 0
+sum = sum + value
+return sum / (end - start + 1)
+return 0","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+def avgValuesInRange(numList, start, end):
+return 0
+sum = sum + value
+for index in range(start,end-1):
+return sum / (end - start + 1)
+if (end - start + 1) >= 1:
+value = numList[index]","def avgValuesInRange(numList, start, end):
+    sum = 0
+    if (end - start + 1) >= 1:
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    else:
+        return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","if (end - start + 1) >= 1:
+return sum / (end - start + 1)
+value = numList[index]
+return 0
+def avgValuesInRange(numList, start, end):
+sum = sum + value
+sum = 0
+for index in range(start,end-1):","def avgValuesInRange(numList, start, end):
+    sum = 0
+    for index in range(start,end-1):
+        value = numList[index]
+        sum = sum + value
+    if (end - start + 1) >= 1:
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","for index in range(start,end-1):
+sum = 0
+return 0
+value = numList[index]
+return sum / (end - start + 1)
+def avgValuesInRange(numList, start, end):
+sum = sum + value
+if (end - start + 1) >= 1:","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+for index in range(start,end-1):
+return sum / (end - start + 1)
+value = numList[index]
+if (end - start + 1) >= 1:
+return 0
+sum = sum + value
+def avgValuesInRange(numList, start, end):","def avgValuesInRange(numList, start, end):
+    sum = 0
+    if (end - start + 1) >= 1:
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    else:
+        return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","sum = 0
+value = numList[index]
+return 0
+def avgValuesInRange(numList, start, end):
+sum = sum + value
+if (end - start + 1) >= 1:
+return sum / (end - start + 1)
+for index in range(start,end-1):","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return 0
+for index in range(start,end-1):
+sum = 0
+def avgValuesInRange(numList, start, end):
+value = numList[index]
+if (end - start + 1) >= 1:
+return sum / (end - start + 1)
+sum = sum + value","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
+"#Fix the below scrambled Python code by reordering the lines and indenting if needed
+#Lines
+return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):
+#End lines
+
+#Solved Python code
+","return sum / (end - start + 1)
+return 0
+value = numList[index]
+for index in range(start,end-1):
+sum = sum + value
+if (end - start + 1) >= 1:
+sum = 0
+def avgValuesInRange(numList, start, end):","def avgValuesInRange(numList, start, end):
+    if (end - start + 1) >= 1:
+        sum = 0
+        for index in range(start,end-1):
+            value = numList[index]
+            sum = sum + value
+        return sum / (end - start + 1)
+    return 0
+
+",Ericson2017figure4
