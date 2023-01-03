@@ -25,4 +25,9 @@ do
     python3 -m json.tool data$v.json > pp$v.json
     /Applications/jq '.[] | {folder: .folder, problem: .problem, fails: .fails}' < data$v.json > fails$v.json
 done
+# -s 'slurp' accepts sequences of {} without separating commas
+cat failsV*.json | /Applications/jq -s '.' > ppfails.json
+python3 json2csv.py ppfails.json
+
+
 
