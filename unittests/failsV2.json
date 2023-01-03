@@ -1,0 +1,50 @@
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure1",
+  "fails": 4
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "fails": 20
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2018figure5",
+  "fails": 3
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "fails": 8
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "fails": 7
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "fails": 10
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure8",
+  "fails": 1
+}
+{
+  "folder": "V2/",
+  "problem": "Hou2022figure2",
+  "fails": 4
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "fails": 9
+}
+{
+  "folder": "V2/",
+  "problem": "Weinmann2021figure1",
+  "fails": 4
+}

@@ -1,0 +1,721 @@
+[
+    {
+        "folder": "V3/",
+        "problem": "Ericson2017figure1",
+        "fails": 5,
+        "tests": [
+            {
+                "figure": "Ericson2017figure1_3",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure1_3",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure1_5",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure1_5",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure1_7",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure1_7",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure1_11",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure1_11",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure1_12",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure1_12",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Ericson2017figure4",
+        "fails": 20,
+        "tests": [
+            {
+                "figure": "Ericson2017figure4_0",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_0",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_1",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_1",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_2",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_2",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_3",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_3",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_5",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_5",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_6",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_6",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_7",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_7",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_8",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_8",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_9",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_9",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_10",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_10",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_11",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_11",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_12",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_12",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_13",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_13",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_14",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_14",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_15",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_15",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_16",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_16",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_17",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_17",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_18",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_18",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_19",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2017figure4_19",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Ericson2018figure5",
+        "fails": 6,
+        "tests": [
+            {
+                "figure": "Ericson2018figure5_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2018figure5_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2018figure5_11",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2018figure5_11",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2018figure5_13",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2018figure5_13",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2018figure5_14",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2018figure5_14",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2018figure5_17",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2018figure5_17",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2018figure5_18",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2018figure5_18",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Ericson2022figure2",
+        "fails": 3,
+        "tests": [
+            {
+                "figure": "Ericson2022figure2_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure2_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure2_13",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure2_13",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure2_14",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure2_14",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Ericson2022figure3",
+        "fails": 6,
+        "tests": [
+            {
+                "figure": "Ericson2022figure3_0",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure3_0",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure3_3",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure3_3",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure3_10",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure3_10",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure3_14",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure3_14",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure3_15",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure3_15",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure3_17",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure3_17",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Ericson2022figure4",
+        "fails": 6,
+        "tests": [
+            {
+                "figure": "Ericson2022figure4_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure4_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure4_9",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure4_9",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure4_10",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure4_10",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure4_11",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure4_11",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure4_13",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure4_13",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure4_16",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure4_16",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Ericson2022figure8",
+        "fails": 8,
+        "tests": [
+            {
+                "figure": "Ericson2022figure8_1",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_2",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_5",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_6",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_7",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_9",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_12",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Ericson2022figure8_12",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2022figure8_16",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "[] = 0",
+                        "ok": false,
+                        "actual": null,
+                        "expected": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Karavirta2012Figure3",
+        "fails": 4,
+        "tests": [
+            {
+                "figure": "Karavirta2012Figure3_2",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Karavirta2012Figure3_2",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Karavirta2012Figure3_7",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Karavirta2012Figure3_7",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Karavirta2012Figure3_8",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Karavirta2012Figure3_8",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Karavirta2012Figure3_13",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Karavirta2012Figure3_13",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V3/",
+        "problem": "Weinmann2021figure1",
+        "fails": 1,
+        "tests": [
+            {
+                "figure": "Weinmann2021figure1_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Weinmann2021figure1_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    }
+]

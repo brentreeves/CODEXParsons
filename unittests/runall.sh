@@ -12,16 +12,17 @@
 # for f in Parsons_Kara*.py
 # for f in Parsons_Kara*.py
 # for f in Parsons_Wei*.py
+
 for v in V*
 do
-    cat '' > data_$v.txt
-done
-
-for f in Parsons_*.py
-do
-    for v in V*
+    echo '[' > data$v.txt
+    for f in Parsons_*.py
     do
 	echo $f $v --------------
-	python $f $v >> data_$v.txt
+	python3 $f $v >> data$v.txt
     done
+    sed "$ s/, $/]/" data$v.txt > data$v.json
+    python3 -m json.tool data$v.json > pp$v.json
+    /Applications/jq '.[] | {folder: .folder, problem: .problem, fails: .fails}' < data$v.json > fails$v.json
 done
+
