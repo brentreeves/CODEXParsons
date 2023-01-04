@@ -5,16 +5,9 @@
 # for each version (V1, V2, V3)
 #    test each python file append to data_$v
 #
-# for f in Parsons_Ericson2017f*.py
-# for f in Parsons_Ericson2022f*.py
-# for f in Parsons_Haynes*.py
-# for f in Parsons_Hou*.py
-# for f in Parsons_Kara*.py
-# for f in Parsons_Kara*.py
-# for f in Parsons_Wei*.py
-
 for v in V*
 do
+    echo "folder start " $v "----------------------------"
     echo '[' > data$v.txt
     for f in Parsons_*.py
     do
@@ -22,6 +15,7 @@ do
 	python3 $f $v >> data$v.txt
     done
     sed "$ s/, $/]/" data$v.txt > data$v.json
+    echo "folder end   " $v "----------------------------"
     python3 -m json.tool data$v.json > pp$v.json
     /Applications/jq '.[] | {folder: .folder, problem: .problem, fails: .fails}' < data$v.json > fails$v.json
 done

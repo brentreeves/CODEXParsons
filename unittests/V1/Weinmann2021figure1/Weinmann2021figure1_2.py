@@ -1,9 +1,5 @@
-def avgValuesInRange(numList, start, end):
-    if (end - start + 1) >= 1:
-        sum = 0
-        for index in range(start,end+1):
-            value = numList[index]
-            sum = sum + value
-        return sum / (end - start + 1)
-    return 0
-
+def last_even_adder(li):
+for index in range (len(li)-1,-1,-1):
+if(li[index]) % 2 == 0:
+return lambda x : x + li[index]
+return 'All odd'

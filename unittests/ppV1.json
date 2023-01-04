@@ -1,230 +1,21 @@
 [
     {
         "folder": "V1/",
+        "problem": "Ericson2017figure1",
+        "fails": 0,
+        "tests": []
+    },
+    {
+        "folder": "V1/",
         "problem": "Ericson2017figure4",
-        "fails": 20,
-        "tests": [
-            {
-                "figure": "Ericson2017figure4_0",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_0",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_1",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_1",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_2",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_2",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_3",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_3",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_4",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_4",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_5",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_5",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_6",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_6",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_7",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_7",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_8",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_8",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_9",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_9",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_10",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_10",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_11",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_11",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_12",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_12",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_13",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_13",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_14",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_14",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_15",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_15",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_16",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_16",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_17",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_17",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_18",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_18",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            },
-            {
-                "figure": "Ericson2017figure4_19",
-                "bad": 1,
-                "issues": [
-                    {
-                        "msg": "error importing source code Ericson2017figure4_19",
-                        "ok": false,
-                        "actual": "error"
-                    }
-                ]
-            }
-        ]
+        "fails": 0,
+        "tests": []
+    },
+    {
+        "folder": "V1/",
+        "problem": "Ericson2018figure5",
+        "fails": 0,
+        "tests": []
     },
     {
         "folder": "V1/",
@@ -392,6 +183,234 @@
     },
     {
         "folder": "V1/",
+        "problem": "Haynes_Magyar2022figure2",
+        "fails": 4,
+        "tests": [
+            {
+                "figure": "Haynes_Magyar2022figure2_0",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Haynes_Magyar2022figure2_0",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure2_2",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Haynes_Magyar2022figure2_2",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure2_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Haynes_Magyar2022figure2_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure2_17",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Haynes_Magyar2022figure2_17",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V1/",
+        "problem": "Haynes_Magyar2022figure4",
+        "fails": 5,
+        "tests": [
+            {
+                "figure": "Haynes_Magyar2022figure4_0",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Haynes_Magyar2022figure4_0",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure4_1",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Haynes_Magyar2022figure4_1",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure4_2",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error importing source code Haynes_Magyar2022figure4_2",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure4_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Haynes_Magyar2022figure4_4",
+                        "ok": false,
+                        "actual": "error"
+                    }
+                ]
+            },
+            {
+                "figure": "Haynes_Magyar2022figure4_19",
+                "bad": 19,
+                "issues": [
+                    {
+                        "msg": "0,0,0,[0]=1",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 1
+                    },
+                    {
+                        "msg": "1,0,0,[0]=0",
+                        "ok": false,
+                        "actual": 1,
+                        "expected": 0
+                    },
+                    {
+                        "msg": "0,0,1,[0,0]=2",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 2
+                    },
+                    {
+                        "msg": "0,0,1,[0,0,0]=2",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 2
+                    },
+                    {
+                        "msg": "0,0,1,[0,0,0,0]=2",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 2
+                    },
+                    {
+                        "msg": "0,0,2,[0,0,0,0]=3",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 3
+                    },
+                    {
+                        "msg": "0,0,3,[0,0,0,0]=4",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 4
+                    },
+                    {
+                        "msg": "3,0,3,[1,2,3,1,2,3,1,2,3]=1",
+                        "ok": false,
+                        "actual": 2,
+                        "expected": 1
+                    },
+                    {
+                        "msg": "3,0,8,[1,2,3,1,2,3,1,2,3]=3",
+                        "ok": false,
+                        "actual": 2,
+                        "expected": 3
+                    },
+                    {
+                        "msg": "2,0,8,[1,2,3,1,2,3,1,2,3]=3",
+                        "ok": false,
+                        "actual": 1,
+                        "expected": 3
+                    },
+                    {
+                        "msg": "1,0,8,[1,2,3,1,2,3,1,2,3]=3",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 3
+                    },
+                    {
+                        "msg": "9,0,0,[9,9,9,9,9,9,9,9,9]=1",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 1
+                    },
+                    {
+                        "msg": "9,0,1,[9,9,9,9,9,9,9,9,9]=2",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 2
+                    },
+                    {
+                        "msg": "9,0,2,[9,9,9,9,9,9,9,9,9]=3",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 3
+                    },
+                    {
+                        "msg": "9,0,3,[9,9,9,9,9,9,9,9,9]=4",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 4
+                    },
+                    {
+                        "msg": "9,0,8,[9,9,9,9,9,9,9,9,9]=9",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 9
+                    },
+                    {
+                        "msg": "9,8,8,[9,9,9,9,9,9,9,9,9]=1",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 1
+                    },
+                    {
+                        "msg": "9,7,8,[9,9,9,9,9,9,9,9,9]=2",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 2
+                    },
+                    {
+                        "msg": "9,4,5,[9,9,9,9,9,9,9,9,9]=2",
+                        "ok": false,
+                        "actual": 0,
+                        "expected": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "V1/",
+        "problem": "Hou2022figure2",
+        "fails": 0,
+        "tests": []
+    },
+    {
+        "folder": "V1/",
         "problem": "Karavirta2012Figure3",
         "fails": 8,
         "tests": [
@@ -400,7 +419,7 @@
                 "bad": 1,
                 "issues": [
                     {
-                        "msg": "error importing source code Karavirta2012Figure3_0",
+                        "msg": "error running Karavirta2012Figure3_0",
                         "ok": false,
                         "actual": "error"
                     }
@@ -411,7 +430,7 @@
                 "bad": 1,
                 "issues": [
                     {
-                        "msg": "error importing source code Karavirta2012Figure3_2",
+                        "msg": "error running Karavirta2012Figure3_2",
                         "ok": false,
                         "actual": "error"
                     }
@@ -422,7 +441,7 @@
                 "bad": 1,
                 "issues": [
                     {
-                        "msg": "error importing source code Karavirta2012Figure3_4",
+                        "msg": "error running Karavirta2012Figure3_4",
                         "ok": false,
                         "actual": "error"
                     }
@@ -433,7 +452,7 @@
                 "bad": 1,
                 "issues": [
                     {
-                        "msg": "error importing source code Karavirta2012Figure3_10",
+                        "msg": "error running Karavirta2012Figure3_10",
                         "ok": false,
                         "actual": "error"
                     }
@@ -455,7 +474,7 @@
                 "bad": 1,
                 "issues": [
                     {
-                        "msg": "error importing source code Karavirta2012Figure3_15",
+                        "msg": "error running Karavirta2012Figure3_15",
                         "ok": false,
                         "actual": "error"
                     }
@@ -477,7 +496,7 @@
                 "bad": 1,
                 "issues": [
                     {
-                        "msg": "error importing source code Karavirta2012Figure3_19",
+                        "msg": "error running Karavirta2012Figure3_19",
                         "ok": false,
                         "actual": "error"
                     }
@@ -488,2125 +507,16 @@
     {
         "folder": "V1/",
         "problem": "Weinmann2021figure1",
-        "fails": 20,
+        "fails": 1,
         "tests": [
             {
-                "figure": "Weinmann2021figure1_0",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_1",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
                 "figure": "Weinmann2021figure1_2",
-                "bad": 20,
+                "bad": 1,
                 "issues": [
                     {
-                        "msg": "[] = 'All odd'",
+                        "msg": "error importing source code Weinmann2021figure1_2",
                         "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_3",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_4",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_5",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_6",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_7",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_8",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_9",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_10",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_11",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_12",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_13",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_14",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_15",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_16",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_17",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_18",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
-                    }
-                ]
-            },
-            {
-                "figure": "Weinmann2021figure1_19",
-                "bad": 20,
-                "issues": [
-                    {
-                        "msg": "[] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1,3,5] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[3,3,3,3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-3,-3,-3,-3] = 'All odd'",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[2, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 2] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 0, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 0, 1] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[1, 2, 0] = 0",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 1, 2] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[0, 2, 1] = 5 7",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[4, 1, 1] = 5 9",
-                        "ok": false,
-                        "actual": null
-                    },
-                    {
-                        "msg": "[-4, 1, 1] = 5 1",
-                        "ok": false,
-                        "actual": null
+                        "actual": "error"
                     }
                 ]
             }

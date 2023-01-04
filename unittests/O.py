@@ -35,10 +35,10 @@ class Parsons():
         self.ff = glob.glob(f'./{self.folder}{self.me}/{self.me}*.py')
         # print("setUpClass globs: ", self.ff)
     
-    def setLog(n):
+    def setLog(self, n):
         self.loglevel = n
 
-    def log(lvl, msg):
+    def log(self, lvl, msg):
         if (lvl < self.loglevel):
             print(msg)
     
@@ -98,8 +98,8 @@ class Parsons():
     
 
     def ppjson(self, allfails):
-        if (allfails > 0):
-            print ( json.dumps( {"folder": self.folder, "problem": self.me, "fails" : allfails, "tests" : self.fails} ) + ", " )
+        # if (allfails > 0):
+        print ( json.dumps( {"folder": self.folder, "problem": self.me, "fails" : allfails, "tests" : self.fails} ) + ", " )
 
     def pp(self):
         for key, (n, good, bad) in self.fails.items():
@@ -115,41 +115,60 @@ class Parsons():
 
     def testit(self, dafile):
         # best overide with trixy things
-        # print("Parsons:testit")
+        print("Parsons:testit")
         return [],[],0
 
     def loopit(self, dbg):
         fails = 0
+        self.log(1,f'loopit folder: {self.folder} me: {self.me}')
 
         sys.path.insert(0, f'./{self.folder}{self.me}')
         # print("self.ff:", len(self.ff))
+        self.log(1,"loopit enumerate..." + str(list(self.ff)))
+        if ( len(self.ff) < 1) :
+            # folder typo?
+            ff = f'ERROR: no input files found for [{self.me}] folder: {self.ff}'
+            print(ff, file=sys.stderr)
+            fails += 1
+            self.fails.append( {"figure" : self.dafile,
+                                "bad" : 1,
+                                "issues" : [{"msg": "error no input files found in folder " + self.ff, "ok": False, "actual": "error"}]} )
+                
         for i, f in enumerate(self.ff):
+            self.log(1,"loopit enumerate start")
             self.dafile = f'{self.me}_{i}'
-            # print("enumerate: ------------------", f, file=sys.stderr)
+            self.log(1,"loopit enumerate dafile " + self.dafile)
             try:
                 self.m = __import__(self.dafile)
-                # print("import was happy")
-                # print("m dir: ", dir(m), file=sys.stderr)
-                # print("m repr: ", repr(m), file=sys.stderr)
-                # print("m __doc__: ", m.__doc__, file=sys.stderr)
-                # print("m __built__: ", m.__builtins__, file=sys.stderr)
-                # print("m help: ", m.help(), file=sys.stderr)
-                # print("m instance: ", isinstance(m, Person), file=sys.stderr)
-
                 if (hasattr(self.m, self.mfname)):
                     self.mf = getattr(self.m, self.mfname)                            
 
-                nfail, good, bad = self.testit()
-                # print("nfail: ", nfail)
-                # print("bad: ", bad, file=sys.stderr)
+                try: 
+                    self.log(1,"loopit calling testit")
+                    nfail, good, bad = self.testit()
+                    # print("nfail: ", nfail)
+                    # print("bad: ", bad, file=sys.stderr)
+                    if (nfail >0):
+                        fails += 1
 
-                if (nfail >0):
+                    if (len(bad) > 0):
+                        self.fails.append( {"figure" : self.dafile,
+                                            "bad" : len(bad),
+                                            "issues" : bad})
+                    # else:
+                    #     self.fails.append( {"figure" : self.dafile,
+                    #                         "bad" : 0,
+                    #                         "issues" : ""})
+
+                except:
+                    ff = f'ERROR: error running File: {self.dafile}'
+                    ee = {"error" : ff, "exception" :  sys.exc_info() }
+                    print(ee, file=sys.stderr)
+
                     fails += 1
-
-                if (len(bad) > 0):
                     self.fails.append( {"figure" : self.dafile,
-                                        "bad" : len(bad),
-                                        "issues" : bad})
+                                    "bad" : 1,
+                                    "issues" : [{"msg": "error running " + self.dafile, "ok": False, "actual": "error"}]} )                    
             except:
                 ff = f'ERROR: problem with import  File: {self.dafile}'
                 # ee = {"error" : ff, "exception" : str( sys.exc_info()[1] )  }

@@ -16,7 +16,7 @@ import O
 class Parsons_Haynes_Magyar2022figure4(O.Parsons):
     
     def testit(self):
-        # print("Haynes_Magyar2022figure4:testit: ", self.dafile)
+        self.log(1, "Haynes_Magyar2022figure4:testit: " + self.dafile)
 
         return self.set_predicates_return([
             # ( '0,0,0,[0]=1', self.mf( 0,0,0,[0] ), 9), # blink test
@@ -46,4 +46,6 @@ class Parsons_Haynes_Magyar2022figure4(O.Parsons):
 
 if __name__ == '__main__':
     p1 = Parsons_Haynes_Magyar2022figure4("Haynes_Magyar2022figure4", "countInRange")
+    # p1.setLog(3)
     rc = p1.go()
+    # p1.setLog(0)

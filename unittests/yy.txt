@@ -1,0 +1,6 @@
+folder start  V1 ----------------------------
+Parsons_Ericson2017figure1.py V1 --------------
+Parsons_Ericson2017figure4.py V1 --------------
+folder end    V1 ----------------------------
+Expecting value: line 2 column 1 (char 2)
+parse error: Unfinished JSON term at EOF at line 2, column 0

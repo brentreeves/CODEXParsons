@@ -15,6 +15,7 @@ class Parsons_Haynes_Magyar2022figure2(O.Parsons):
 
     def testit(self):
         # print("Parsons_Haynes_Magyar2022figure2:testit: ", self.dafile)
+        p1.log(1,"Parsons_Haynes_Magyar2022figure2:testit: " + self.dafile)
         # Haynes_Magyar2022figure2_0.py
 
         return self.set_predicates_return([
@@ -32,4 +33,7 @@ class Parsons_Haynes_Magyar2022figure2(O.Parsons):
 
 if __name__ == '__main__':
     p1 = Parsons_Haynes_Magyar2022figure2("Haynes_Magyar2022figure2", "has22")
+    # p1.setLog(4)
+    # p1.log(1,"Parsons_Haynes_Magyar2022figure2:main: ")
     rc = p1.go()
+    # p1.setLog(0)

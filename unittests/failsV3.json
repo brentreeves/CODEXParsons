@@ -6,7 +6,7 @@
 {
   "folder": "V3/",
   "problem": "Ericson2017figure4",
-  "fails": 20
+  "fails": 3
 }
 {
   "folder": "V3/",
@@ -32,6 +32,21 @@
   "folder": "V3/",
   "problem": "Ericson2022figure8",
   "fails": 8
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "fails": 16
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "fails": 10
+}
+{
+  "folder": "V3/",
+  "problem": "Hou2022figure2",
+  "fails": 0
 }
 {
   "folder": "V3/",

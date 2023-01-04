@@ -29,4 +29,5 @@ class Parsons_Ericson2017figure1(O.Parsons):
 
 if __name__ == '__main__':
     p1 = Parsons_Ericson2017figure1("Ericson2017figure1", "getSum")
+    p1.log(1, "Ericson2017figure1:testit: " + p1.dafile)
     rc = p1.go()
