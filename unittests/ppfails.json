@@ -7,7 +7,7 @@
   {
     "folder": "V1/",
     "problem": "Ericson2017figure4",
-    "fails": 0
+    "fails": 20
   },
   {
     "folder": "V1/",
@@ -67,7 +67,7 @@
   {
     "folder": "V2/",
     "problem": "Ericson2017figure4",
-    "fails": 8
+    "fails": 20
   },
   {
     "folder": "V2/",
@@ -127,7 +127,7 @@
   {
     "folder": "V3/",
     "problem": "Ericson2017figure4",
-    "fails": 3
+    "fails": 20
   },
   {
     "folder": "V3/",

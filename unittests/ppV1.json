@@ -8,8 +8,229 @@
     {
         "folder": "V1/",
         "problem": "Ericson2017figure4",
-        "fails": 0,
-        "tests": []
+        "fails": 20,
+        "tests": [
+            {
+                "figure": "Ericson2017figure4_0",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_0",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a540>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_1",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_1",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a8c0>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_2",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_2",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a500>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_3",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_3",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a880>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_4",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_4",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a540>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_5",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_5",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330acc0>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_6",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_6",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a980>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_7",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_7",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a900>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_8",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_8",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330ab40>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_9",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_9",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b000>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_10",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_10",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330ae80>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_11",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_11",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a900>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_12",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_12",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b180>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_13",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_13",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330ad80>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_14",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_14",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b440>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_15",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_15",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b5c0>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_16",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_16",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b740>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_17",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_17",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b8c0>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_18",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_18",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103320080>)"
+                    }
+                ]
+            },
+            {
+                "figure": "Ericson2017figure4_19",
+                "bad": 1,
+                "issues": [
+                    {
+                        "msg": "error running Ericson2017figure4_19",
+                        "ok": false,
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103320140>)"
+                    }
+                ]
+            }
+        ]
     },
     {
         "folder": "V1/",
@@ -29,7 +250,7 @@
                     {
                         "msg": "error importing source code Ericson2022figure2_2",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_2.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x101643b00>)"
                     }
                 ]
             },
@@ -40,7 +261,7 @@
                     {
                         "msg": "error importing source code Ericson2022figure2_11",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_11.py', 2, 1, 'if guess == target:\\n', 2, 3)), <traceback object at 0x101650e80>)"
                     }
                 ]
             }
@@ -193,7 +414,7 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure2_0",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1037ea980>)"
                     }
                 ]
             },
@@ -204,7 +425,7 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure2_2",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_2.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x1037ead80>)"
                     }
                 ]
             },
@@ -215,7 +436,7 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure2_4",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1037eae40>)"
                     }
                 ]
             },
@@ -226,7 +447,7 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure2_17",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1037fc580>)"
                     }
                 ]
             }
@@ -244,7 +465,7 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure4_0",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_0.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x104be2a40>)"
                     }
                 ]
             },
@@ -255,7 +476,7 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure4_1",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_1.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x104be2d00>)"
                     }
                 ]
             },
@@ -266,7 +487,7 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure4_2",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_2.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x104be29c0>)"
                     }
                 ]
             },
@@ -277,7 +498,7 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure4_4",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'TypeError'>, TypeError(\"bad operand type for abs(): 'NoneType'\"), <traceback object at 0x104be3900>)"
                     }
                 ]
             },
@@ -421,7 +642,7 @@
                     {
                         "msg": "error running Karavirta2012Figure3_0",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103406900>)"
                     }
                 ]
             },
@@ -432,7 +653,7 @@
                     {
                         "msg": "error running Karavirta2012Figure3_2",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1034070c0>)"
                     }
                 ]
             },
@@ -443,7 +664,7 @@
                     {
                         "msg": "error running Karavirta2012Figure3_4",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1034076c0>)"
                     }
                 ]
             },
@@ -454,7 +675,7 @@
                     {
                         "msg": "error running Karavirta2012Figure3_10",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103414280>)"
                     }
                 ]
             },
@@ -465,7 +686,7 @@
                     {
                         "msg": "error importing source code Karavirta2012Figure3_11",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x103407700>)"
                     }
                 ]
             },
@@ -476,7 +697,7 @@
                     {
                         "msg": "error running Karavirta2012Figure3_15",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103414c00>)"
                     }
                 ]
             },
@@ -487,7 +708,7 @@
                     {
                         "msg": "error importing source code Karavirta2012Figure3_17",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x103414f40>)"
                     }
                 ]
             },
@@ -498,7 +719,7 @@
                     {
                         "msg": "error running Karavirta2012Figure3_19",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103415340>)"
                     }
                 ]
             }
@@ -516,7 +737,7 @@
                     {
                         "msg": "error importing source code Weinmann2021figure1_2",
                         "ok": false,
-                        "actual": "error"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Weinmann2021figure1/Weinmann2021figure1_2.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x1052404c0>)"
                     }
                 ]
             }

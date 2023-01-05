@@ -168,7 +168,8 @@ class Parsons():
                     fails += 1
                     self.fails.append( {"figure" : self.dafile,
                                     "bad" : 1,
-                                    "issues" : [{"msg": "error running " + self.dafile, "ok": False, "actual": "error"}]} )                    
+                                    "issues" : [{"msg": "error running " + self.dafile,
+                                                 "ok": False, "actual": str(sys.exc_info())}]} )                    
             except:
                 ff = f'ERROR: problem with import  File: {self.dafile}'
                 # ee = {"error" : ff, "exception" : str( sys.exc_info()[1] )  }
@@ -179,7 +180,8 @@ class Parsons():
                 fails += 1
                 self.fails.append( {"figure" : self.dafile,
                                     "bad" : 1,
-                                    "issues" : [{"msg": "error importing source code " + self.dafile, "ok": False, "actual": "error"}]} )
+                                    "issues" : [{"msg": "error importing source code " + self.dafile,
+                                                 "ok": False, "actual": str(sys.exc_info())}]} )
         return fails
 
 
