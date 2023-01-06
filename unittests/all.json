@@ -1,0 +1,2313 @@
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_0",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_0",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b780>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_1",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_1",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147ba80>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_2",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b6c0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_3",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_3",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147ba40>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_4",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b780>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_5",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_5",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147be80>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_6",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_6",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_7",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_7",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_8",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_8",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_9",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_9",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_10",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_10",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c2c0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_11",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_12",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_12",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_13",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_13",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c700>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_14",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_14",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c440>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_15",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_15",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_16",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_16",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c880>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_17",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_17",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cac0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_18",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_18",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cb80>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_19",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_19",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cdc0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_2.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x1019d0a00>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_11",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_11",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_11.py', 2, 1, 'if guess == target:\\n', 2, 3)), <traceback object at 0x1019d1d40>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "a b = 'ab' 'a b'",
+  "actual": "a b"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "aa bb = 'ab'",
+  "actual": "aa bb"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "aaa bbb = ab",
+  "actual": "aaa bbb"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "' spacea',' spaceb' = [  ] ",
+  "actual": " spacea  spaceb"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "' spacesa ',' spacesb ' = ...",
+  "actual": " spacesa   spacesb "
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "'a z','b z' = ab",
+  "actual": "a z b z"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(0,True) :",
+  "actual": "10:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(1,True) :",
+  "actual": "7:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(2,True) :",
+  "actual": "7:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(3,True) :",
+  "actual": "7:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(4,True) :",
+  "actual": "7:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(5,True) :",
+  "actual": "7:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(6,True) :",
+  "actual": "10:00"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(0,False) :",
+  "actual": "off"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "(6,False) :",
+  "actual": "off"
+}
+{
+  "folder": "V1/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_0",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_0",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x102e0b880>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_2.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x102e0bc80>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_4",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x102e1c040>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_17",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_17",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x102e1d480>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_0",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_0",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_0.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102d67940>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_1",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_1",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_1.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102d67c00>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_2.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102d64240>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure4_4",
+  "actual": "(<class 'TypeError'>, TypeError(\"bad operand type for abs(): 'NoneType'\"), <traceback object at 0x102d78840>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "0,0,0,[0]=1",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "1,0,0,[0]=0",
+  "actual": 1
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "0,0,1,[0,0]=2",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "0,0,1,[0,0,0]=2",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "0,0,1,[0,0,0,0]=2",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "0,0,2,[0,0,0,0]=3",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "0,0,3,[0,0,0,0]=4",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "3,0,3,[1,2,3,1,2,3,1,2,3]=1",
+  "actual": 2
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "3,0,8,[1,2,3,1,2,3,1,2,3]=3",
+  "actual": 2
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "2,0,8,[1,2,3,1,2,3,1,2,3]=3",
+  "actual": 1
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "1,0,8,[1,2,3,1,2,3,1,2,3]=3",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,0,0,[9,9,9,9,9,9,9,9,9]=1",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,0,1,[9,9,9,9,9,9,9,9,9]=2",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,0,2,[9,9,9,9,9,9,9,9,9]=3",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,0,3,[9,9,9,9,9,9,9,9,9]=4",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,0,8,[9,9,9,9,9,9,9,9,9]=9",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,8,8,[9,9,9,9,9,9,9,9,9]=1",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,7,8,[9,9,9,9,9,9,9,9,9]=2",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "9,4,5,[9,9,9,9,9,9,9,9,9]=2",
+  "actual": 0
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_0",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_0",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1053f7a40>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_2",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1054041c0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_4",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1054047c0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_10",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_10",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105405340>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_11",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Karavirta2012Figure3_11",
+  "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x105404800>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_15",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_15",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105405cc0>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Karavirta2012Figure3_17",
+  "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x105406000>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_19",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_19",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105406400>)"
+}
+{
+  "folder": "V1/",
+  "problem": "Weinmann2021figure1",
+  "file": "Weinmann2021figure1_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Weinmann2021figure1_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Weinmann2021figure1/Weinmann2021figure1_2.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x1050cd480>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_3",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure1_3",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure1/Ericson2017figure1_3.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x10172fe00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_7",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_7",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x10173ca40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_16",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_16",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x10173dc80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_19",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure1_19",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure1/Ericson2017figure1_19.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x10173d8c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_0",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_0",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_0.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x104ccf780>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_1",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_1",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ccfa80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_2",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ccf800>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_3",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_3",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_3.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x104ccfa40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_4",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ccfa00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_5",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_5",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ccfe00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_6",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_6",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ccc240>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_7",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_7",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_7.py', 2, 1, 'if (end - start + 1) >= 1:\\n', 2, 3)), <traceback object at 0x104ccfd80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_8",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_8",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_8.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x104ccf780>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_9",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_9",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_9.py', 2, 1, 'if (end - start + 1) >= 1:\\n', 2, 3)), <traceback object at 0x104ccfd80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_10",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_10",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_10.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x104ccfe40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_11",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce04c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_12",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_12",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_12.py', 2, 1, 'if (end - start + 1) >= 1:\\n', 2, 3)), <traceback object at 0x104ce0240>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_13",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_13",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce0480>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_14",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_14",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce0640>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_15",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_15",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce04c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_16",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_16",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2017figure4/Ericson2017figure4_16.py', 2, 1, 'if (end - start + 1) >= 1:\\n', 2, 3)), <traceback object at 0x104ce0600>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_17",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_17",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce06c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_18",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_18",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce0b80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_19",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_19",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104ce0280>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_5",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_5",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2018figure5/Ericson2018figure5_5.py', 2, 1, 'max = elList[start]\\n', 2, 4)), <traceback object at 0x1009854c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_6",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_6",
+  "actual": "(<class 'IndentationError'>, IndentationError(\"expected an indented block after 'for' statement on line 3\", ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2018figure5/Ericson2018figure5_6.py', 4, 1, 'value = elList[index]\\n', 4, 6)), <traceback object at 0x100985680>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_19",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_19",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2018figure5/Ericson2018figure5_19.py', 2, 1, 'max = elList[start]\\n', 2, 4)), <traceback object at 0x100986e80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_2.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100874b80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_5",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_5",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_5.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100875140>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_9",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_9",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_9.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100875880>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_11",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_11",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_11.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100875b40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_12",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_12",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_12.py', 2, 1, 'if guess == target:\\n', 2, 3)), <traceback object at 0x100875d40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_14.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100875ec0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_16",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_16",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_16.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100876180>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_18",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_18",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure2/Ericson2022figure2_18.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100876440>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure3/Ericson2022figure3_2.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x100d64b80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_3",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_3",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure3/Ericson2022figure3_3.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x100d65740>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_7",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_7",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure3/Ericson2022figure3_7.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x100d65e40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_9",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_9",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure3/Ericson2022figure3_9.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x100d66240>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "a b = 'ab' 'a b'",
+  "actual": "a b"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "aa bb = 'ab'",
+  "actual": "aa bb"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "aaa bbb = ab",
+  "actual": "aaa bbb"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "' spacea',' spaceb' = [  ] ",
+  "actual": " spacea  spaceb"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "' spacesa ',' spacesb ' = ...",
+  "actual": " spacesa   spacesb "
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_12",
+  "ok": false,
+  "errortype": "output incorrect",
+  "msg": "'a z','b z' = ab",
+  "actual": "a z b z"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure3/Ericson2022figure3_14.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x100d67cc0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_18",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_18",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure3/Ericson2022figure3_18.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x100d7c8c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_0",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_0",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_0.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10163fe00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_4.py', 2, 1, 'if day == 0 or day == 6:\\n', 2, 3)), <traceback object at 0x10164cd40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_5",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_5",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_5.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10163ff00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_8",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_8",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_8.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10164d240>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_9",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_9",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_9.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10163fe00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_10",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_10",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_10.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10164d280>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_12",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_12",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_12.py', 2, 1, 'if day == 0 or day == 6:\\n', 2, 3)), <traceback object at 0x10164d600>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_13.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10164d340>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_16",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_16",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_16.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10164db00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_17",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure4/Ericson2022figure4_17.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x10164d340>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_12",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure8_12",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Ericson2022figure8/Ericson2022figure8_12.py', 2, 1, 'if len(numList) == 0:\\n', 2, 3)), <traceback object at 0x1029b9540>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_0",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_0",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1045ffa00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_1",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_1",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_1.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x1045ffa80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_2",
+  "actual": "(<class 'IndentationError'>, IndentationError(\"expected an indented block after 'for' statement on line 1\", ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_2.py', 2, 1, 'if nums[i] == 2 and nums[i+1] == 2:\\n', 2, 3)), <traceback object at 0x1045ff880>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_4",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1045ffec0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_5",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_5",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_5.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104610100>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_6",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_6",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_6.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x1045ffe80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_9",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_9",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_9.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104610140>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_10",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_10",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x104610840>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_11",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x104610780>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_12",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_12",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x104610840>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_13.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104610700>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_14.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104610840>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_16",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_16",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_16.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104610a00>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_17",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_17.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104610f80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_19",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_19",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_19.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x104611000>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_1",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_1",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_1.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102928600>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_2.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x1029289c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_4.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102928ec0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_8",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_8",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_8.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102929480>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_12",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_12",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_12.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102929a40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_15",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_15",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_15.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102929e80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_17",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_17.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102929ec0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_19",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_19.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x10292a100>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Hou2022figure2",
+  "file": "Hou2022figure2_1",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Hou2022figure2_1",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Hou2022figure2/Hou2022figure2_1.py', 2, 1, 'new_list = []\\n', 2, 9)), <traceback object at 0x103374600>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Hou2022figure2",
+  "file": "Hou2022figure2_6",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Hou2022figure2_6",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Hou2022figure2/Hou2022figure2_6.py', 2, 1, 'new_list = []\\n', 2, 9)), <traceback object at 0x103375580>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Hou2022figure2",
+  "file": "Hou2022figure2_8",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Hou2022figure2_8",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Hou2022figure2/Hou2022figure2_8.py', 2, 1, 'new_list = []\\n', 2, 9)), <traceback object at 0x1033755c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Hou2022figure2",
+  "file": "Hou2022figure2_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Hou2022figure2_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Hou2022figure2/Hou2022figure2_13.py', 2, 1, 'new_list = []\\n', 2, 9)), <traceback object at 0x103375f40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_0",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_0",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10177bc40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_2",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x101788380>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Karavirta2012Figure3_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Karavirta2012Figure3/Karavirta2012Figure3_4.py', 2, 1, 'if len(alist) > 0:\\n', 2, 3)), <traceback object at 0x101788940>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_7",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_7",
+  "actual": "(<class 'UnboundLocalError'>, UnboundLocalError(\"local variable 'curmax' referenced before assignment\"), <traceback object at 0x101788d80>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_10",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_10",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x101789380>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_11",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Karavirta2012Figure3_11",
+  "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x101788d40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_15",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Karavirta2012Figure3_15",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Karavirta2012Figure3/Karavirta2012Figure3_15.py', 2, 1, 'curmax=alist[0]\\n', 2, 7)), <traceback object at 0x101789cc0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Karavirta2012Figure3_17",
+  "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x101789d40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_19",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_19",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10178a2c0>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Weinmann2021figure1",
+  "file": "Weinmann2021figure1_2",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Weinmann2021figure1_2",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Weinmann2021figure1/Weinmann2021figure1_2.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x102fb9540>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Weinmann2021figure1",
+  "file": "Weinmann2021figure1_3",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Weinmann2021figure1_3",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Weinmann2021figure1/Weinmann2021figure1_3.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x102fb9700>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Weinmann2021figure1",
+  "file": "Weinmann2021figure1_16",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Weinmann2021figure1_16",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Weinmann2021figure1/Weinmann2021figure1_16.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x102fbac40>)"
+}
+{
+  "folder": "V2/",
+  "problem": "Weinmann2021figure1",
+  "file": "Weinmann2021figure1_18",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Weinmann2021figure1_18",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V2/Weinmann2021figure1/Weinmann2021figure1_18.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x102fbaf00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_3",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_3",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x100c844c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_5",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_5",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x100c84a00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_7",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_7",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x100c84dc0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_11",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x100c85580>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure1",
+  "file": "Ericson2017figure1_12",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure1_12",
+  "actual": "(<class 'NameError'>, NameError(\"name 'numList' is not defined\"), <traceback object at 0x100c84300>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_0",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_0",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e13b00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_1",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_1",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e13cc0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_2",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e13a80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_3",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_3",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e13c40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_4",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e13b00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_5",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_5",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20040>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_6",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_6",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20200>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_7",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_7",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2017figure4/Ericson2017figure4_7.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x104e20040>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_8",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_8",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2017figure4/Ericson2017figure4_8.py', 2, 1, 'sum = 0\\n', 2, 4)), <traceback object at 0x104e13f40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_9",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_9",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e206c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_10",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_10",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e201c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_11",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20040>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_12",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_12",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20700>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_13",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_13",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20880>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_14",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_14",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20380>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_15",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_15",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20640>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_16",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_16",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20980>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_17",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_17",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20b00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_18",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Ericson2017figure4_18",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x104e20c80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2017figure4",
+  "file": "Ericson2017figure4_19",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2017figure4_19",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2017figure4/Ericson2017figure4_19.py', 2, 1, 'if (end - start + 1) >= 1:\\n', 2, 3)), <traceback object at 0x104e21100>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2018figure5/Ericson2018figure5_4.py', 2, 1, 'max = elList[start]\\n', 2, 4)), <traceback object at 0x103311380>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_11",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_11",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2018figure5/Ericson2018figure5_11.py', 2, 1, 'max = elList[start]\\n', 2, 4)), <traceback object at 0x1033120c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2018figure5/Ericson2018figure5_13.py', 2, 1, 'max = elList[start]\\n', 2, 4)), <traceback object at 0x103312340>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2018figure5/Ericson2018figure5_14.py', 2, 1, 'min = elList[start]\\n', 2, 4)), <traceback object at 0x103312540>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_17",
+  "actual": "(<class 'IndentationError'>, IndentationError(\"expected an indented block after 'for' statement on line 3\", ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2018figure5/Ericson2018figure5_17.py', 4, 1, 'value = elList[index]\\n', 4, 6)), <traceback object at 0x103312840>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2018figure5",
+  "file": "Ericson2018figure5_18",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2018figure5_18",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2018figure5/Ericson2018figure5_18.py', 2, 1, 'max = elList[start]\\n', 2, 4)), <traceback object at 0x103312a00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure2/Ericson2022figure2_4.py', 2, 1, 'if guess == target:\\n', 2, 3)), <traceback object at 0x1007251c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure2/Ericson2022figure2_13.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100726500>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure2",
+  "file": "Ericson2022figure2_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure2_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure2/Ericson2022figure2_14.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x100726700>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_0",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_0",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure3/Ericson2022figure3_0.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x105044d80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_3",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_3",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure3/Ericson2022figure3_3.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x105044e80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_10",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_10",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure3/Ericson2022figure3_10.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x105046d00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure3/Ericson2022figure3_14.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x105047c80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_15",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_15",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure3/Ericson2022figure3_15.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x105047d80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure3",
+  "file": "Ericson2022figure3_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure3_17",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after class definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure3/Ericson2022figure3_17.py', 2, 1, 'def __init__(self, first, last):\\n', 2, 4)), <traceback object at 0x105047840>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure4/Ericson2022figure4_4.py', 2, 1, 'if day == 0 or day == 6:\\n', 2, 3)), <traceback object at 0x1049e9000>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_9",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_9",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure4/Ericson2022figure4_9.py', 2, 1, 'if day == 0 or day == 6:\\n', 2, 3)), <traceback object at 0x1049e9940>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_10",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_10",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure4/Ericson2022figure4_10.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x1049e9b40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_11",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_11",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure4/Ericson2022figure4_11.py', 2, 1, 'if day == 0 or day == 6:\\n', 2, 3)), <traceback object at 0x1049e9b80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure4/Ericson2022figure4_13.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x1049e9cc0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure4",
+  "file": "Ericson2022figure4_16",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure4_16",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure4/Ericson2022figure4_16.py', 2, 1, 'if vacation:\\n', 2, 3)), <traceback object at 0x1049ea1c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_1",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_5",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_6",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_7",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_9",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_12",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Ericson2022figure8_12",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Ericson2022figure8/Ericson2022figure8_12.py', 2, 1, 'if len(numList) == 0:\\n', 2, 3)), <traceback object at 0x104f19b00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Ericson2022figure8",
+  "file": "Ericson2022figure8_16",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "[] = 0",
+  "actual": null
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_1",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_1",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054bfec0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_2",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cc080>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_3",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_3",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cc280>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_4",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_4",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cc040>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_7",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure2_7",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_7.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x1054cc640>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_8",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_8",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cc100>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_9",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_9",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054ccb80>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_10",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_10",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cc380>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_11",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054ccb40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_12",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_12",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054ccc40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_13",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_13",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054ccb00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_14",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_14",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cd240>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_16",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_16",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cd680>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_17",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_17",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cd100>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_18",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_18",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cd400>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure2",
+  "file": "Haynes_Magyar2022figure2_19",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure2_19",
+  "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1054cc380>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_3",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure4_3",
+  "actual": "(<class 'UnboundLocalError'>, UnboundLocalError(\"local variable 'count' referenced before assignment\"), <traceback object at 0x1053510c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_4.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105351140>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_6",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_6",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_6.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x1053514c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_7",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_7",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_7.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105351140>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_10",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_10",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_10.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105351940>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_11",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Haynes_Magyar2022figure4_11",
+  "actual": "(<class 'UnboundLocalError'>, UnboundLocalError(\"local variable 'count' referenced before assignment\"), <traceback object at 0x105351b40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_13",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_13",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_13.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105351d40>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_14",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_14",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_14.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105351b00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_17",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_17",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_17.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105352180>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Haynes_Magyar2022figure4",
+  "file": "Haynes_Magyar2022figure4_19",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Haynes_Magyar2022figure4_19",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_19.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x105352200>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_2",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_2",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1010c8600>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_7",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_7",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1010c90c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_8",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_8",
+  "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1010c85c0>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Karavirta2012Figure3",
+  "file": "Karavirta2012Figure3_13",
+  "ok": false,
+  "errortype": "runtime error",
+  "msg": "error running Karavirta2012Figure3_13",
+  "actual": "(<class 'UnboundLocalError'>, UnboundLocalError(\"local variable 'curmax' referenced before assignment\"), <traceback object at 0x1010c9c00>)"
+}
+{
+  "folder": "V3/",
+  "problem": "Weinmann2021figure1",
+  "file": "Weinmann2021figure1_4",
+  "ok": false,
+  "errortype": "import error",
+  "msg": "error importing source code Weinmann2021figure1_4",
+  "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V3/Weinmann2021figure1/Weinmann2021figure1_4.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x102bbda00>)"
+}

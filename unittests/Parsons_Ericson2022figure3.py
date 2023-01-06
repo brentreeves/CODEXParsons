@@ -27,28 +27,43 @@ class Parsons_Ericson2022figure3(O.Parsons):
 
         try:
             p1 = self.m.Person(first, last)
+            errortype = ''
 
             initials = ''
             try:
                 initials = p1.initials()
             except:
                 print("ERROR initials()", file=sys.stderr)
-                return {"msg": "Error initials() not happy", "ok": False, "actual": str(sys.exc_info()[1]) }
+                return {"msg": "Error initials() not happy",
+                        "ok": False,
+                        "actual": str(sys.exc_info()[1]),
+                        "errortype": 'runtime error'}
 
             if (initials != true_initials):
-                return {"msg": note, "ok": False, "actual": initials, "expected": true_initials}
+                return {"msg": note,
+                        "ok": False,
+                        "actual": initials,
+                        "expected": true_initials,
+                        "errortype": "output incorrect"}
 
             daname = ''
             try:
                 daname = str(p1)
             except:
                 print("ERROR __str__()", file=sys.stderr)
-                return {"msg": "Error __str__ not happy", "ok": False, "actual": str(sys.exc_info()[1]) }
+                return {"msg": "Error __str__ not happy",
+                        "ok": False,
+                        "actual": str(sys.exc_info()[1]),
+                        "errortype": 'runtime error'}
 
             if (daname != true_name):
-                return {"msg": note, "ok": False, "actual": daname, "expected": true_name}
+                return {"msg": note,
+                        "ok": False,
+                        "actual": daname,
+                        "expected": true_name,
+                        "errortype": "output incorrect"}
 
-            return {"msg": note, "ok": True, "actual": daname }
+            return {"msg": note, "ok": True, "actual": daname, "errortype": '' }
             
         except:
             # print("safely caught exception")
@@ -56,7 +71,10 @@ class Parsons_Ericson2022figure3(O.Parsons):
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
             print(ee, file=sys.stderr)
 
-        return {"msg": note, "ok": False, "actual": "Could not make a Person", "expected": "class Person:..."}
+        return {"msg": note,
+                "ok": False,
+                "actual": "Could not make a Person", "expected": "class Person:...",
+                'errortype': 'runtime error'}
 
     
     def testit(self):

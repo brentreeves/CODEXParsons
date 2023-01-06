@@ -1,0 +1,12 @@
+File: Ericson2017figure1.txt complexity: 1 Nodes: 9 edges: 8
+File: Ericson2017figure4.txt complexity: 2 Nodes: 12 edges: 12
+File: Ericson2018figure5.txt complexity: 3 Nodes: 14 edges: 15
+File: Ericson2022figure2.txt complexity: 2 Nodes: 9 edges: 9
+File: Ericson2022figure3.txt not happy - its a class
+File: Ericson2022figure4.txt complexity: 3 Nodes: 11 edges: 12
+File: Ericson2022figure8.txt complexity: 3 Nodes: 15 edges: 16
+File: Haynes-Magyar2022figure2.txt complexity: 2 Nodes: 9 edges: 9
+File: Haynes-Magyar2022figure4.txt complexity: 2 Nodes: 11 edges: 11
+File: Hou2022figure2.txt complexity: 2 Nodes: 10 edges: 10
+File: Karavirta2012Figure3.txt complexity: 3 Nodes: 11 edges: 12
+File: Weinmann2021figure1.txt complexity: 2 Nodes: 9 edges: 9

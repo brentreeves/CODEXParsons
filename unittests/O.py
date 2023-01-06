@@ -45,16 +45,24 @@ class Parsons():
     # self.predicates = list(map ( self.fixem, args ))
     def fixem(self, args):
         note, result, expected = args
-
+        # print("fixem...")
+        rc = False
+        
         if ( (type(expected) is int ) or (type(expected) is float)):
             rc = abs(  abs(result) - abs(expected)) < 0.0001
         else:
             rc = result == expected
 
+        errortype = ''
+        if not rc:
+            errortype = 'output incorrect'
+            
         return {"msg": note,
                 "ok" : rc,
                 "actual" : result,
-                "expected": expected}
+                "expected": expected,
+                "errortype": errortype
+                }
 
 
     def set_predicates(self, alist):
@@ -66,28 +74,41 @@ class Parsons():
         bad = list(filter(lambda x: x["ok"] == False, self.predicates ))
         return len(bad), good, bad
 
+    
     def expect(self, note, f, args, expect):
         rc = None
         try:
             rc = f(args)
         except:
-            # print("safely caught exception")
+            # print("expect caught exception of f(args)")
             return note, False, rc
 
-        return {"msg": note, "ok" : rc == expect, "actual": rc}
+        errortype = ''
+        happy = rc == expect
+        if not happy:
+            errortype = 'output incorrect'
+
+        return {"msg": note, "ok" : happy, "actual": rc, "errortype": errortype}
+
 
     def expectN(self, note, f, args, expect):
         # print(f'expectN: {note} f: {f}  args: {args} expect: {expect}')
         rc = None
+        errortype = ''
+
         try:    
             rc = f(args)
         except:
             ff = f'ERROR: 0.py expectN  Folder: {self.folder} File: {self.dafile}\nNote: {note} args: {args} expect: {expect}'
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1]) }
             print(ee, file=sys.stderr)
-            return {"msg": note, "ok": False, "actual": rc, "expected": expect}
+            return {"msg": note, "ok": False, "actual": rc, "expected": expect, "errortype": "runtime error"}
 
-        return {"msg": note, "ok":  abs(abs(rc) - abs(expect)) < 0.001, "actual": rc}
+        withinlimit = abs(abs(rc) - abs(expect)) < 0.001
+        if not withinlimit:
+            errortype = 'output incorrect'
+
+        return {"msg": note, "ok":  withinlimit, "actual": rc, "errortype": errortype}
 
 
     def me(self):
@@ -130,9 +151,13 @@ class Parsons():
             ff = f'ERROR: no input files found for [{self.me}] folder: {self.ff}'
             print(ff, file=sys.stderr)
             fails += 1
-            self.fails.append( {"figure" : self.dafile,
-                                "bad" : 1,
-                                "issues" : [{"msg": "error no input files found in folder " + self.ff, "ok": False, "actual": "error"}]} )
+            self.fails.append(
+                {"figure" : self.dafile,
+                 "bad" : 1,
+                 "issues" : [{"msg": "error no input files found in folder " + self.ff,
+                              "ok": False,
+                              "actual": "error",
+                              "errortype": "empty folder"}]} )
                 
         for i, f in enumerate(self.ff):
             self.log(1,"loopit enumerate start")
@@ -169,7 +194,10 @@ class Parsons():
                     self.fails.append( {"figure" : self.dafile,
                                     "bad" : 1,
                                     "issues" : [{"msg": "error running " + self.dafile,
-                                                 "ok": False, "actual": str(sys.exc_info())}]} )                    
+                                                 "ok": False,
+                                                 "actual": str(sys.exc_info()),
+                                                 "errortype": "runtime error"
+                                                 }]} )                    
             except:
                 ff = f'ERROR: problem with import  File: {self.dafile}'
                 # ee = {"error" : ff, "exception" : str( sys.exc_info()[1] )  }
@@ -181,7 +209,10 @@ class Parsons():
                 self.fails.append( {"figure" : self.dafile,
                                     "bad" : 1,
                                     "issues" : [{"msg": "error importing source code " + self.dafile,
-                                                 "ok": False, "actual": str(sys.exc_info())}]} )
+                                                 "ok": False,
+                                                 "actual": str(sys.exc_info()),
+                                                 "errortype": "import error"
+                                                 }]} )
         return fails
 
 

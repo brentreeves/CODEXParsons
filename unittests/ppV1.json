@@ -17,7 +17,8 @@
                     {
                         "msg": "error running Ericson2017figure4_0",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a540>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b780>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -28,7 +29,8 @@
                     {
                         "msg": "error running Ericson2017figure4_1",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a8c0>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147ba80>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -39,7 +41,8 @@
                     {
                         "msg": "error running Ericson2017figure4_2",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a500>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b6c0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -50,7 +53,8 @@
                     {
                         "msg": "error running Ericson2017figure4_3",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a880>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147ba40>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -61,7 +65,8 @@
                     {
                         "msg": "error running Ericson2017figure4_4",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a540>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b780>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -72,7 +77,8 @@
                     {
                         "msg": "error running Ericson2017figure4_5",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330acc0>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147be80>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -83,7 +89,8 @@
                     {
                         "msg": "error running Ericson2017figure4_6",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a980>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -94,7 +101,8 @@
                     {
                         "msg": "error running Ericson2017figure4_7",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a900>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -105,7 +113,8 @@
                     {
                         "msg": "error running Ericson2017figure4_8",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330ab40>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -116,7 +125,8 @@
                     {
                         "msg": "error running Ericson2017figure4_9",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b000>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -127,7 +137,8 @@
                     {
                         "msg": "error running Ericson2017figure4_10",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330ae80>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c2c0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -138,7 +149,8 @@
                     {
                         "msg": "error running Ericson2017figure4_11",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330a900>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -149,7 +161,8 @@
                     {
                         "msg": "error running Ericson2017figure4_12",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b180>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -160,7 +173,8 @@
                     {
                         "msg": "error running Ericson2017figure4_13",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330ad80>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c700>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -171,7 +185,8 @@
                     {
                         "msg": "error running Ericson2017figure4_14",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b440>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c440>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -182,7 +197,8 @@
                     {
                         "msg": "error running Ericson2017figure4_15",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b5c0>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -193,7 +209,8 @@
                     {
                         "msg": "error running Ericson2017figure4_16",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b740>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c880>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -204,7 +221,8 @@
                     {
                         "msg": "error running Ericson2017figure4_17",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10330b8c0>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cac0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -215,7 +233,8 @@
                     {
                         "msg": "error running Ericson2017figure4_18",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103320080>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cb80>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -226,7 +245,8 @@
                     {
                         "msg": "error running Ericson2017figure4_19",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103320140>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cdc0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             }
@@ -250,7 +270,8 @@
                     {
                         "msg": "error importing source code Ericson2022figure2_2",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_2.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x101643b00>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_2.py', 2, 1, 'if guess < target:\\n', 2, 3)), <traceback object at 0x1019d0a00>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -261,7 +282,8 @@
                     {
                         "msg": "error importing source code Ericson2022figure2_11",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_11.py', 2, 1, 'if guess == target:\\n', 2, 3)), <traceback object at 0x101650e80>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_11.py', 2, 1, 'if guess == target:\\n', 2, 3)), <traceback object at 0x1019d1d40>)",
+                        "errortype": "import error"
                     }
                 ]
             }
@@ -280,37 +302,43 @@
                         "msg": "a b = 'ab' 'a b'",
                         "ok": false,
                         "actual": "a b",
-                        "expected": "ab"
+                        "expected": "ab",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "aa bb = 'ab'",
                         "ok": false,
                         "actual": "aa bb",
-                        "expected": "ab"
+                        "expected": "ab",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "aaa bbb = ab",
                         "ok": false,
                         "actual": "aaa bbb",
-                        "expected": "ab"
+                        "expected": "ab",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "' spacea',' spaceb' = [  ] ",
                         "ok": false,
                         "actual": " spacea  spaceb",
-                        "expected": "  "
+                        "expected": "  ",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "' spacesa ',' spacesb ' = ...",
                         "ok": false,
                         "actual": " spacesa   spacesb ",
-                        "expected": "  "
+                        "expected": "  ",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "'a z','b z' = ab",
                         "ok": false,
                         "actual": "a z b z",
-                        "expected": "ab"
+                        "expected": "ab",
+                        "errortype": "output incorrect"
                     }
                 ]
             }
@@ -329,55 +357,64 @@
                         "msg": "(0,True) :",
                         "ok": false,
                         "actual": "10:00",
-                        "expected": "off"
+                        "expected": "off",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(1,True) :",
                         "ok": false,
                         "actual": "7:00",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(2,True) :",
                         "ok": false,
                         "actual": "7:00",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(3,True) :",
                         "ok": false,
                         "actual": "7:00",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(4,True) :",
                         "ok": false,
                         "actual": "7:00",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(5,True) :",
                         "ok": false,
                         "actual": "7:00",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(6,True) :",
                         "ok": false,
                         "actual": "10:00",
-                        "expected": "off"
+                        "expected": "off",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(0,False) :",
                         "ok": false,
                         "actual": "off",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "(6,False) :",
                         "ok": false,
                         "actual": "off",
-                        "expected": "10:00"
+                        "expected": "10:00",
+                        "errortype": "output incorrect"
                     }
                 ]
             }
@@ -396,7 +433,8 @@
                         "msg": "[] = 0",
                         "ok": false,
                         "actual": null,
-                        "expected": 0
+                        "expected": 0,
+                        "errortype": "runtime error"
                     }
                 ]
             }
@@ -414,7 +452,8 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure2_0",
                         "ok": false,
-                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1037ea980>)"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x102e0b880>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -425,7 +464,8 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure2_2",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_2.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x1037ead80>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_2.py', 2, 1, 'for i in range (len(nums)-1):\\n', 2, 4)), <traceback object at 0x102e0bc80>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -436,7 +476,8 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure2_4",
                         "ok": false,
-                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1037eae40>)"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x102e1c040>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -447,7 +488,8 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure2_17",
                         "ok": false,
-                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x1037fc580>)"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'num' is not defined\"), <traceback object at 0x102e1d480>)",
+                        "errortype": "runtime error"
                     }
                 ]
             }
@@ -465,7 +507,8 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure4_0",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_0.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x104be2a40>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_0.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102d67940>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -476,7 +519,8 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure4_1",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_1.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x104be2d00>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_1.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102d67c00>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -487,7 +531,8 @@
                     {
                         "msg": "error importing source code Haynes_Magyar2022figure4_2",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_2.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x104be29c0>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_2.py', 2, 1, 'count = 0\\n', 2, 6)), <traceback object at 0x102d64240>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -498,7 +543,8 @@
                     {
                         "msg": "error running Haynes_Magyar2022figure4_4",
                         "ok": false,
-                        "actual": "(<class 'TypeError'>, TypeError(\"bad operand type for abs(): 'NoneType'\"), <traceback object at 0x104be3900>)"
+                        "actual": "(<class 'TypeError'>, TypeError(\"bad operand type for abs(): 'NoneType'\"), <traceback object at 0x102d78840>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -510,115 +556,134 @@
                         "msg": "0,0,0,[0]=1",
                         "ok": false,
                         "actual": 0,
-                        "expected": 1
+                        "expected": 1,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "1,0,0,[0]=0",
                         "ok": false,
                         "actual": 1,
-                        "expected": 0
+                        "expected": 0,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "0,0,1,[0,0]=2",
                         "ok": false,
                         "actual": 0,
-                        "expected": 2
+                        "expected": 2,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "0,0,1,[0,0,0]=2",
                         "ok": false,
                         "actual": 0,
-                        "expected": 2
+                        "expected": 2,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "0,0,1,[0,0,0,0]=2",
                         "ok": false,
                         "actual": 0,
-                        "expected": 2
+                        "expected": 2,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "0,0,2,[0,0,0,0]=3",
                         "ok": false,
                         "actual": 0,
-                        "expected": 3
+                        "expected": 3,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "0,0,3,[0,0,0,0]=4",
                         "ok": false,
                         "actual": 0,
-                        "expected": 4
+                        "expected": 4,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "3,0,3,[1,2,3,1,2,3,1,2,3]=1",
                         "ok": false,
                         "actual": 2,
-                        "expected": 1
+                        "expected": 1,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "3,0,8,[1,2,3,1,2,3,1,2,3]=3",
                         "ok": false,
                         "actual": 2,
-                        "expected": 3
+                        "expected": 3,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "2,0,8,[1,2,3,1,2,3,1,2,3]=3",
                         "ok": false,
                         "actual": 1,
-                        "expected": 3
+                        "expected": 3,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "1,0,8,[1,2,3,1,2,3,1,2,3]=3",
                         "ok": false,
                         "actual": 0,
-                        "expected": 3
+                        "expected": 3,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,0,0,[9,9,9,9,9,9,9,9,9]=1",
                         "ok": false,
                         "actual": 0,
-                        "expected": 1
+                        "expected": 1,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,0,1,[9,9,9,9,9,9,9,9,9]=2",
                         "ok": false,
                         "actual": 0,
-                        "expected": 2
+                        "expected": 2,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,0,2,[9,9,9,9,9,9,9,9,9]=3",
                         "ok": false,
                         "actual": 0,
-                        "expected": 3
+                        "expected": 3,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,0,3,[9,9,9,9,9,9,9,9,9]=4",
                         "ok": false,
                         "actual": 0,
-                        "expected": 4
+                        "expected": 4,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,0,8,[9,9,9,9,9,9,9,9,9]=9",
                         "ok": false,
                         "actual": 0,
-                        "expected": 9
+                        "expected": 9,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,8,8,[9,9,9,9,9,9,9,9,9]=1",
                         "ok": false,
                         "actual": 0,
-                        "expected": 1
+                        "expected": 1,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,7,8,[9,9,9,9,9,9,9,9,9]=2",
                         "ok": false,
                         "actual": 0,
-                        "expected": 2
+                        "expected": 2,
+                        "errortype": "output incorrect"
                     },
                     {
                         "msg": "9,4,5,[9,9,9,9,9,9,9,9,9]=2",
                         "ok": false,
                         "actual": 0,
-                        "expected": 2
+                        "expected": 2,
+                        "errortype": "output incorrect"
                     }
                 ]
             }
@@ -642,7 +707,8 @@
                     {
                         "msg": "error running Karavirta2012Figure3_0",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103406900>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1053f7a40>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -653,7 +719,8 @@
                     {
                         "msg": "error running Karavirta2012Figure3_2",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1034070c0>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1054041c0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -664,7 +731,8 @@
                     {
                         "msg": "error running Karavirta2012Figure3_4",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1034076c0>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1054047c0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -675,7 +743,8 @@
                     {
                         "msg": "error running Karavirta2012Figure3_10",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103414280>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105405340>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -686,7 +755,8 @@
                     {
                         "msg": "error importing source code Karavirta2012Figure3_11",
                         "ok": false,
-                        "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x103407700>)"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x105404800>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -697,7 +767,8 @@
                     {
                         "msg": "error running Karavirta2012Figure3_15",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103414c00>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105405cc0>)",
+                        "errortype": "runtime error"
                     }
                 ]
             },
@@ -708,7 +779,8 @@
                     {
                         "msg": "error importing source code Karavirta2012Figure3_17",
                         "ok": false,
-                        "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x103414f40>)"
+                        "actual": "(<class 'NameError'>, NameError(\"name 'alist' is not defined\"), <traceback object at 0x105406000>)",
+                        "errortype": "import error"
                     }
                 ]
             },
@@ -719,7 +791,8 @@
                     {
                         "msg": "error running Karavirta2012Figure3_19",
                         "ok": false,
-                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x103415340>)"
+                        "actual": "(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105406400>)",
+                        "errortype": "runtime error"
                     }
                 ]
             }
@@ -737,7 +810,8 @@
                     {
                         "msg": "error importing source code Weinmann2021figure1_2",
                         "ok": false,
-                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Weinmann2021figure1/Weinmann2021figure1_2.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x1052404c0>)"
+                        "actual": "(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Weinmann2021figure1/Weinmann2021figure1_2.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\\n', 2, 4)), <traceback object at 0x1050cd480>)",
+                        "errortype": "import error"
                     }
                 ]
             }

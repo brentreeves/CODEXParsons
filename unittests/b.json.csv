@@ -1,0 +1,75 @@
+ok,errortype,msg,actual
+False,runtime error,error running Ericson2017figure4_0,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b780>)"
+False,runtime error,error running Ericson2017figure4_1,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147ba80>)"
+False,runtime error,error running Ericson2017figure4_2,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b6c0>)"
+False,runtime error,error running Ericson2017figure4_3,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147ba40>)"
+False,runtime error,error running Ericson2017figure4_4,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147b780>)"
+False,runtime error,error running Ericson2017figure4_5,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10147be80>)"
+False,runtime error,error running Ericson2017figure4_6,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)"
+False,runtime error,error running Ericson2017figure4_7,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+False,runtime error,error running Ericson2017figure4_8,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)"
+False,runtime error,error running Ericson2017figure4_9,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+False,runtime error,error running Ericson2017figure4_10,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c2c0>)"
+False,runtime error,error running Ericson2017figure4_11,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+False,runtime error,error running Ericson2017figure4_12,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c080>)"
+False,runtime error,error running Ericson2017figure4_13,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c700>)"
+False,runtime error,error running Ericson2017figure4_14,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c440>)"
+False,runtime error,error running Ericson2017figure4_15,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c140>)"
+False,runtime error,error running Ericson2017figure4_16,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148c880>)"
+False,runtime error,error running Ericson2017figure4_17,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cac0>)"
+False,runtime error,error running Ericson2017figure4_18,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cb80>)"
+False,runtime error,error running Ericson2017figure4_19,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x10148cdc0>)"
+False,import error,error importing source code Ericson2022figure2_2,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_2.py', 2, 1, 'if guess < target:\n', 2, 3)), <traceback object at 0x1019d0a00>)"
+False,import error,error importing source code Ericson2022figure2_11,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Ericson2022figure2/Ericson2022figure2_11.py', 2, 1, 'if guess == target:\n', 2, 3)), <traceback object at 0x1019d1d40>)"
+False,output incorrect,a b = 'ab' 'a b',a b
+False,output incorrect,aa bb = 'ab',aa bb
+False,output incorrect,aaa bbb = ab,aaa bbb
+False,output incorrect,"' spacea',' spaceb' = [  ] ", spacea  spaceb
+False,output incorrect,"' spacesa ',' spacesb ' = ...", spacesa   spacesb 
+False,output incorrect,"'a z','b z' = ab",a z b z
+False,output incorrect,"(0,True) :",10:00
+False,output incorrect,"(1,True) :",7:00
+False,output incorrect,"(2,True) :",7:00
+False,output incorrect,"(3,True) :",7:00
+False,output incorrect,"(4,True) :",7:00
+False,output incorrect,"(5,True) :",7:00
+False,output incorrect,"(6,True) :",10:00
+False,output incorrect,"(0,False) :",off
+False,output incorrect,"(6,False) :",off
+False,runtime error,[] = 0,
+False,runtime error,error running Haynes_Magyar2022figure2_0,"(<class 'NameError'>, NameError(""name 'num' is not defined""), <traceback object at 0x102e0b880>)"
+False,import error,error importing source code Haynes_Magyar2022figure2_2,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure2/Haynes_Magyar2022figure2_2.py', 2, 1, 'for i in range (len(nums)-1):\n', 2, 4)), <traceback object at 0x102e0bc80>)"
+False,runtime error,error running Haynes_Magyar2022figure2_4,"(<class 'NameError'>, NameError(""name 'num' is not defined""), <traceback object at 0x102e1c040>)"
+False,runtime error,error running Haynes_Magyar2022figure2_17,"(<class 'NameError'>, NameError(""name 'num' is not defined""), <traceback object at 0x102e1d480>)"
+False,import error,error importing source code Haynes_Magyar2022figure4_0,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_0.py', 2, 1, 'count = 0\n', 2, 6)), <traceback object at 0x102d67940>)"
+False,import error,error importing source code Haynes_Magyar2022figure4_1,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_1.py', 2, 1, 'count = 0\n', 2, 6)), <traceback object at 0x102d67c00>)"
+False,import error,error importing source code Haynes_Magyar2022figure4_2,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Haynes_Magyar2022figure4/Haynes_Magyar2022figure4_2.py', 2, 1, 'count = 0\n', 2, 6)), <traceback object at 0x102d64240>)"
+False,runtime error,error running Haynes_Magyar2022figure4_4,"(<class 'TypeError'>, TypeError(""bad operand type for abs(): 'NoneType'""), <traceback object at 0x102d78840>)"
+False,output incorrect,"0,0,0,[0]=1",0
+False,output incorrect,"1,0,0,[0]=0",1
+False,output incorrect,"0,0,1,[0,0]=2",0
+False,output incorrect,"0,0,1,[0,0,0]=2",0
+False,output incorrect,"0,0,1,[0,0,0,0]=2",0
+False,output incorrect,"0,0,2,[0,0,0,0]=3",0
+False,output incorrect,"0,0,3,[0,0,0,0]=4",0
+False,output incorrect,"3,0,3,[1,2,3,1,2,3,1,2,3]=1",2
+False,output incorrect,"3,0,8,[1,2,3,1,2,3,1,2,3]=3",2
+False,output incorrect,"2,0,8,[1,2,3,1,2,3,1,2,3]=3",1
+False,output incorrect,"1,0,8,[1,2,3,1,2,3,1,2,3]=3",0
+False,output incorrect,"9,0,0,[9,9,9,9,9,9,9,9,9]=1",0
+False,output incorrect,"9,0,1,[9,9,9,9,9,9,9,9,9]=2",0
+False,output incorrect,"9,0,2,[9,9,9,9,9,9,9,9,9]=3",0
+False,output incorrect,"9,0,3,[9,9,9,9,9,9,9,9,9]=4",0
+False,output incorrect,"9,0,8,[9,9,9,9,9,9,9,9,9]=9",0
+False,output incorrect,"9,8,8,[9,9,9,9,9,9,9,9,9]=1",0
+False,output incorrect,"9,7,8,[9,9,9,9,9,9,9,9,9]=2",0
+False,output incorrect,"9,4,5,[9,9,9,9,9,9,9,9,9]=2",0
+False,runtime error,error running Karavirta2012Figure3_0,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1053f7a40>)"
+False,runtime error,error running Karavirta2012Figure3_2,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1054041c0>)"
+False,runtime error,error running Karavirta2012Figure3_4,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x1054047c0>)"
+False,runtime error,error running Karavirta2012Figure3_10,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105405340>)"
+False,import error,error importing source code Karavirta2012Figure3_11,"(<class 'NameError'>, NameError(""name 'alist' is not defined""), <traceback object at 0x105404800>)"
+False,runtime error,error running Karavirta2012Figure3_15,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105405cc0>)"
+False,import error,error importing source code Karavirta2012Figure3_17,"(<class 'NameError'>, NameError(""name 'alist' is not defined""), <traceback object at 0x105406000>)"
+False,runtime error,error running Karavirta2012Figure3_19,"(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x105406400>)"
+False,import error,error importing source code Weinmann2021figure1_2,"(<class 'IndentationError'>, IndentationError('expected an indented block after function definition on line 1', ('/Users/bnr01a/Documents/data/projects_current/CODEXParsons/unittests/./V1/Weinmann2021figure1/Weinmann2021figure1_2.py', 2, 1, 'for index in range (len(li)-1,-1,-1):\n', 2, 4)), <traceback object at 0x1050cd480>)"
