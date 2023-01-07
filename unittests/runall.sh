@@ -3,7 +3,7 @@
 # Winter '22 / Brent Reeves
 #
 # for each version (V1, V2, V3)
-#    test each python file append to data_$v
+#    test each python file and append to data_$v
 #
 for v in V*
 do

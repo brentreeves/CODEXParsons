@@ -42,7 +42,7 @@ class Parsons():
     
     def setLog(self, n):
         self.loglevel = n
-        print("self.loglevel is now: " + str(self.loglevel) + ' after receiving: ' + str(n))
+        # print("self.loglevel is now: " + str(self.loglevel) + ' after receiving: ' + str(n))
 
     def log(self, lvl, msg):
         if (lvl < self.loglevel):
@@ -239,9 +239,9 @@ class Parsons():
                 # oh well...
                 pass
 
-        s = sys.modules
-        print(s)
-        # print("sys.path b4 remove: ", sys.path)
+        # s = sys.modules
+        # print(s)
+        # # print("sys.path b4 remove: ", sys.path)
         # sys.path.remove(mpath)
         # print("sys.path affa remove: ", sys.path)
         # # sys.path.pop()
