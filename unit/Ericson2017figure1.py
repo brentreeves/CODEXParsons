@@ -14,9 +14,7 @@ import M
 class Ericson2017figure1(M.Parsons):
 
     def __init__(self):
-        print("2017figure1... b4")
         super().__init__("Ericson2017figure1", "getSum")
-        print("2017figure1... affa")
 
     def testit(self):
         # print("Ericson2017figure1:testit: ", self.dafile)
