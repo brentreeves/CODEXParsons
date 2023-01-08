@@ -140,27 +140,6 @@ V1,Ericson2017figure1,Ericson2017figure1_19,0,"[1,0,-1,-1] = -1 ",-1,-1,
 V1,Ericson2017figure1,Ericson2017figure1_19,0,"[1,2,3,4] = 10 ",10,10,
 V1,Ericson2017figure1,Ericson2017figure1_19,0,"[-99,1,1,1,1,1] = 94 ",-94,-94,
 folder,figure,file,ok,msg,actual,expected,errortype
-V1,Ericson2017figure4,Ericson2017figure4_0,1,error running Ericson2017figure4_0,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_1,1,error running Ericson2017figure4_1,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_2,1,error running Ericson2017figure4_2,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_3,1,error running Ericson2017figure4_3,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_4,1,error running Ericson2017figure4_4,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_5,1,error running Ericson2017figure4_5,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_6,1,error running Ericson2017figure4_6,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_7,1,error running Ericson2017figure4_7,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_8,1,error running Ericson2017figure4_8,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_9,1,error running Ericson2017figure4_9,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_10,1,error running Ericson2017figure4_10,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_11,1,error running Ericson2017figure4_11,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_12,1,error running Ericson2017figure4_12,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_13,1,error running Ericson2017figure4_13,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_14,1,error running Ericson2017figure4_14,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_15,1,error running Ericson2017figure4_15,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_16,1,error running Ericson2017figure4_16,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_17,1,error running Ericson2017figure4_17,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_18,1,error running Ericson2017figure4_18,list index out of range,should run,runtime error
-V1,Ericson2017figure4,Ericson2017figure4_19,1,error running Ericson2017figure4_19,list index out of range,should run,runtime error
-folder,figure,file,ok,msg,actual,expected,errortype
 V1,Ericson2018figure5,Ericson2018figure5_0,0,"([1],0,0) = T",True,True,
 V1,Ericson2018figure5,Ericson2018figure5_0,0,"([1,1,1],0,0) =T",True,True,
 V1,Ericson2018figure5,Ericson2018figure5_0,0,"([1,1,99],0,0) =T",True,True,
@@ -1335,7 +1314,7 @@ V1,Ericson2022figure4,Ericson2022figure4_8,1,"(6,True) :",10:00,off,output incor
 V1,Ericson2022figure4,Ericson2022figure4_8,1,"(0,False) :",off,10:00,output incorrect
 V1,Ericson2022figure4,Ericson2022figure4_8,1,"(6,False) :",off,10:00,output incorrect
 folder,figure,file,ok,msg,actual,expected,errortype
-V1,Ericson2022figure8,Ericson2022figure8_0,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_0,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_0,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_0,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_0,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1350,7 +1329,7 @@ V1,Ericson2022figure8,Ericson2022figure8_0,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_0,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_0,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_0,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_1,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_1,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1365,7 +1344,7 @@ V1,Ericson2022figure8,Ericson2022figure8_1,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_1,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_1,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_1,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_2,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_2,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1380,7 +1359,7 @@ V1,Ericson2022figure8,Ericson2022figure8_2,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_2,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_2,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_2,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_3,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_3,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_3,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_3,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_3,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1395,8 +1374,21 @@ V1,Ericson2022figure8,Ericson2022figure8_3,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_3,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_3,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_3,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_4,1,error running Ericson2022figure8_4,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
-V1,Ericson2022figure8,Ericson2022figure8_5,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,0] = 0.0",0.0,0,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,0,0] = 0.0",0.0,0,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,0,0,-1] = 0.0",0.0,0,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,0,0,-3] = 0.0",0.0,0,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[1,1,1,0] = 1.0",1.0,1,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[1,1,0,1] = 1.0",1.0,1,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[1,0,1,1] = 1.0",1.0,1,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,1,1,1] = 1.0",1.0,1,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,2,2,2] = 2",2.0,2,
+V1,Ericson2022figure8,Ericson2022figure8_4,0,"[0,1,3,5] = 3",3.0,3,
+V1,Ericson2022figure8,Ericson2022figure8_5,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1411,7 +1403,7 @@ V1,Ericson2022figure8,Ericson2022figure8_5,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_5,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_5,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_5,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_6,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_6,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1426,7 +1418,7 @@ V1,Ericson2022figure8,Ericson2022figure8_6,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_6,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_6,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_6,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_7,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_7,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1441,7 +1433,7 @@ V1,Ericson2022figure8,Ericson2022figure8_7,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_7,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_7,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_7,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_8,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_8,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_8,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_8,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_8,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1456,7 +1448,7 @@ V1,Ericson2022figure8,Ericson2022figure8_8,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_8,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_8,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_8,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_9,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_9,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1471,7 +1463,7 @@ V1,Ericson2022figure8,Ericson2022figure8_9,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_9,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_9,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_9,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_10,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_10,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_10,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_10,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_10,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1486,7 +1478,7 @@ V1,Ericson2022figure8,Ericson2022figure8_10,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_10,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_10,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_10,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_11,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_11,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_11,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_11,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_11,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1501,7 +1493,7 @@ V1,Ericson2022figure8,Ericson2022figure8_11,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_11,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_11,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_11,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_12,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_12,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_12,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_12,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_12,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1516,7 +1508,7 @@ V1,Ericson2022figure8,Ericson2022figure8_12,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_12,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_12,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_12,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_13,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_13,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_13,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_13,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_13,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1531,7 +1523,7 @@ V1,Ericson2022figure8,Ericson2022figure8_13,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_13,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_13,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_13,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_14,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_14,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_14,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_14,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_14,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1546,7 +1538,7 @@ V1,Ericson2022figure8,Ericson2022figure8_14,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_14,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_14,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_14,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_15,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_15,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_15,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_15,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_15,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1561,7 +1553,7 @@ V1,Ericson2022figure8,Ericson2022figure8_15,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_15,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_15,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_15,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_16,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_16,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1576,7 +1568,7 @@ V1,Ericson2022figure8,Ericson2022figure8_16,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_16,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_16,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_16,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_17,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_17,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_17,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_17,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_17,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1591,7 +1583,7 @@ V1,Ericson2022figure8,Ericson2022figure8_17,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_17,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_17,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_17,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_18,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_18,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_18,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_18,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_18,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1606,7 +1598,7 @@ V1,Ericson2022figure8,Ericson2022figure8_18,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_18,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_18,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_18,0,"[0,1,3,5] = 3",3.0,3,
-V1,Ericson2022figure8,Ericson2022figure8_19,0,[] = 0,0,0,
+V1,Ericson2022figure8,Ericson2022figure8_19,0,[] = 0,0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_19,0,"[0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_19,0,"[0,0,0] = 0.0",0.0,0,
 V1,Ericson2022figure8,Ericson2022figure8_19,0,"[0,0,0,-1] = 0.0",0.0,0,
@@ -1621,6 +1613,7 @@ V1,Ericson2022figure8,Ericson2022figure8_19,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_19,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V1,Ericson2022figure8,Ericson2022figure8_19,0,"[0,2,2,2] = 2",2.0,2,
 V1,Ericson2022figure8,Ericson2022figure8_19,0,"[0,1,3,5] = 3",3.0,3,
+V1,Ericson2022figure8,Ericson2022figure8_4,1,[] = 0,,0,runtime error
 folder,figure,file,ok,msg,actual,expected,errortype
 V1,Haynes_Magyar2022figure2,Haynes_Magyar2022figure2_0,1,error running Haynes_Magyar2022figure2_0,name 'num' is not defined,should run,runtime error
 V1,Haynes_Magyar2022figure2,Haynes_Magyar2022figure2_1,0, [1] = False,False,False,
@@ -2956,27 +2949,6 @@ V2,Ericson2017figure1,Ericson2017figure1_18,0,"[1,0,-1,-1] = -1 ",-1,-1,
 V2,Ericson2017figure1,Ericson2017figure1_18,0,"[1,2,3,4] = 10 ",10,10,
 V2,Ericson2017figure1,Ericson2017figure1_18,0,"[-99,1,1,1,1,1] = 94 ",-94,-94,
 V2,Ericson2017figure1,Ericson2017figure1_19,1,error importing source code Ericson2017figure1_19,"expected an indented block after function definition on line 1 (Ericson2017figure1_19.py, line 2)",should import,import error
-folder,figure,file,ok,msg,actual,expected,errortype
-V2,Ericson2017figure4,Ericson2017figure4_0,1,error importing source code Ericson2017figure4_0,"expected an indented block after function definition on line 1 (Ericson2017figure4_0.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_1,1,error running Ericson2017figure4_1,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_2,1,error running Ericson2017figure4_2,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_3,1,error importing source code Ericson2017figure4_3,"expected an indented block after function definition on line 1 (Ericson2017figure4_3.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_4,1,error running Ericson2017figure4_4,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_5,1,error running Ericson2017figure4_5,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_6,1,error running Ericson2017figure4_6,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_7,1,error importing source code Ericson2017figure4_7,"expected an indented block after function definition on line 1 (Ericson2017figure4_7.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_8,1,error importing source code Ericson2017figure4_8,"expected an indented block after function definition on line 1 (Ericson2017figure4_8.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_9,1,error importing source code Ericson2017figure4_9,"expected an indented block after function definition on line 1 (Ericson2017figure4_9.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_10,1,error importing source code Ericson2017figure4_10,"expected an indented block after function definition on line 1 (Ericson2017figure4_10.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_11,1,error running Ericson2017figure4_11,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_12,1,error importing source code Ericson2017figure4_12,"expected an indented block after function definition on line 1 (Ericson2017figure4_12.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_13,1,error running Ericson2017figure4_13,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_14,1,error running Ericson2017figure4_14,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_15,1,error running Ericson2017figure4_15,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_16,1,error importing source code Ericson2017figure4_16,"expected an indented block after function definition on line 1 (Ericson2017figure4_16.py, line 2)",should import,import error
-V2,Ericson2017figure4,Ericson2017figure4_17,1,error running Ericson2017figure4_17,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_18,1,error running Ericson2017figure4_18,list index out of range,should run,runtime error
-V2,Ericson2017figure4,Ericson2017figure4_19,1,error running Ericson2017figure4_19,list index out of range,should run,runtime error
 folder,figure,file,ok,msg,actual,expected,errortype
 V2,Ericson2018figure5,Ericson2018figure5_0,0,"([1],0,0) = T",True,True,
 V2,Ericson2018figure5,Ericson2018figure5_0,0,"([1,1,1],0,0) =T",True,True,
@@ -5185,27 +5157,6 @@ V3,Ericson2017figure1,Ericson2017figure1_19,0,"[1,0,-1,-1] = -1 ",-1,-1,
 V3,Ericson2017figure1,Ericson2017figure1_19,0,"[1,2,3,4] = 10 ",10,10,
 V3,Ericson2017figure1,Ericson2017figure1_19,0,"[-99,1,1,1,1,1] = 94 ",-94,-94,
 folder,figure,file,ok,msg,actual,expected,errortype
-V3,Ericson2017figure4,Ericson2017figure4_0,1,error running Ericson2017figure4_0,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_1,1,error running Ericson2017figure4_1,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_2,1,error running Ericson2017figure4_2,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_3,1,error running Ericson2017figure4_3,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_4,1,error running Ericson2017figure4_4,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_5,1,error running Ericson2017figure4_5,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_6,1,error running Ericson2017figure4_6,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_7,1,error importing source code Ericson2017figure4_7,"expected an indented block after function definition on line 1 (Ericson2017figure4_7.py, line 2)",should import,import error
-V3,Ericson2017figure4,Ericson2017figure4_8,1,error importing source code Ericson2017figure4_8,"expected an indented block after function definition on line 1 (Ericson2017figure4_8.py, line 2)",should import,import error
-V3,Ericson2017figure4,Ericson2017figure4_9,1,error running Ericson2017figure4_9,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_10,1,error running Ericson2017figure4_10,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_11,1,error running Ericson2017figure4_11,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_12,1,error running Ericson2017figure4_12,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_13,1,error running Ericson2017figure4_13,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_14,1,error running Ericson2017figure4_14,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_15,1,error running Ericson2017figure4_15,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_16,1,error running Ericson2017figure4_16,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_17,1,error running Ericson2017figure4_17,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_18,1,error running Ericson2017figure4_18,list index out of range,should run,runtime error
-V3,Ericson2017figure4,Ericson2017figure4_19,1,error importing source code Ericson2017figure4_19,"expected an indented block after function definition on line 1 (Ericson2017figure4_19.py, line 2)",should import,import error
-folder,figure,file,ok,msg,actual,expected,errortype
 V3,Ericson2018figure5,Ericson2018figure5_0,0,"([1],0,0) = T",True,True,
 V3,Ericson2018figure5,Ericson2018figure5_0,0,"([1,1,1],0,0) =T",True,True,
 V3,Ericson2018figure5,Ericson2018figure5_0,0,"([1,1,99],0,0) =T",True,True,
@@ -6134,8 +6085,34 @@ V3,Ericson2022figure8,Ericson2022figure8_0,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_0,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_0,0,"[0,2,2,2] = 2",2.0,2,
 V3,Ericson2022figure8,Ericson2022figure8_0,0,"[0,1,3,5] = 3",3.0,3,
-V3,Ericson2022figure8,Ericson2022figure8_1,1,error running Ericson2022figure8_1,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
-V3,Ericson2022figure8,Ericson2022figure8_2,1,error running Ericson2022figure8_2,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_1,0,"[0,1,3,5] = 3",3.0,3,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_2,0,"[0,1,3,5] = 3",3.0,3,
 V3,Ericson2022figure8,Ericson2022figure8_3,0,[] = 0,0,0,
 V3,Ericson2022figure8,Ericson2022figure8_3,0,"[0,0] = 0.0",0.0,0,
 V3,Ericson2022figure8,Ericson2022figure8_3,0,"[0,0,0] = 0.0",0.0,0,
@@ -6166,9 +6143,48 @@ V3,Ericson2022figure8,Ericson2022figure8_4,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_4,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_4,0,"[0,2,2,2] = 2",2.0,2,
 V3,Ericson2022figure8,Ericson2022figure8_4,0,"[0,1,3,5] = 3",3.0,3,
-V3,Ericson2022figure8,Ericson2022figure8_5,1,error running Ericson2022figure8_5,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
-V3,Ericson2022figure8,Ericson2022figure8_6,1,error running Ericson2022figure8_6,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
-V3,Ericson2022figure8,Ericson2022figure8_7,1,error running Ericson2022figure8_7,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_5,0,"[0,1,3,5] = 3",3.0,3,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_6,0,"[0,1,3,5] = 3",3.0,3,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_7,0,"[0,1,3,5] = 3",3.0,3,
 V3,Ericson2022figure8,Ericson2022figure8_8,0,[] = 0,0,0,
 V3,Ericson2022figure8,Ericson2022figure8_8,0,"[0,0] = 0.0",0.0,0,
 V3,Ericson2022figure8,Ericson2022figure8_8,0,"[0,0,0] = 0.0",0.0,0,
@@ -6184,7 +6200,20 @@ V3,Ericson2022figure8,Ericson2022figure8_8,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_8,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_8,0,"[0,2,2,2] = 2",2.0,2,
 V3,Ericson2022figure8,Ericson2022figure8_8,0,"[0,1,3,5] = 3",3.0,3,
-V3,Ericson2022figure8,Ericson2022figure8_9,1,error running Ericson2022figure8_9,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_9,0,"[0,1,3,5] = 3",3.0,3,
 V3,Ericson2022figure8,Ericson2022figure8_10,0,[] = 0,0,0,
 V3,Ericson2022figure8,Ericson2022figure8_10,0,"[0,0] = 0.0",0.0,0,
 V3,Ericson2022figure8,Ericson2022figure8_10,0,"[0,0,0] = 0.0",0.0,0,
@@ -6261,7 +6290,20 @@ V3,Ericson2022figure8,Ericson2022figure8_15,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_15,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_15,0,"[0,2,2,2] = 2",2.0,2,
 V3,Ericson2022figure8,Ericson2022figure8_15,0,"[0,1,3,5] = 3",3.0,3,
-V3,Ericson2022figure8,Ericson2022figure8_16,1,error running Ericson2022figure8_16,'Parsons_Ericson2022figure8' object has no attribute 'logErr',should run,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0,0] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0,0,-1] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,0,0,-3] = 0.0",0.0,0,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[1,1,1,0] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[1,1,0,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[1,0,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,1,1,1] = 1.0",1.0,1,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[-9,-1,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[-1,-9,-3,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,2,2,2] = 2",2.0,2,
+V3,Ericson2022figure8,Ericson2022figure8_16,0,"[0,1,3,5] = 3",3.0,3,
 V3,Ericson2022figure8,Ericson2022figure8_17,0,[] = 0,0,0,
 V3,Ericson2022figure8,Ericson2022figure8_17,0,"[0,0] = 0.0",0.0,0,
 V3,Ericson2022figure8,Ericson2022figure8_17,0,"[0,0,0] = 0.0",0.0,0,
@@ -6307,6 +6349,13 @@ V3,Ericson2022figure8,Ericson2022figure8_19,0,"[-1,-3,-9,-5] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_19,0,"[-1,-3,-5,-9] = -3",-3.0,-3,
 V3,Ericson2022figure8,Ericson2022figure8_19,0,"[0,2,2,2] = 2",2.0,2,
 V3,Ericson2022figure8,Ericson2022figure8_19,0,"[0,1,3,5] = 3",3.0,3,
+V3,Ericson2022figure8,Ericson2022figure8_1,1,[] = 0,,0,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_2,1,[] = 0,,0,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_5,1,[] = 0,,0,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_6,1,[] = 0,,0,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_7,1,[] = 0,,0,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_9,1,[] = 0,,0,runtime error
+V3,Ericson2022figure8,Ericson2022figure8_16,1,[] = 0,,0,runtime error
 folder,figure,file,ok,msg,actual,expected,errortype
 V3,Haynes_Magyar2022figure2,Haynes_Magyar2022figure2_0,0, [1] = False,False,False,
 V3,Haynes_Magyar2022figure2,Haynes_Magyar2022figure2_0,0," [1,1] = False",False,False,

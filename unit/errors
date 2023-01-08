@@ -1,26 +1,5 @@
 folder start  V1 ---------------------------------------------------------------
 Parsons_Ericson2017figure1.py V1 --------------------------------------------------------------
-Parsons_Ericson2017figure4.py V1 --------------------------------------------------------------
-{'error': 'ERROR: error running File: Ericson2017figure4_0', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_1', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_2', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_3', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_4', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_5', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_6', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_7', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_8', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_9', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_10', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_11', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_12', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_13', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_14', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_15', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_16', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_17', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_18', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_19', 'exception': 'list index out of range'}
 Parsons_Ericson2018figure5.py V1 --------------------------------------------------------------
 Parsons_Ericson2022figure2.py V1 --------------------------------------------------------------
 {'error': 'ERROR: problem with import  File: Ericson2022figure2_2', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_2.py, line 2)'}
@@ -28,7 +7,7 @@ Parsons_Ericson2022figure2.py V1 -----------------------------------------------
 Parsons_Ericson2022figure3.py V1 --------------------------------------------------------------
 Parsons_Ericson2022figure4.py V1 --------------------------------------------------------------
 Parsons_Ericson2022figure8.py V1 --------------------------------------------------------------
-{'error': 'ERROR: error running File: Ericson2022figure8_4', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
+{'error': 'ERROR: M.py expectN  Folder: V1 File: Ericson2022figure8_4\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
 Parsons_Haynes_Magyar2022figure2.py V1 --------------------------------------------------------------
 {'error': 'ERROR: error running File: Haynes_Magyar2022figure2_0', 'exception': "name 'num' is not defined"}
 {'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_2', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_2.py, line 2)'}
@@ -58,27 +37,6 @@ Parsons_Ericson2017figure1.py V2 -----------------------------------------------
 {'error': 'ERROR: error running File: Ericson2017figure1_7', 'exception': "name 'numList' is not defined"}
 {'error': 'ERROR: error running File: Ericson2017figure1_16', 'exception': "name 'numList' is not defined"}
 {'error': 'ERROR: problem with import  File: Ericson2017figure1_19', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_19.py, line 2)'}
-Parsons_Ericson2017figure4.py V2 --------------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_0', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_0.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure4_1', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_2', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_3', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_3.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure4_4', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_5', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_6', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_7', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_7.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_8', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_8.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_9', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_10', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_10.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure4_11', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_12', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_12.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure4_13', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_14', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_15', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_16', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_16.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure4_17', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_18', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_19', 'exception': 'list index out of range'}
 Parsons_Ericson2018figure5.py V2 --------------------------------------------------------------
 {'error': 'ERROR: problem with import  File: Ericson2018figure5_5', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_5.py, line 2)'}
 {'error': 'ERROR: problem with import  File: Ericson2018figure5_6', 'exception': "expected an indented block after 'for' statement on line 3 (Ericson2018figure5_6.py, line 4)"}
@@ -165,27 +123,6 @@ Parsons_Ericson2017figure1.py V3 -----------------------------------------------
 {'error': 'ERROR: error running File: Ericson2017figure1_7', 'exception': "name 'numList' is not defined"}
 {'error': 'ERROR: error running File: Ericson2017figure1_11', 'exception': "name 'numList' is not defined"}
 {'error': 'ERROR: error running File: Ericson2017figure1_12', 'exception': "name 'numList' is not defined"}
-Parsons_Ericson2017figure4.py V3 --------------------------------------------------------------
-{'error': 'ERROR: error running File: Ericson2017figure4_0', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_1', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_2', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_3', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_4', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_5', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_6', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_7', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_7.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_8', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_8.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure4_9', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_10', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_11', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_12', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_13', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_14', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_15', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_16', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_17', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Ericson2017figure4_18', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure4_19', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_19.py, line 2)'}
 Parsons_Ericson2018figure5.py V3 --------------------------------------------------------------
 {'error': 'ERROR: problem with import  File: Ericson2018figure5_4', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_4.py, line 2)'}
 {'error': 'ERROR: problem with import  File: Ericson2018figure5_11', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_11.py, line 2)'}
@@ -212,14 +149,14 @@ Parsons_Ericson2022figure4.py V3 -----------------------------------------------
 {'error': 'ERROR: problem with import  File: Ericson2022figure4_13', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_13.py, line 2)'}
 {'error': 'ERROR: problem with import  File: Ericson2022figure4_16', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_16.py, line 2)'}
 Parsons_Ericson2022figure8.py V3 --------------------------------------------------------------
-{'error': 'ERROR: error running File: Ericson2022figure8_1', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
-{'error': 'ERROR: error running File: Ericson2022figure8_2', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
-{'error': 'ERROR: error running File: Ericson2022figure8_5', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
-{'error': 'ERROR: error running File: Ericson2022figure8_6', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
-{'error': 'ERROR: error running File: Ericson2022figure8_7', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
-{'error': 'ERROR: error running File: Ericson2022figure8_9', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_1\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_2\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_5\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_6\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_7\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_9\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
 {'error': 'ERROR: problem with import  File: Ericson2022figure8_12', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure8_12.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2022figure8_16', 'exception': "'Parsons_Ericson2022figure8' object has no attribute 'logErr'"}
+{'error': 'ERROR: M.py expectN  Folder: V3 File: Ericson2022figure8_16\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
 Parsons_Haynes_Magyar2022figure2.py V3 --------------------------------------------------------------
 {'error': 'ERROR: error running File: Haynes_Magyar2022figure2_1', 'exception': "name 'num' is not defined"}
 {'error': 'ERROR: error running File: Haynes_Magyar2022figure2_2', 'exception': "name 'num' is not defined"}

@@ -123,9 +123,9 @@ class Parsons():
         try:    
             actual = f(args)
         except:
-            ff = f'ERROR: 0.py expectN  Folder: {self.folder} File: {self.dafile}\nNote: {note} args: {args} expect: {expect}'
+            ff = f'ERROR: M.py expectN  Folder: {self.folder} File: {self.dafile}\nNote: {note} args: {args} expect: {expect}'
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1]) }
-            self.logErr(ee)
+            self.errLog(ee)
             return self.entry(False, note, actual, expect, "runtime error")
             # return {"msg": note, "ok": False, "actual": actual, "expected": expect, "errortype": "runtime error"}
 
@@ -160,7 +160,7 @@ class Parsons():
         if ( len(self.ff) < 1) :
             # folder typo?
             ff = f'ERROR: no input files found for [{self.me}] folder: {self.ff}'
-            self.logErr(ff)
+            self.errLog(ff)
             fails += 1
             self.log(2,"  fail no input files")
             self.fails.append(
