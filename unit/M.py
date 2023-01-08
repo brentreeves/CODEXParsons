@@ -43,17 +43,24 @@ class Parsons():
         # print(f'setUpClass globs: affa: {str(self.ff)}  glob: {dastring}')
 
     def entry(self, ok, note, actual, expected, errortype):
+        yo = 1
+        if ok:
+            yo = 0
+            
         return {"folder": self.folder,
                 "figure": self.me,
                 "file": self.dafile,
+                "ok" : yo,
                 "msg": note,
-                "ok" : ok,
                 "actual" : actual,
                 "expected": expected,
                 "errortype": errortype
                 }
 
     
+    def errLog(self, txt):
+        print(txt, file=sys.stderr)
+
     def setLog(self, n):
         self.loglevel = n
         # print("self.loglevel is now: " + str(self.loglevel) + ' after receiving: ' + str(n))
@@ -118,7 +125,7 @@ class Parsons():
         except:
             ff = f'ERROR: 0.py expectN  Folder: {self.folder} File: {self.dafile}\nNote: {note} args: {args} expect: {expect}'
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1]) }
-            print(ee, file=sys.stderr)
+            self.logErr(ee)
             return self.entry(False, note, actual, expect, "runtime error")
             # return {"msg": note, "ok": False, "actual": actual, "expected": expect, "errortype": "runtime error"}
 
@@ -153,7 +160,7 @@ class Parsons():
         if ( len(self.ff) < 1) :
             # folder typo?
             ff = f'ERROR: no input files found for [{self.me}] folder: {self.ff}'
-            print(ff, file=sys.stderr)
+            self.logErr(ff)
             fails += 1
             self.log(2,"  fail no input files")
             self.fails.append(
@@ -164,18 +171,6 @@ class Parsons():
                            "empty folder"
                            )
                 )
-
-            # self.fails.append(
-            #     {"figure" : self.dafile,
-            #      "bad" : 1,
-            #      "issues": [ self.entry(False,
-            #                        "error no input files found in folder " + str(self.ff),
-            #                        "error",
-            #                        "valid folder",
-            #                        "empty folder"
-            #                        )]
-            #      })
-            # return entry(False, note, actual, expect, "runtime error")
 
         # in preparation for import, add correct folder to path
         #
@@ -215,35 +210,32 @@ class Parsons():
 
                 except:
                     ff = f'ERROR: error running File: {self.dafile}'
-                    ee = {"error" : ff, "exception" :  sys.exc_info() }
+                    ee = {"error" : ff, "exception" :  str(sys.exc_info()[1]) }
                     print(ee, file=sys.stderr)
 
                     fails += 1
                     bug = self.entry(False,
                                      "error running " + self.dafile,
-                                     str(sys.exc_info()),
-                                     'successful execution',
+                                     str(sys.exc_info()[1]),
+                                     'should run',
                                      'runtime error'
                                      )
                     self.log(2,"   runtime issue " + str(bug))
                     self.fails.append( bug )
-                                    # "issues" : [{"msg": "error running " + self.dafile,
-                                    #              "ok": False,
-                                    #              "actual": str(sys.exc_info()),
-                                    #              "errortype": "runtime error"
-                                    #              }]} )                    
+    
             except:
                 ff = f'ERROR: problem with import  File: {self.dafile}'
                 # ee = {"error" : ff, "exception" : str( sys.exc_info()[1] )  }
                 # ee = {"error" : ff, "exception" :  sys.exc_info()[1]  }
-                ee = {"error" : ff, "exception" :  sys.exc_info() }
+                ee = {"error" : ff, "exception" :  str(sys.exc_info()[1]) }
                 print(ee, file=sys.stderr)
 
                 fails += 1
+    # def entry(self, ok, note, actual, expected, errortype):
                 self.fails.append( self.entry(False,
                                               "error importing source code " + self.dafile,
-                                              str(sys.exc_info()),
-                                              "valid import",
+                                              str(sys.exc_info()[1]),
+                                              'should import',
                                               "import error"
                                               )
                                   )
@@ -269,11 +261,8 @@ class Parsons():
 
 
 
-    def ppjson(self, allfails):
-        # if (allfails > 0):
-        # print ( json.dumps( {"folder": self.folder, "problem": self.me, "fails" : allfails,
-        #                      "tests" : self.fails} ) + ", " )
-        print ( json.dumps (self.fails + self.wins) )
+    def ppjson(self):
+        return json.dumps (self.fails + self.wins) 
         
     # def pp(self):
     #     for key, (n, good, bad) in self.fails.items():
@@ -291,7 +280,11 @@ class Parsons():
         self.setLog(dbg)
         self.setUpFolder(folder)
         rc = self.loopit(dbg)
-        return self.ppjson(rc)
+        return self.fails + self.wins
+
+    def pp(self, folder, dbg=0):
+        x = self.go(folder, dbg)
+        return json.dumps (x)
 
     def cmdfolder(self):
         n = len(sys.argv)
