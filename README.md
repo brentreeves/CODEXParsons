@@ -2,6 +2,10 @@
 # CODEXParsons
 Testing CODEX with Parsons problems
 
+Two major parts:
+
+# The first part lives in /unittests
+
 1. O.py main class for unit testing
 1. Parsons_X classes for various specific Parsons problems
 
@@ -15,3 +19,14 @@ cd to /unittests and run it from there.
 # Notes
 We use jq is a utility to filter json.
 We use pandas to convert json to csv.  Overkill.
+
+# The second major part lives in /unit
+
+This part is working towards inclusion in jupyter notebook.
+O.py has been renamed to M.py and the Parsons_*.py files have been adjusted to be callable.
+
+this folder also has a runall.sh which loops through V1/2/3 subfolders and runs each Parsons_*.py program.
+
+It uses some unix utilities: grep, head, sort and cat.
+Usage for runall is:
+./runall.sh &> errors

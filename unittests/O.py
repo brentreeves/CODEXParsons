@@ -33,7 +33,6 @@ class Parsons():
     def setUpClass(self):
         self.fails = []
         self.ff = glob.glob(f'./{self.folder}{self.me}/{self.me}*.py')
-        # print("setUpClass globs: ", self.ff)
     
     def setLog(self, n):
         self.loglevel = n
@@ -45,7 +44,6 @@ class Parsons():
     # self.predicates = list(map ( self.fixem, args ))
     def fixem(self, args):
         note, result, expected = args
-        # print("fixem...")
         rc = False
         
         if ( (type(expected) is int ) or (type(expected) is float)):
@@ -80,7 +78,6 @@ class Parsons():
         try:
             rc = f(args)
         except:
-            # print("expect caught exception of f(args)")
             return note, False, rc
 
         errortype = ''
@@ -92,7 +89,6 @@ class Parsons():
 
 
     def expectN(self, note, f, args, expect):
-        # print(f'expectN: {note} f: {f}  args: {args} expect: {expect}')
         rc = None
         errortype = ''
 
@@ -122,21 +118,9 @@ class Parsons():
         # if (allfails > 0):
         print ( json.dumps( {"folder": self.folder, "problem": self.me, "fails" : allfails, "tests" : self.fails} ) + ", " )
 
-    def pp(self):
-        for key, (n, good, bad) in self.fails.items():
-            print(f'{key}: ({n})')
-
-    def pp2(self):
-        for key, (n, good, bad) in self.fails.items():
-            print(f'\n{key}: ({n})\nGood: {good}\nBad : {bad}')
-
-    def pp3(self):
-        for key, (n, good, bad) in self.fails.items():
-            print(f'\n{key}: ({n})\nGood: {good}\nBad : {bad}')
 
     def testit(self, dafile):
         # best overide with trixy things
-        print("Parsons:testit")
         return [],[],0
 
     def loopit(self, dbg):
@@ -144,7 +128,6 @@ class Parsons():
         self.log(1,f'loopit folder: {self.folder} me: {self.me}')
 
         sys.path.insert(0, f'./{self.folder}{self.me}')
-        # print("self.ff:", len(self.ff))
         self.log(1,"loopit enumerate..." + str(list(self.ff)))
         if ( len(self.ff) < 1) :
             # folder typo?
@@ -171,8 +154,6 @@ class Parsons():
                 try: 
                     self.log(1,"loopit calling testit")
                     nfail, good, bad = self.testit()
-                    # print("nfail: ", nfail)
-                    # print("bad: ", bad, file=sys.stderr)
                     if (nfail >0):
                         fails += 1
 
@@ -226,7 +207,6 @@ class Parsons():
         folder = ''
         if (n>1):
             folder = sys.argv[1]
-        # print("folder: ", folder)
         return folder
 
 
