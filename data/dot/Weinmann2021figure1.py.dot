@@ -1,0 +1,22 @@
+strict digraph "" {
+	node [label="\N"];
+	0	[label="0: start"];
+	8	[label="0: stop"];
+	0 -> 8;
+	1	[label="1: enter: last_even_adder(li)"];
+	3	[label="2: for: (True if range((len(li) - 1), (- 1), (- 1)) else False)"];
+	1 -> 3;
+	2	[label="1: exit: last_even_adder(li)"];
+	6	[label="4: return (lambda x: (x + li(index)))"];
+	6 -> 2;
+	7	[label="5: return 'All odd'"];
+	7 -> 2;
+	3 -> 7;
+	4	[label="2: index = range((len(li) - 1), (- 1), (- 1)).shift()"];
+	3 -> 4;
+	5	[label="3: if: ((li(index) % 2) == 0)"];
+	5 -> 6;
+	5 -> 3;
+	4 -> 5;
+}
+

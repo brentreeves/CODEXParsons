@@ -1,5 +1,5 @@
-def getSum(numlist):
+def getSum(numList):
 sum = 0
-for num in numlist:
+for num in numList:
 sum = sum + num
 return sum

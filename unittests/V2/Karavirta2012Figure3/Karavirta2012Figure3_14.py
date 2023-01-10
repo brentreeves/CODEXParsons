@@ -5,3 +5,5 @@ def findmax(alist):
             if item > curmax:
                 curmax=item
         return curmax
+    else:
+        return None

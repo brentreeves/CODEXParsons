@@ -1,4 +1,3 @@
-def isLevel(elList, start, end):
 max = elList[start]
 min = max
 for index in range(start, end+1):

@@ -5,3 +5,4 @@ def countInRange(target, start, end, numList):
         if current == target:
             count = count + 1
     return count
+

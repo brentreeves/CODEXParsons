@@ -6,17 +6,17 @@
 #    test each python file and append to data_$v
 #
 cat /dev/null > alldata.csv
-for v in V*
+for v in ../data/V/V*
 do
-    echo "folder start " $v "---------------------------------------------------------------"
+    echo "folder start " $v "----------------------------------------------------"
     for f in Parsons_*.py
     do
-	echo $f $v --------------------------------------------------------------
+	echo $f $v --------------------------------------------------------
 	python3 $f $v 0 > temp.json
 	python3 json2csv.py temp.json
 	cat temp.json.csv >> alldata.csv
     done
-    echo "folder end   " $v "---------------------------------------------------------------"
+    echo "folder end   " $v "----------------------------------------------------"
 done
 head -1 alldata.csv > header.csv
 grep -v  "^folder,figure,file" alldata.csv > temp1.csv

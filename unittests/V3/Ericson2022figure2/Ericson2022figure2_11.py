@@ -1,7 +1,7 @@
 def check_guess(guess,target):
-    if guess < target:
-        return 'too low'
-    elif guess == target:
+    if guess == target:
         return 'correct'
+    elif guess < target:
+        return 'too low'
     else:
         return 'too high'

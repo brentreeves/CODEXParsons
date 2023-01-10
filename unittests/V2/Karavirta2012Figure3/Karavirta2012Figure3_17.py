@@ -4,5 +4,3 @@ def findmax(alist):
         if item > curmax:
             curmax=item
     return curmax
-if len(alist) > 0:
-    print(findmax(alist))

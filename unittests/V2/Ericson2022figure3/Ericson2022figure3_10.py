@@ -6,3 +6,4 @@ class Person:
         return (self.first + " " + self.last)
     def initials(self):
         return(self.first[0] + self.last[0])
+

@@ -5,4 +5,5 @@ def avgValuesInRange(numList, start, end):
             value = numList[index]
             sum = sum + value
         return sum / (end - start + 1)
-    return 0
+    else:
+        return 0

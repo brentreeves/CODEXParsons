@@ -9,4 +9,3 @@ def alarm_clock(day, vacation):
             return '10:00'
         else:
             return '7:00'
-

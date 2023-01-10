@@ -3,3 +3,4 @@ def last_even_adder(li):
         if(li[index]) % 2 == 0:
             return lambda x : x + li[index]
     return 'All odd'
+

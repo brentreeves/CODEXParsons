@@ -1,0 +1,27 @@
+strict digraph "" {
+	node [label="\N"];
+	0	[label="0: start"];
+	10	[label="0: stop"];
+	0 -> 10;
+	1	[label="1: enter: findmax(alist)"];
+	3	[label="2: if: (len(alist) > 0)"];
+	1 -> 3;
+	2	[label="1: exit: findmax(alist)"];
+	9	[label="8: return curmax"];
+	9 -> 2;
+	3 -> 9;
+	4	[label="3: curmax = alist[0]"];
+	3 -> 4;
+	5	[label="4: for: (True if alist else False)"];
+	4 -> 5;
+	5 -> 9;
+	6	[label="4: item = alist.shift()"];
+	5 -> 6;
+	8	[label="6: curmax = item"];
+	8 -> 5;
+	7	[label="5: if: (item > curmax)"];
+	7 -> 5;
+	7 -> 8;
+	6 -> 7;
+}
+

@@ -8,4 +8,3 @@ def isLevel(elList, start, end):
         if value < min:
             min = value
     return (max-min) <= 10
-

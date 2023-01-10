@@ -1,6 +1,6 @@
 def getAverageDropLowest(numList):
-    sum = 0
     lowest = numList[0]
+    sum = 0
     for index in range(len(numList)):
         value = numList[index]
         sum = sum + value

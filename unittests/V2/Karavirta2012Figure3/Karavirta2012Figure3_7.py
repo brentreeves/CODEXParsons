@@ -4,4 +4,7 @@ def findmax(alist):
         for item in alist:
             if item > curmax:
                 curmax=item
-    return curmax
+        return curmax
+    else:
+        return None
+

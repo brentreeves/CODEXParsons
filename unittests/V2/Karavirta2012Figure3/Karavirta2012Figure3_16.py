@@ -7,4 +7,3 @@ def findmax(alist):
         return curmax
     else:
         return None
-

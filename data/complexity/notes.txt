@@ -1,3 +1,5 @@
+python3 ~/bin/pycfg.py Ericson2017figure1.py -d
+
 File: Ericson2017figure1.txt complexity: 1 Nodes: 9 edges: 8
 File: Ericson2017figure4.txt complexity: 2 Nodes: 12 edges: 12
 File: Ericson2018figure5.txt complexity: 3 Nodes: 14 edges: 15
@@ -10,3 +12,76 @@ File: Haynes-Magyar2022figure4.txt complexity: 2 Nodes: 11 edges: 11
 File: Hou2022figure2.txt complexity: 2 Nodes: 10 edges: 10
 File: Karavirta2012Figure3.txt complexity: 3 Nodes: 11 edges: 12
 File: Weinmann2021figure1.txt complexity: 2 Nodes: 9 edges: 9
+
+
+ for f in problems/*.py; do
+radon cc $f -a
+done
+problems/Ericson2017figure1.py
+    F 1:0 getSum - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.0)
+
+problems/Ericson2017figure4.py
+    F 1:0 avgValuesInRange - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.0)
+
+problems/Ericson2018figure5.py
+    F 1:0 isLevel - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.0)
+
+problems/Ericson2022figure2.py
+    F 1:0 check_guess - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.0)
+
+problems/Ericson2022figure3.py
+    ERROR: invalid syntax (<unknown>, line 2)
+
+problems/Ericson2022figure4.py
+    F 1:0 alarm_clock - B
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: B (6.0)
+
+problems/Ericson2022figure8.py
+    F 1:0 getAverageDropLowest - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.0)
+
+problems/Haynes-Magyar2022figure2.py
+    F 1:0 has22 - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.0)
+
+problems/Haynes-Magyar2022figure4.py
+    F 1:0 countInRange - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.0)
+
+problems/Hou2022figure2.py
+    F 1:0 filter_strings - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.0)
+
+problems/Karavirta2012Figure3.py
+    F 1:0 findmax - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.0)
+
+problems/Weinmann2021figure1.py
+    F 1:0 last_even_adder - A
+
+1 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.0)

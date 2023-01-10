@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/bnr01a/bin/pycfg.py", line 467, in <module>
+    cfg.gen_cfg(slurp(args.pythonfile).strip())
+  File "/Users/bnr01a/bin/pycfg.py", line 386, in gen_cfg
+    node = self.parse(src)
+  File "/Users/bnr01a/bin/pycfg.py", line 114, in parse
+    return ast.parse(src)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 2
+    def_init_(self, first, last):
+                                ^
+SyntaxError: invalid syntax
