@@ -81,7 +81,6 @@ class Parsons_Ericson2022figure3(M.Parsons):
                           "Could not make a Person",
                           "class Person:...",
                           'runtime error')
-
     
     def testit(self):
         # print("Ericson2022figure3:testit: ", self.dafile)

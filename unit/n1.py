@@ -8,15 +8,32 @@ n = m.Parsons()
 n.setLog(0)
 # print ( dir(n) )
 # n.go('../data/V', 0)
-folder = '../data/V/V1'
-problem = 'Ericson2017figure1'
-afile   = 'Ericson2017figure1_1'
-fname = f'{folder}/{problem}/{afile}'
-print ( os.path.exists(fname+".py") )
-print (os.path.basename(fname))
-print (os.path.abspath(fname))
-# False
-# Ericson2017figure1_1
-# /Users/bnr01a/Documents/data/projects_current/CODEXParsons/data/V/V1/Ericson2017figure1/Ericson2017figure1_1
+ps = [
+    ('../data/V/V1',"Ericson2017figure1", 'Ericson2017figure1_0'),
+    ('../data/V/V1',"Ericson2017figure4", 'Ericson2017figure4_0'),
+    ('../data/V/V1',"Ericson2018figure5", 'Ericson2018figure5_0'),
+    ('../data/V/V1',"Ericson2022figure2", 'Ericson2022figure2_0'),
+    ('../data/V/V1',"Ericson2022figure3", 'Ericson2022figure3_0'),
+    ('../data/V/V1',"Ericson2022figure4", 'Ericson2022figure4_0'),
+    ('../data/V/V1',"Ericson2022figure8", 'Ericson2022figure8_0'),
+    ('../data/V/V1',"Haynes_Magyar2022figure2", 'Haynes_Magyar2022figure2_0'),
+    ('../data/V/V1',"Haynes_Magyar2022figure4", 'Haynes_Magyar2022figure4_0'),
+    ('../data/V/V1',"Hou2022figure2", 'Hou2022figure2_0'),
+    ('../data/V/V1',"Karavirta2012Figure3", 'Karavirta2012Figure3_0'),
+    ('../data/V/V1',"Weinmann2021figure1", 'Weinmann2021figure1_0'),
+]
 
-print ( json.dumps (n.test1(folder, problem, afile) ))
+n.setLog(0)
+n.resetResults()
+# print(ps[0], " -- ", ps[1])
+
+print ( json.dumps( n.testProblems( ps[0][0], [ ps[0][1] ]) ) )
+# print ( json.dumps( n.testProblems( '../data/V/V1', [ 'Ericson2017figure1' ] ) ) )
+
+
+# for p in ps[0:1]:
+#     print ( json.dumps( n.testProblems( p[0], p[1], p[2]) ) )
+
+# for r in ps[0:2]:
+#     print ( json.dumps (n.test1(r[0], r[1], r[2]) ))
+    

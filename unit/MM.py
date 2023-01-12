@@ -26,8 +26,8 @@ class Parsons():
 
     fails = None
     wins = None
+    results = None
     loglevel = 0
-
 
     # will no longer get figure and function
     # instead, keep xref array
@@ -44,6 +44,7 @@ class Parsons():
         self.fails = []
         self.wins = []
         self.folder = folder
+        self.ff = None
         dastring = f'./{self.folder}/{self.me}/{self.me}*.py'
         self.log(1, f'setUpFolder globs b4: {self.ff}  glob: {dastring}')
         self.ff = glob.glob(dastring)
@@ -51,7 +52,7 @@ class Parsons():
         # print(f'setUpClass globs: affa: {str(self.ff)}  glob: {dastring}')
 
         
-    def Ericson2017figure1(self):
+    def Parson_Ericson2017figure1(self):
         return self.set_predicates_return([
             ("[] = 0", self.mf([]), 0),
             ("[0] = 0", self.mf([0]), 0),
@@ -62,7 +63,29 @@ class Parsons():
             ("[-99,1,1,1,1,1] = 94 ", self.mf([-99, 1, 1, 1, 1, 1]), -94),
         ])
 
-    def Ericson2018figure5(self):
+    def Parson_Ericson2017figure4(self):
+        return self.set_predicates_return([
+            ( "[1],0,0 = 1.0 == ", avgValuesInRange([1],0,0), 1.0),
+            ( "[1,1],0,0 = 1.0 == ", avgValuesInRange([1,1],0,0), 1.0),
+            ( "[1,1,1],0,0 = 1.0 == ", avgValuesInRange([1,1,1],0,0), 1.0),
+            ( "[1,1,1,1],0,0 = 1.0 == ", avgValuesInRange([1,1,1,1],0,0), 1.0),
+
+            ( "[1,1],0,1 = 1.0 == ", avgValuesInRange([1,1],0,1), 1.0),
+            ( "[1,1,1],0,2 = 1.0 == ", avgValuesInRange([1,1,1],0,2), 1.0),
+            ( "[1,1,1,1],0,3 = 1.0 == ", avgValuesInRange([1,1,1,1],0,3), 1.0),
+
+            ( "[1,3],0,1 = 2.0 == ", avgValuesInRange([1,3],0,1), 2.0),
+            ( "[1,4,1],0,2 = 2.0 == ", avgValuesInRange([1,4,1],0,2), 2.0),
+            ( "[1,2,3,4],0,3 = 2.5 == ", avgValuesInRange([1,2,3,4],0,3), 2.5),
+            ( "[1,2,3,4,5],0,2 = 2 == ", avgValuesInRange([1,2,3,4,5],0,2), 2.0),
+            ( "[1,2,3,4,5],2,4 = 3 == ", avgValuesInRange([1,2,3,4,5],2,4), 4.0),
+            
+            ( "[1],0,0 = 1.0 == ", avgValuesInRange([1],0,0), 1.0),
+            ( "[2],0,0 = 2.0 == ", avgValuesInRange([2],0,0), 2.0)
+        ])
+
+    
+    def Parson_Ericson2018figure5(self):
         return self.set_predicates_return([
             # ("([1],0,0) = T", self.mf( [1],0,0 ), False),
             ("([1],0,0) = T", self.mf( [1],0,0 ), True),
@@ -91,15 +114,319 @@ class Parsons():
             ("([0,3,6,9,12,15,18,21,24,27],0,5) :", self.mf([0,3,6,9,12,15,18,21,24,27],0,5) , False),
         ])        
 
+
+    def Parson_Ericson2022figure2(self):
+        return self.set_predicates_return([
+            # ( "(0,0) :", self.mf( 0,0 ) , 'too low', ), # blink test
+            ( "(0,0) :", self.mf( 0,0 ) , 'correct', ),
+            ( "(-1,-1) :", self.mf( -1,-1 ) , 'correct', ),
+            ( "(-2,-2) :", self.mf( -2,-2 ) , 'correct', ),
+            ( "(1,1) :", self.mf( 1,1 ) , 'correct', ),
+            ( "(2,2) :", self.mf( 2,2 ) , 'correct', ),
+            ( "(0,1) :", self.mf( 0,1 ) , 'too low', ),
+            ( "(0.0,1.0) :", self.mf( 0.0,1.0 ) , 'too low', ),
+            ( "(0,2) :", self.mf( 0,2 ) , 'too low', ),
+            ( "(0,999) :", self.mf( 0,999 ) , 'too low', ),
+            ( "(-1,0) :", self.mf( -1,0) , 'too low', ),
+            ( "(-2,-1) :", self.mf( -2,-1 ) , 'too low', ),
+            ( "(1,0) :", self.mf( 1,0 ) , 'too high', ),
+            ( "(2,0) :", self.mf( 2,0 ) , 'too high', ),
+            ( "(999,0) :", self.mf( 999,0 ) , 'too high', ),
+            ( "(0,-1) :", self.mf( 0,-1) , 'too high', ),
+            ( "(-1,-2) :", self.mf( -1,-2 ) , 'too high', ),
+        ])
+
     
+    def Parson_Ericson2022figure3(self):
+        def classy(jive):
+            note, first, last, true_name, true_initials = jive
+            # print('\nclassy: ', jive)
+            daname = ''
+            initials=''
+        
+            try:
+                p1 = self.m.Person(first, last)
+                errortype = ''
+            
+                initials = ''
+                try:
+                    initials = p1.initials()
+                except:
+                    self.errLog("ERROR initials()")
+                    actual = str(sys.exc_info()[1])
+                    return self.entry(False,
+                                  "Error initials() not happy",
+                                  actual,
+                                  "initials method",
+                                  'runtime error')
+
+                if (initials != true_initials):
+                    return self.entry(False,
+                                  note,
+                                  initials,
+                                  true_initials,
+                                  'output incorrect')
+
+                daname = ''
+                try:
+                    daname = str(p1)
+                except:
+                    print("ERROR __str__()", file=sys.stderr)
+                    return self.entry(False,
+                                  "Error __str__ not happy",
+                                  str(sys.exc_info()[1]),
+                                  "__str__ should be defined"
+                                  'runtime error')
+
+                if (daname != true_name):
+                    return self.entry(False,
+                                  note,
+                                  daname,
+                                  true_name,
+                                  'output incorrect')
+            
+                return self.entry(True, note, daname, '', '')
+            except:
+                # print("safely caught exception")
+                ff = f'ERROR: File: {self.dafile}'
+                ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
+                self.errLog(ee)
+
+                return self.entry(False,
+                                  note,
+                                  "Could not make a Person",
+                                  "class Person:...",
+                                  'runtime error')
+            # end classy
+        args = [
+            # ("a b = 'ab' 'a b'", 'a','b','a b', 'zz'), # blink test
+            ("a b = 'ab' 'a b'", 'a','b','a b', 'ab'),
+            ("aa bb = 'ab'",'aa','bb','aa bb', 'ab'),
+            ("aaa bbb = ab", 'aaa','bbb','aaa bbb', 'ab'),
+            ("' spacea',' spaceb' = [  ] ", ' spacea',' spaceb',' spacea  spaceb', '  '),
+            ("' spacesa ',' spacesb ' = ...", ' spacesa ',' spacesb ',' spacesa   spacesb ', '  '),
+            ("'a z','b z' = ab", 'a z','b z','a z b z', 'ab'),
+        ]
+        self.predicates = list(map ( classy, args ))
+
+        good = list(filter(lambda x:  x["ok"] == True, self.predicates ))
+        bad = list(filter(lambda x:  x["ok"] == False, self.predicates ))
+
+        return len(bad), good, bad
+
+
+    def Parson_Ericson2022figure4(self):
+        return self.set_predicates_return([
+            ( "(0,True) :", self.mf( 0,True ), 'off'),
+            ( "(1,True) :", self.mf( 1,True ), '10:00'),
+            ( "(2,True) :", self.mf( 2,True ), '10:00'),
+            ( "(3,True) :", self.mf( 3,True ), '10:00'),
+            ( "(4,True) :", self.mf( 4,True ), '10:00'),
+            ( "(5,True) :", self.mf( 5,True ), '10:00'),
+            ( "(6,True) :", self.mf( 6,True ), 'off'),
+            ( "(0,False) :", self.mf( 0,False ), '10:00'),
+            ( "(1,False) :", self.mf( 1,False ), '7:00'),
+            ( "(2,False) :", self.mf( 2,False ), '7:00'),
+            ( "(3,False) :", self.mf( 3,False ), '7:00'),
+            ( "(4,False) :", self.mf( 4,False ), '7:00'),
+            ( "(5,False) :", self.mf( 5,False ), '7:00'),
+            ( "(6,False) :", self.mf( 6,False ), '10:00'),
+        ])
+
+
+    #
+    # maybe upgrade to passing a function ?
+    #
+    def Parson_Ericson2022figure8(self):
+        self.predicates = [
+            # self.expectN("[] = 0", self.mf, [], -1), # blink test
+            self.expectN("[] = 0", self.mf, [], 0),
+            self.expectN("[0,0] = 0.0", self.mf, [0,0], 0),
+            self.expectN("[0,0,0] = 0.0", self.mf, [0,0,0], 0),
+            self.expectN("[0,0,0,-1] = 0.0", self.mf, [0,0,0,-1], 0),
+            self.expectN("[0,0,0,-3] = 0.0", self.mf, [0,0,0,-3], 0),
+            self.expectN("[1,1,1,0] = 1.0", self.mf, [1,1,1,0], 1),
+            self.expectN("[1,1,0,1] = 1.0", self.mf, [1,1,0,1], 1),
+            self.expectN("[1,0,1,1] = 1.0", self.mf, [1,0,1,1], 1),
+            self.expectN("[0,1,1,1] = 1.0", self.mf, [0,1,1,1], 1),
+            
+            self.expectN("[-9,-1,-3,-5] = -3", self.mf, [-9,-1,-3,-5], -3),
+            self.expectN("[-1,-9,-3,-5] = -3", self.mf, [-1,-9,-3,-5], -3),
+            self.expectN("[-1,-3,-9,-5] = -3", self.mf, [-1,-3,-9,-5], -3),
+            self.expectN("[-1,-3,-5,-9] = -3", self.mf, [-1,-3,-5,-9], -3),
+            
+            self.expectN("[0,2,2,2] = 2", self.mf, [0,2,2,2], 2),
+            self.expectN("[0,1,3,5] = 3", self.mf, [0,1,3,5], 3) 
+         ]
+
+        good = list(filter(lambda x:  x["ok"] == True, self.predicates ))
+        bad = list(filter(lambda x:  x["ok"] == False, self.predicates ))
+
+        return len(bad), good, bad
+
+
+    def Parson_Haynes_Magyar2022figure2(self):
+        return self.set_predicates_return([
+            # ( " [1] = False", self.mf([1]), True), # blink test
+            ( " [1] = False", self.mf([1]), False),
+            ( " [1,1] = False", self.mf([1,1]), False),
+            ( " [1,1,1] = False", self.mf([1,1,1]), False),
+            ( " [1,2,3,4] = False", self.mf([1,2,3,4]), False),
+            ( " [1,2,1,2,1,2,1] = False", self.mf([1,2,1,2,1,2,1]), False),
+            ( " [1,2,2,1,2,1] = True", self.mf([1,2,2,1,2,1]), True),
+            ( " [2,2] = True", self.mf([2,2]), True),
+            ( " [1,2,1,2,1,2,2] = True", self.mf([1,2,1,2,1,2,2]), True),
+        ])
+
+
+    def Parson_Haynes_Magyar2022figure4(self):
+        return self.set_predicates_return([
+            # ( '0,0,0,[0]=1', self.mf( 0,0,0,[0] ), 9), # blink test
+            ( '0,0,0,[0]=1', self.mf( 0,0,0,[0] ), 1),
+            ( '1,0,0,[0]=0', self.mf( 1,0,0,[0] ), 0),
+            ( '0,0,1,[0,0]=2', self.mf( 0,0,1,[0,0] ), 2),
+            ( '0,0,1,[0,0,0]=2', self.mf( 0,0,1,[0,0,0] ), 2),
+            ( '0,0,1,[0,0,0,0]=2', self.mf( 0,0,1,[0,0,0,0] ), 2),
+            ( '0,0,2,[0,0,0,0]=3', self.mf( 0,0,2,[0,0,0,0] ), 3),
+            ( '0,0,3,[0,0,0,0]=4', self.mf( 0,0,3,[0,0,0,0] ), 4),
+            ( '3,0,3,[1,2,3,1,2,3,1,2,3]=1', self.mf( 3,0,3,[1,2,3,1,2,3,1,2,3] ), 1),
+            ( '3,0,6,[1,2,3,1,2,3,1,2,3]=2', self.mf( 3,0,6,[1,2,3,1,2,3,1,2,3] ), 2),
+            ( '3,0,7,[1,2,3,1,2,3,1,2,3]=2', self.mf( 3,0,7,[1,2,3,1,2,3,1,2,3] ), 2),
+            ( '3,0,8,[1,2,3,1,2,3,1,2,3]=3', self.mf( 3,0,8,[1,2,3,1,2,3,1,2,3] ), 3),
+            ( '2,0,8,[1,2,3,1,2,3,1,2,3]=3', self.mf( 2,0,8,[1,2,3,1,2,3,1,2,3] ), 3),
+            ( '1,0,8,[1,2,3,1,2,3,1,2,3]=3', self.mf( 1,0,8,[1,2,3,1,2,3,1,2,3] ), 3),
+            ( '9,0,0,[9,9,9,9,9,9,9,9,9]=1', self.mf( 9,0,0,[9,9,9,9,9,9,9,9,9] ), 1),
+            ( '9,0,1,[9,9,9,9,9,9,9,9,9]=2', self.mf( 9,0,1,[9,9,9,9,9,9,9,9,9] ), 2),
+            ( '9,0,2,[9,9,9,9,9,9,9,9,9]=3', self.mf( 9,0,2,[9,9,9,9,9,9,9,9,9] ), 3),
+            ( '9,0,3,[9,9,9,9,9,9,9,9,9]=4', self.mf( 9,0,3,[9,9,9,9,9,9,9,9,9] ), 4),
+            ( '9,0,8,[9,9,9,9,9,9,9,9,9]=9', self.mf( 9,0,8,[9,9,9,9,9,9,9,9,9] ), 9),
+            ( '9,8,8,[9,9,9,9,9,9,9,9,9]=1', self.mf( 9,8,8,[9,9,9,9,9,9,9,9,9] ), 1),
+            ( '9,7,8,[9,9,9,9,9,9,9,9,9]=2', self.mf( 9,7,8,[9,9,9,9,9,9,9,9,9] ), 2),
+            ( '9,4,5,[9,9,9,9,9,9,9,9,9]=2', self.mf( 9,4,5,[9,9,9,9,9,9,9,9,9] ), 2),
+        ])
+
+    def Parson_Hou2022figure2(self):
+        return self.set_predicates_return([
+            # ( "[] = []", self.mf([]), ['a'] ), # blink test
+            ( "[] = []", self.mf([]), [] ),
+	    ( "[''] = [] ", self.mf(['']), []),
+            ( "['a'] = [] ", self.mf(['a']), []),
+            ( "['a', 'b'] = [] ", self.mf(['a', 'b']), []),
+            ( "['aaa'] = [] ", self.mf(['aaa']), []),
+            ( "['aaaa'] = ['aaaa'] ", self.mf(['aaaa']), ['aaaa']),
+            ( "['aaaa', ''] = ['aaaa'] ",  self.mf(['aaaa', '']), ['aaaa']),
+            ( "['aaaa', 'b'] = ['aaaa'] ",  self.mf(['aaaa', 'b']), ['aaaa']),
+            ( "['aaaa', 'bbbb'] = ['aaaa', 'bbbb'] ", self.mf(['aaaa', 'bbbb']), ['aaaa', 'bbbb']),
+            ( "['1','12','123','1234','12345','123456'] = ['1234','12345','123456'] ", self.mf(['1','12','123','1234','12345','123456']), ['1234','12345','123456']),
+            ( "['123456','12345','1234','123','12','1'] = ['123456','12345','1234'] ", self.mf(['123456','12345','1234','123','12','1']), ['123456','12345','1234']),
+        ])
+
+    
+    def Parson_Karavirta2012Figure3():
+        return self.set_predicates_return([
+            # ( "[]", self.mf([]), 999999), # blink test
+            ( "[]", self.mf([]), None),
+            ( "[-9]", self.mf([-9]), -9),
+            ( "[-9,-8]", self.mf([-9,-8]), -8),
+            ( "[-9,-8,-10]", self.mf([-9,-8,-10]), -8),
+            ( "[1,2,3]", self.mf([1,2,3]), 3),
+            ( "[3,2,1]", self.mf([3,2,1]), 3),
+            ( "[-9,-8,-7,3,2,1]", self.mf([-9,-8,-7,3,2,1]), 3),
+            ( "[1,1,1,1,1,1,1]", self.mf([1,1,1,1,1,1,1]), 1),
+            ( "[2,1,1,1,1,1,1]", self.mf([2,1,1,1,1,1,1]), 2),
+            ( "[1,1,1,1,1,1,2]", self.mf([1,1,1,1,1,1,2]), 2),
+            ( "[1,1,1,2,1,1,1]", self.mf([1,1,1,2,1,1,1]), 2),
+        ])
+
+
+    def Parson_Weinmann2021figure1(self):
+        def stringOrFunction(self, jive):
+            # print("stringOrFunction: ", jive, file=sys.stderr)
+            note, f, arg1, arg2, expect = jive
+            v1 = None
+            v2 = None
+            try:
+                v1 = f(arg1)
+                # print('stringOrFunction: f(arg1)', file=sys.stderr)
+                v2 = None
+                # print('mf worked...:', v1)
+                if (callable(v1)):
+                    try:
+                        # print('stringOrFunction: v1 was callable', file=sys.stderr)
+                        v2 = v1(arg2)
+                        happy = v2 == expect
+                        return self.entry(happy, note, v2, expect, '')
+                    except:
+                        # print('stringOrFunction: v1 was NOT callable', file=sys.stderr)
+                        ff = f'ERROR: Weinmann2021figure1 stringOrFunction 1  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
+                        ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
+                        self.errLog(ee)
+                        return self.entry(False, note, str(sys.exc_info()[1]), expect, 'runtime error')
+                    # return {"msg": note, "ok": False, "actual": v2}
+                else:
+                    if (type(v1) is str):
+                        # print("stringOrFunction returning v1", file=sys.stderr)
+                        happy = v1 == expect
+                        return self.entry(happy, note, str(sys.exc_info()[1]), expect, '')
+                    
+                    return self.entry(False, note, v1, expect, '')
+                
+            except:
+                ff = f'ERROR: Weinmann2021figure1 stringOrFunction 2  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
+                ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
+                self.errLog(ee)
+                return self.entry(False, note, v1, expect, '')
+
+        self.predicates = []
+        args = [
+            ( "[] = 'All odd'", self.mf, [], '', 'All odd' ),
+            ( "[1] = 'All odd'", self.mf, [1], '', 'All odd' ),
+            ( "[1,3] = 'All odd'", self.mf, [1,3], '', 'All odd' ),
+            ( "[1,3,5] = 'All odd'", self.mf, [1,3,5], '', 'All odd' ),
+            ( "[3,3,3,3] = 'All odd'", self.mf, [3,3,3,3], '', 'All odd' ),
+            ( "[-3,-3,-3,-3] = 'All odd'", self.mf, [-3,-3,-3,-3], '', 'All odd' ),
+            ( "[0] = 0", self.mf, [0], 3, 3 ),
+            ( "[0, 0] = 0", self.mf, [0, 0], 4, 4 ),
+            ( "[0, 0, 0] = 0", self.mf, [0, 0, 0], 5, 5 ),
+            ( "[2, 0, 0] = 0", self.mf, [2, 0, 0], 5, 5 ),
+            ( "[0, 2, 0] = 0", self.mf, [0, 2, 0], 5, 5 ),
+            ( "[0, 0, 2] = 0", self.mf, [0, 0, 2], 5, 7 ),
+            ( "[1, 0, 0] = 0", self.mf, [1, 0, 0], 5, 5 ),
+            ( "[0, 1, 0] = 0", self.mf, [0, 1, 0], 5, 5 ),
+            ( "[0, 0, 1] = 0", self.mf, [0, 0, 1], 5, 5 ),
+            ( "[1, 2, 0] = 0", self.mf, [1, 2, 0], 5, 5 ),
+            ( "[0, 1, 2] = 5 7", self.mf, [0, 1, 2], 5, 7 ),
+            ( "[0, 2, 1] = 5 7", self.mf, [0, 2, 1], 5, 7 ),
+            ( "[4, 1, 1] = 5 9", self.mf, [4, 1, 1], 5, 9 ),
+            ( "[-4, 1, 1] = 5 1", self.mf, [-4, 1, 1], 5, 1 ),
+            
+        ]
+        self.predicates = list(map ( self.stringOrFunction, args ))
+        good = list(filter(lambda x:  x["ok"] == True, self.predicates ))
+        bad = list(filter(lambda x:  x["ok"] == False, self.predicates ))
+        return len(bad), good, bad
+
+
+        
     def setXref(self):
         self.xref = {}
-        for x in [('Ericson2017figure1', self.Ericson2017figure1, 'getSum'),
-                  ('Ericson2018figure5', self.Ericson2018figure5, 'isLevel')
-                  ]:
-            self.xref[x[0]] = (x[1], x[2])
+        for x in [
+                ("Ericson2017figure1", self.Parson_Ericson2017figure1, "getSum"),
+                ("Ericson2017figure4", self.Parson_Ericson2017figure4, "avgValuesInRange"),
+                ("Ericson2018figure5", self.Parson_Ericson2018figure5, "isLevel"),
+                ("Ericson2022figure2", self.Parson_Ericson2022figure2, "check_guess"),
+                ("Ericson2022figure3", self.Parson_Ericson2022figure3, "Person"),
+                ("Ericson2022figure4", self.Parson_Ericson2022figure4, "alarm_clock"),
+                ("Ericson2022figure8", self.Parson_Ericson2022figure8, "getAverageDropLowest"),
+                ("Haynes_Magyar2022figure2", self.Parson_Haynes_Magyar2022figure2, "has22"),
+                ("Haynes_Magyar2022figure4", self.Parson_Haynes_Magyar2022figure4, "countInRange"),
+                ("Hou2022figure2", self.Parson_Hou2022figure2, "filter_strings"),
+                ("Karavirta2012Figure3", self.Parson_Karavirta2012Figure3, "findmax"),
+                ("Weinmann2021figure1", self.Parson_Weinmann2021figure1, "last_even_adder")
+        ]:
+            self.xref[ x[0] ] = (x[1], x[2])
             
-
+        
     def entry(self, ok, note, actual, expected, errortype):
         yo = 1
         if ok:
@@ -127,7 +454,9 @@ class Parsons():
         if (lvl < self.loglevel):
             print(msg)
     
+
     # self.predicates = list(map ( self.fixem, args ))
+    #
     def fixem(self, args):
         note, result, expected = args
         # print("fixem...")
@@ -211,24 +540,50 @@ class Parsons():
 
         return rc
 
-    #
-    # test1('./V/V1', 'Ericson2018figure5', 'Ericson2018figure5_0')
-    # folder = '../data/V/V1/'
-    # problem = 'Ericson2017figure1'
-    # afile   = 'Ericson2017figure1_1'
+    def resetResults(self):
+        self.results = []
+
+    def addResults(self, things):
+        self.results = self.results + things
+    
+    def getFileNames(self, folder, problem):
+        dastring = f'./{folder}/{problem}/{problem}*.py'
+        self.ff = None
+        self.log(1, f'getFileNames globs b4  : {self.ff}  glob: {dastring}')
+        ff = glob.glob(dastring)
+        self.log(1, f'getFileNames globs affa: {ff}  glob: {dastring}')
+        return ff
+
+
+
+    def testFolder(self, folder, problem, files):
+        for f in files:
+            self.addResults(
+                self.testFile(folder, problem, f)
+            )
+
+
+    def testProblems(self, folder, problems ):
+        self.log(1,f'\ntestProblems() folder: {folder} problems: {problems}')
+        for p in problems:
+            self.testFolder(folder, p, self.getFileNames(folder, p))
+        return self.results
 
     #
-    def test1(self, folder, problem, afile):
+    # testFile('./V/V1', 'Ericson2018figure5', 'Parson_Ericson2018figure5_13.py')
+    #
+    def testFile(self, folder, problem, afile):
+        self.log(1, f'\ntestFile() folder: {folder} problem: {problem} file: {afile}')
         self.folder = folder
         self.me = problem
-        self.dafile = problem
+        self.dafile = afile
         
         mpath = f'./{folder}/{problem}'
 
         seeking = f'{folder}/{problem}/{afile}'
-        self.log(1, f'seeking: {seeking}')
-        there = os.path.exists(seeking+".py")
+        self.log(1, f'  seeking: {seeking}')
 
+        there = os.path.exists(seeking+".py")
         self.log(1, f'  seeking? {there}: {seeking}')
         f = os.path.abspath(seeking)
 
@@ -236,14 +591,16 @@ class Parsons():
 
         sys.path.insert(0, mpath)
                 
+        self.log(1,f'testFile() xref [{problem}]...')
         m, f = self.xref[problem]
 
-        self.log(1,"\ntest1 start\n")
+        self.log(1,"\ntestFile start\n")
         # self.dafile = f'{problem}_{i}'
         try:
-            self.log(2,f'\nimport trying: {afile}')
-            self.m = __import__(afile)
-            self.log(2,f'\nimport happy: {afile}')
+            justfile = os.path.basename(afile)[:-3]
+            self.log(2,f'\nimport trying: {justfile} whole: {afile}')
+            self.m = __import__(justfile)
+            self.log(2,f'\nimport happy : {justfile}')
             try:
                 self.log(2,"source code: " + inspect.getsource(self.m))
             except:
@@ -254,7 +611,7 @@ class Parsons():
                 self.mf = getattr(self.m, f)                            
 
             try: 
-                self.log(1,"\ntest1 calling testit\n")
+                self.log(1,"\ntestFile calling testit\n")
 
                 nfail, good, bad = self.testit(problem)
 
@@ -306,12 +663,6 @@ class Parsons():
         # return fails
         return self.fails + self.wins
 
-    def yloopit(self, dbg):
-        # for each V in data folder
-        #    for each parson item in xref
-        #       for each _*.py file in the data folder
-        #
-        return true;
         
     #
     # check every predicate against every file
