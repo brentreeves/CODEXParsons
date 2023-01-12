@@ -48,3 +48,20 @@ do
   echo data$v
 done
 
+
+
+unit/unit/org/move-
+
+
+("Ericson2017figure1", self.Ericson2017figure1, "getSum")
+("Ericson2017figure4", self.Ericson2017figure4, "avgValuesInRange")
+("Ericson2018figure5", self.Ericson2018figure5, "isLevel")
+("Ericson2022figure2", self.Ericson2022figure2, "check_guess")
+("Ericson2022figure3", self.Ericson2022figure3, "Person")
+("Ericson2022figure4", self.Ericson2022figure4, "alarm_clock")
+("Ericson2022figure8", self.Ericson2022figure8, "getAverageDropLowest")
+("Haynes_Magyar2022figure2", self.Haynes_Magyar2022figure2, "has22")
+("Haynes_Magyar2022figure4", self.Haynes_Magyar2022figure4, "countInRange")
+("Hou2022figure2", self.Hou2022figure2, "filter_strings")
+("Karavirta2012Figure3", self.Karavirta2012Figure3, "findmax")
+("Weinmann2021figure1", self.Weinmann2021figure1, "last_even_adder")

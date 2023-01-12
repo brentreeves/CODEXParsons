@@ -1,0 +1,35 @@
+Ericson2017figure1 BNRPROMPT
+# write a function getSum(numList) that returns the sum of a list of numbers.
+
+Ericson2017figure4 BNRPROMPT
+# write a function to return the average of values in a list, given a start and end index.  For example avgValuesInRange([1,2,3,4,5],0,2) is 2.0 and avgValuesInRange([1,2,3,4,5],2,4) is 4.0
+
+Ericson2018figure5
+# write a function to return true if the difference between the maximum and minimum value between a given start and end index (inclusive) was 10 or less.
+
+Ericson2022figure2
+# Finish the function below to return 'too low' if the guess is less than the passed target, 'correct' if they are equal, and 'too high' if the guess is greater than the passed target.  For example, check_guess(5,7) returns 'too low', check_guess(7,7) returns 'correct', and check_guess(9,7) returns 'too high'.  There are three extra blocks that are not needed in a correct solution.
+
+Ericson2022figure3
+# Put the code in order to define a Person class with a constructor (__init__), a method to print the object attributes (__str__), and an initials method which returns the first letter of the first name and the first letter of the last name.
+
+Ericson2022figure4
+# Put the code blocks below in order to solve the following problem.  There are two extra blocks that are not needed in a correct solution.  Given a day of the week encoded as 0=Sum, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring.  Weekdays, the alarm should be "7:00" and on the weekends it should be "10:00".  Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+
+Ericson2022figure8 BNRPROMPT
+#  Write a function to return the average of the values in a list and protect against divide by zero error.
+
+Haynes_Magyar2022figure4
+# Finish the function to define countInRange that returns a count of the number of tines that a target value appears in a list between the start and end indeces (inclusive).  For example, countInRange(1,2,4,[1,2,1,1,1,1]) should return 3 since there are three 1s between index 2 and 4 inclusive.
+
+Haynes_Magyar2022figure2
+# Put the blocks in order to define the function has22 to return True if there are at least two items in the list nums that are adjacent and both equal to 2, otherwise return False.  For example, return True for has22([1,2,2]) since there are two adjacent items equal to 2 (at index 1 and 2) and False for has22(2,1,2) since the 2's are not adjacent
+
+Hou2022figure2
+# Create the function, filter_strings(str_list), below to take a list of strings, str_list, and return a new list with all the strings from the passed list in the same order that have a length greater than 3.  For example, filter_strings(["Run", "she", "said"]) should return ["said"] and filter _strings(["It", "was", "a", "dark", "night"]) should return ["dark", "night"]
+
+Karavirta2012Figure3
+# construct a function that finds the maximum value in a given list
+
+Weinmann2021figure1
+# Write a function to return a function which takes an argument x and adds it to the last even element in the given list. 

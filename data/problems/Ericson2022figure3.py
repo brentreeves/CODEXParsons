@@ -1,3 +1,4 @@
+# Put the code in order to define a Person class with a constructor (__init__), a method to print the object attributes (__str__), and an initials method which returns the first letter of the first name and the first letter of the last name.
 class Person:
 	def_init_(self, first, last):
 		self.first = first
