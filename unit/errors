@@ -1,165 +1,89 @@
-folder start  ../data/V/V1 ----------------------------------------------------
-Parsons_Ericson2017figure1.py ../data/V/V1 --------------------------------------------------------
-Parsons_Ericson2018figure5.py ../data/V/V1 --------------------------------------------------------
-Parsons_Ericson2022figure2.py ../data/V/V1 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_9', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_13', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_13.py, line 2)'}
-Parsons_Ericson2022figure3.py ../data/V/V1 --------------------------------------------------------
-Parsons_Ericson2022figure4.py ../data/V/V1 --------------------------------------------------------
-Parsons_Ericson2022figure8.py ../data/V/V1 --------------------------------------------------------
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V1 File: Ericson2022figure8_15\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-Parsons_Haynes_Magyar2022figure2.py ../data/V/V1 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_11', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_11.py, line 2)'}
-Parsons_Haynes_Magyar2022figure4.py ../data/V/V1 --------------------------------------------------------
-{'error': 'ERROR: error running File: Haynes_Magyar2022figure4_2', 'exception': "bad operand type for abs(): 'NoneType'"}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_9', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_17', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_17.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_18', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_18.py, line 2)'}
-Parsons_Hou2022figure2.py ../data/V/V1 --------------------------------------------------------
-Parsons_Karavirta2012Figure3.py ../data/V/V1 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Karavirta2012Figure3_3', 'exception': "name 'alist' is not defined"}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_4', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Karavirta2012Figure3_6', 'exception': "name 'alist' is not defined"}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_8', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_10', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_15', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_17', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_19', 'exception': 'list index out of range'}
-Parsons_Weinmann2021figure1.py ../data/V/V1 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Weinmann2021figure1_0', 'exception': 'expected an indented block after function definition on line 1 (Weinmann2021figure1_0.py, line 2)'}
-folder end    ../data/V/V1 ----------------------------------------------------
-folder start  ../data/V/V2 ----------------------------------------------------
-Parsons_Ericson2017figure1.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2017figure1_3', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_3.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2017figure1_10', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_10.py, line 2)'}
-{'error': 'ERROR: error running File: Ericson2017figure1_15', 'exception': "local variable 'sum' referenced before assignment"}
-Parsons_Ericson2018figure5.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_1', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_1.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_2', 'exception': "expected an indented block after 'for' statement on line 3 (Ericson2018figure5_2.py, line 4)"}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_8', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_8.py, line 2)'}
-Parsons_Ericson2022figure2.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_3', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_3.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_4', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_4.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_6', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_6.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_8', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_8.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_9', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_10', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_10.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_13', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_13.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_19', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_19.py, line 2)'}
-Parsons_Ericson2022figure3.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure3_4', 'exception': 'expected an indented block after class definition on line 1 (Ericson2022figure3_4.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure3_11', 'exception': 'expected an indented block after class definition on line 1 (Ericson2022figure3_11.py, line 2)'}
-Parsons_Ericson2022figure4.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_1', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_1.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_2', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_2.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_5', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_5.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_8', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_8.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_10', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_10.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_11', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_11.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_14', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_14.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_15', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_15.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_17', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_17.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_18', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_18.py, line 2)'}
-Parsons_Ericson2022figure8.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure8_4', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure8_4.py, line 2)'}
-Parsons_Haynes_Magyar2022figure2.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_1', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_1.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_2', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_2.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_3', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_3.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_4', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_4.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_6', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_6.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_8', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_8.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_9', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_11', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_11.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_12', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_12.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_14', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_14.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_15', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_15.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_16', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_16.py, line 2)'}
-Parsons_Haynes_Magyar2022figure4.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_2', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_2.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_6', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_6.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_9', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_11', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_11.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_13', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_13.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_16', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_16.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_18', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_18.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_19', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_19.py, line 2)'}
-Parsons_Hou2022figure2.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Hou2022figure2_6', 'exception': 'expected an indented block after function definition on line 1 (Hou2022figure2_6.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Hou2022figure2_14', 'exception': 'expected an indented block after function definition on line 1 (Hou2022figure2_14.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Hou2022figure2_17', 'exception': 'expected an indented block after function definition on line 1 (Hou2022figure2_17.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Hou2022figure2_19', 'exception': 'expected an indented block after function definition on line 1 (Hou2022figure2_19.py, line 2)'}
-Parsons_Karavirta2012Figure3.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Karavirta2012Figure3_3', 'exception': "name 'alist' is not defined"}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_4', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Karavirta2012Figure3_6', 'exception': "name 'alist' is not defined"}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_8', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_9', 'exception': "local variable 'curmax' referenced before assignment"}
-{'error': 'ERROR: problem with import  File: Karavirta2012Figure3_10', 'exception': 'expected an indented block after function definition on line 1 (Karavirta2012Figure3_10.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Karavirta2012Figure3_15', 'exception': 'expected an indented block after function definition on line 1 (Karavirta2012Figure3_15.py, line 2)'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_17', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_19', 'exception': 'list index out of range'}
-Parsons_Weinmann2021figure1.py ../data/V/V2 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Weinmann2021figure1_0', 'exception': 'expected an indented block after function definition on line 1 (Weinmann2021figure1_0.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Weinmann2021figure1_3', 'exception': 'expected an indented block after function definition on line 1 (Weinmann2021figure1_3.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Weinmann2021figure1_4', 'exception': 'expected an indented block after function definition on line 1 (Weinmann2021figure1_4.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Weinmann2021figure1_15', 'exception': 'expected an indented block after function definition on line 1 (Weinmann2021figure1_15.py, line 2)'}
-folder end    ../data/V/V2 ----------------------------------------------------
-folder start  ../data/V/V3 ----------------------------------------------------
-Parsons_Ericson2017figure1.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2017figure1_11', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_11.py, line 2)'}
-Parsons_Ericson2018figure5.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_7', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_7.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_11', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_11.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_13', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_13.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_15', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_15.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_16', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_16.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2018figure5_18', 'exception': "expected an indented block after 'for' statement on line 3 (Ericson2018figure5_18.py, line 4)"}
-Parsons_Ericson2022figure2.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_7', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_7.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_10', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_10.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure2_15', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_15.py, line 2)'}
-Parsons_Ericson2022figure3.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure3_12', 'exception': 'expected an indented block after class definition on line 1 (Ericson2022figure3_12.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure3_14', 'exception': 'expected an indented block after class definition on line 1 (Ericson2022figure3_14.py, line 2)'}
-Parsons_Ericson2022figure4.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_1', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_1.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_5', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_5.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_10', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_10.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_14', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_14.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_17', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_17.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure4_19', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure4_19.py, line 2)'}
-Parsons_Ericson2022figure8.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_1\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-{'error': 'ERROR: problem with import  File: Ericson2022figure8_4', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure8_4.py, line 2)'}
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_9\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_12\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_13\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_14\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_17\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-{'error': 'ERROR: M.py expectN  Folder: ../data/V/V3 File: Ericson2022figure8_18\nNote: [] = 0 args: [] expect: 0', 'exception': 'list index out of range'}
-Parsons_Haynes_Magyar2022figure2.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_2', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_2.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_9', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_9.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_11', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_11.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure2_15', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure2_15.py, line 2)'}
-Parsons_Haynes_Magyar2022figure4.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: error running File: Haynes_Magyar2022figure4_1', 'exception': "local variable 'count' referenced before assignment"}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_2', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_2.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_4', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_4.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_5', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_5.py, line 2)'}
-{'error': 'ERROR: error running File: Haynes_Magyar2022figure4_7', 'exception': "local variable 'count' referenced before assignment"}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_8', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_8.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_10', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_10.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_13', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_13.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_15', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_15.py, line 2)'}
-{'error': 'ERROR: problem with import  File: Haynes_Magyar2022figure4_16', 'exception': 'expected an indented block after function definition on line 1 (Haynes_Magyar2022figure4_16.py, line 2)'}
-Parsons_Hou2022figure2.py ../data/V/V3 --------------------------------------------------------
-Parsons_Karavirta2012Figure3.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: error running File: Karavirta2012Figure3_1', 'exception': "local variable 'curmax' referenced before assignment"}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_9', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_12', 'exception': 'list index out of range'}
-{'error': 'ERROR: error running File: Karavirta2012Figure3_17', 'exception': 'list index out of range'}
-Parsons_Weinmann2021figure1.py ../data/V/V3 --------------------------------------------------------
-{'error': 'ERROR: problem with import  File: Weinmann2021figure1_5', 'exception': 'expected an indented block after function definition on line 1 (Weinmann2021figure1_5.py, line 2)'}
-folder end    ../data/V/V3 ----------------------------------------------------
+{'error': 'ERROR: problem with import  File: ../data/V/V1/Ericson2022figure2/Ericson2022figure2_13.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_13.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V1/Ericson2022figure2/Ericson2022figure2_9.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_9.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure1/Ericson2017figure1_3.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_3.py, line 2)'}
+{'error': 'ERROR: error running File: ../data/V/V2/Ericson2017figure1/Ericson2017figure1_15.py', 'exception': "local variable 'sum' referenced before assignment"}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure1/Ericson2017figure1_10.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_10.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_10.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_10.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_14.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_14.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_5.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_5.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_18.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_18.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_7.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_7.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_19.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_19.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_6.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_6.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2017figure4/Ericson2017figure4_8.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_8.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2018figure5/Ericson2018figure5_1.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_1.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2018figure5/Ericson2018figure5_8.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_8.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2018figure5/Ericson2018figure5_2.py', 'exception': "expected an indented block after 'for' statement on line 3 (Ericson2018figure5_2.py, line 4)"}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_6.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_6.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_13.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_13.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_3.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_3.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_8.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_8.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_19.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_19.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_9.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_9.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_4.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_4.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V2/Ericson2022figure2/Ericson2022figure2_10.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_10.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2017figure1/Ericson2017figure1_11.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure1_11.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2017figure4/Ericson2017figure4_5.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_5.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2017figure4/Ericson2017figure4_0.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_0.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2017figure4/Ericson2017figure4_6.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2017figure4_6.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2018figure5/Ericson2018figure5_16.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_16.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2018figure5/Ericson2018figure5_13.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_13.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2018figure5/Ericson2018figure5_18.py', 'exception': "expected an indented block after 'for' statement on line 3 (Ericson2018figure5_18.py, line 4)"}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2018figure5/Ericson2018figure5_15.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_15.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2018figure5/Ericson2018figure5_11.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_11.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2018figure5/Ericson2018figure5_7.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2018figure5_7.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2022figure2/Ericson2022figure2_7.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_7.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2022figure2/Ericson2022figure2_15.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_15.py, line 2)'}
+{'error': 'ERROR: problem with import  File: ../data/V/V3/Ericson2022figure2/Ericson2022figure2_10.py', 'exception': 'expected an indented block after function definition on line 1 (Ericson2022figure2_10.py, line 2)'}
+
+bugs -----
+           folder              figure                      file  bug
+65   ../data/V/V1  Ericson2022figure2  Ericson2022figure2_13.py  177
+79   ../data/V/V1  Ericson2022figure2   Ericson2022figure2_9.py  170
+82   ../data/V/V2  Ericson2017figure1  Ericson2017figure1_10.py  153
+87   ../data/V/V2  Ericson2017figure1  Ericson2017figure1_15.py  156
+93   ../data/V/V2  Ericson2017figure1   Ericson2017figure1_3.py  158
+102  ../data/V/V2  Ericson2017figure4  Ericson2017figure4_10.py  140
+106  ../data/V/V2  Ericson2017figure4  Ericson2017figure4_14.py  139
+110  ../data/V/V2  Ericson2017figure4  Ericson2017figure4_18.py  131
+111  ../data/V/V2  Ericson2017figure4  Ericson2017figure4_19.py  129
+115  ../data/V/V2  Ericson2017figure4   Ericson2017figure4_5.py  136
+116  ../data/V/V2  Ericson2017figure4   Ericson2017figure4_6.py  128
+117  ../data/V/V2  Ericson2017figure4   Ericson2017figure4_7.py  130
+118  ../data/V/V2  Ericson2017figure4   Ericson2017figure4_8.py  121
+121  ../data/V/V2  Ericson2018figure5   Ericson2018figure5_1.py  113
+132  ../data/V/V2  Ericson2018figure5   Ericson2018figure5_2.py  105
+138  ../data/V/V2  Ericson2018figure5   Ericson2018figure5_8.py  110
+142  ../data/V/V2  Ericson2022figure2  Ericson2022figure2_10.py   82
+145  ../data/V/V2  Ericson2022figure2  Ericson2022figure2_13.py   97
+151  ../data/V/V2  Ericson2022figure2  Ericson2022figure2_19.py   91
+153  ../data/V/V2  Ericson2022figure2   Ericson2022figure2_3.py   96
+154  ../data/V/V2  Ericson2022figure2   Ericson2022figure2_4.py   86
+156  ../data/V/V2  Ericson2022figure2   Ericson2022figure2_6.py   99
+158  ../data/V/V2  Ericson2022figure2   Ericson2022figure2_8.py   92
+159  ../data/V/V2  Ericson2022figure2   Ericson2022figure2_9.py   90
+163  ../data/V/V3  Ericson2017figure1  Ericson2017figure1_11.py   75
+180  ../data/V/V3  Ericson2017figure4   Ericson2017figure4_0.py   54
+195  ../data/V/V3  Ericson2017figure4   Ericson2017figure4_5.py   56
+196  ../data/V/V3  Ericson2017figure4   Ericson2017figure4_6.py   48
+203  ../data/V/V3  Ericson2018figure5  Ericson2018figure5_11.py   22
+205  ../data/V/V3  Ericson2018figure5  Ericson2018figure5_13.py   36
+207  ../data/V/V3  Ericson2018figure5  Ericson2018figure5_15.py   24
+208  ../data/V/V3  Ericson2018figure5  Ericson2018figure5_16.py   40
+210  ../data/V/V3  Ericson2018figure5  Ericson2018figure5_18.py   32
+217  ../data/V/V3  Ericson2018figure5   Ericson2018figure5_7.py   21
+222  ../data/V/V3  Ericson2022figure2  Ericson2022figure2_10.py    2
+227  ../data/V/V3  Ericson2022figure2  Ericson2022figure2_15.py    5
+237  ../data/V/V3  Ericson2022figure2   Ericson2022figure2_7.py   13
+
+g2 -----
+         folder              figure  file  bug
+0  ../data/V/V1  Ericson2022figure2     2    2
+1  ../data/V/V2  Ericson2017figure1     3    3
+2  ../data/V/V2  Ericson2017figure4     8    8
+3  ../data/V/V2  Ericson2018figure5     3    3
+4  ../data/V/V2  Ericson2022figure2     8    8
+5  ../data/V/V3  Ericson2017figure1     1    1
+6  ../data/V/V3  Ericson2017figure4     3    3
+7  ../data/V/V3  Ericson2018figure5     6    6
+8  ../data/V/V3  Ericson2022figure2     3    3

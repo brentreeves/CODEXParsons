@@ -1,16 +1,17 @@
 from importlib import import_module
+from pathlib import Path
 import os
 import inspect
 import sys
 import glob
 import json
-import inspect
 
 # Brent Reeves
 # Winter '22
 #
+
 class Parsons():
-    me = ''             # Ericson2017figure1, i.e. subfolder name and problem name
+    me = ''             # Ericson2017figure1, i.e. subfolder name and problem
     m = None            # holds imported module (i.e codex solution)
     mfname = 'yo'         # name of function in the solution, e.g. 'getSum'
     mf = None           # function definition
@@ -22,7 +23,8 @@ class Parsons():
     failcount = 0
     successcount = 0    # how many problems passed
     dafile = ''         # the current codex being tested
-    xref = []           # problem name and function to call 
+    dabasename = ''
+    xref = []           # problem name and function to call
 
     fails = None
     wins = None
@@ -45,13 +47,13 @@ class Parsons():
         self.wins = []
         self.folder = folder
         self.ff = None
-        dastring = f'./{self.folder}/{self.me}/{self.me}*.py'
+        dastring = f'{self.folder}/{self.me}/{self.me}*.py'
         self.log(1, f'setUpFolder globs b4: {self.ff}  glob: {dastring}')
         self.ff = glob.glob(dastring)
         self.log(1, f'setUpFolder globs affa: {self.ff}  glob: {dastring}')
         # print(f'setUpClass globs: affa: {str(self.ff)}  glob: {dastring}')
 
-        
+      
     def Parson_Ericson2017figure1(self):
         return self.set_predicates_return([
             ("[] = 0", self.mf([]), 0),
@@ -65,23 +67,23 @@ class Parsons():
 
     def Parson_Ericson2017figure4(self):
         return self.set_predicates_return([
-            ( "[1],0,0 = 1.0 == ", avgValuesInRange([1],0,0), 1.0),
-            ( "[1,1],0,0 = 1.0 == ", avgValuesInRange([1,1],0,0), 1.0),
-            ( "[1,1,1],0,0 = 1.0 == ", avgValuesInRange([1,1,1],0,0), 1.0),
-            ( "[1,1,1,1],0,0 = 1.0 == ", avgValuesInRange([1,1,1,1],0,0), 1.0),
+            ( "[1],0,0 = 1.0 == ", self.mf([1],0,0), 1.0),
+            ( "[1,1],0,0 = 1.0 == ", self.mf([1,1],0,0), 1.0),
+            ( "[1,1,1],0,0 = 1.0 == ", self.mf([1,1,1],0,0), 1.0),
+            ( "[1,1,1,1],0,0 = 1.0 == ", self.mf([1,1,1,1],0,0), 1.0),
 
-            ( "[1,1],0,1 = 1.0 == ", avgValuesInRange([1,1],0,1), 1.0),
-            ( "[1,1,1],0,2 = 1.0 == ", avgValuesInRange([1,1,1],0,2), 1.0),
-            ( "[1,1,1,1],0,3 = 1.0 == ", avgValuesInRange([1,1,1,1],0,3), 1.0),
+            ( "[1,1],0,1 = 1.0 == ", self.mf([1,1],0,1), 1.0),
+            ( "[1,1,1],0,2 = 1.0 == ", self.mf([1,1,1],0,2), 1.0),
+            ( "[1,1,1,1],0,3 = 1.0 == ", self.mf([1,1,1,1],0,3), 1.0),
 
-            ( "[1,3],0,1 = 2.0 == ", avgValuesInRange([1,3],0,1), 2.0),
-            ( "[1,4,1],0,2 = 2.0 == ", avgValuesInRange([1,4,1],0,2), 2.0),
-            ( "[1,2,3,4],0,3 = 2.5 == ", avgValuesInRange([1,2,3,4],0,3), 2.5),
-            ( "[1,2,3,4,5],0,2 = 2 == ", avgValuesInRange([1,2,3,4,5],0,2), 2.0),
-            ( "[1,2,3,4,5],2,4 = 3 == ", avgValuesInRange([1,2,3,4,5],2,4), 4.0),
+            ( "[1,3],0,1 = 2.0 == ", self.mf([1,3],0,1), 2.0),
+            ( "[1,4,1],0,2 = 2.0 == ", self.mf([1,4,1],0,2), 2.0),
+            ( "[1,2,3,4],0,3 = 2.5 == ", self.mf([1,2,3,4],0,3), 2.5),
+            ( "[1,2,3,4,5],0,2 = 2 == ", self.mf([1,2,3,4,5],0,2), 2.0),
+            ( "[1,2,3,4,5],2,4 = 3 == ", self.mf([1,2,3,4,5],2,4), 4.0),
             
-            ( "[1],0,0 = 1.0 == ", avgValuesInRange([1],0,0), 1.0),
-            ( "[2],0,0 = 2.0 == ", avgValuesInRange([2],0,0), 2.0)
+            ( "[1],0,0 = 1.0 == ", self.mf([1],0,0), 1.0),
+            ( "[2],0,0 = 2.0 == ", self.mf([2],0,0), 2.0)
         ])
 
     
@@ -137,6 +139,7 @@ class Parsons():
         ])
 
     
+    #     def entry(self, bug, note, actual, expected, errortype):
     def Parson_Ericson2022figure3(self):
         def classy(jive):
             note, first, last, true_name, true_initials = jive
@@ -152,16 +155,16 @@ class Parsons():
                 try:
                     initials = p1.initials()
                 except:
-                    self.errLog("ERROR initials()")
+                    self.logerr(2, "ERROR initials()")
                     actual = str(sys.exc_info()[1])
-                    return self.entry(False,
+                    return self.entry(True,
                                   "Error initials() not happy",
                                   actual,
                                   "initials method",
                                   'runtime error')
 
                 if (initials != true_initials):
-                    return self.entry(False,
+                    return self.entry(True,
                                   note,
                                   initials,
                                   true_initials,
@@ -171,28 +174,28 @@ class Parsons():
                 try:
                     daname = str(p1)
                 except:
-                    print("ERROR __str__()", file=sys.stderr)
-                    return self.entry(False,
+                    self.logerr(2, "ERROR __str__()")
+                    return self.entry(True,
                                   "Error __str__ not happy",
                                   str(sys.exc_info()[1]),
                                   "__str__ should be defined"
                                   'runtime error')
 
                 if (daname != true_name):
-                    return self.entry(False,
+                    return self.entry(True,
                                   note,
                                   daname,
                                   true_name,
                                   'output incorrect')
-            
-                return self.entry(True, note, daname, '', '')
+                self.log(2, f'class returning happiness {note} name {daname}')
+                return self.entry(False, note, daname, '', '')
             except:
                 # print("safely caught exception")
                 ff = f'ERROR: File: {self.dafile}'
                 ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
-                self.errLog(ee)
+                self.logerr(2, ee)
 
-                return self.entry(False,
+                return self.entry(True,
                                   note,
                                   "Could not make a Person",
                                   "class Person:...",
@@ -209,8 +212,8 @@ class Parsons():
         ]
         self.predicates = list(map ( classy, args ))
 
-        good = list(filter(lambda x:  x["ok"] == True, self.predicates ))
-        bad = list(filter(lambda x:  x["ok"] == False, self.predicates ))
+        bad = list(filter(lambda x:  x["bug"] == True, self.predicates ))
+        good = list(filter(lambda x:  x["bug"] == False, self.predicates ))
 
         return len(bad), good, bad
 
@@ -259,8 +262,8 @@ class Parsons():
             self.expectN("[0,1,3,5] = 3", self.mf, [0,1,3,5], 3) 
          ]
 
-        good = list(filter(lambda x:  x["ok"] == True, self.predicates ))
-        bad = list(filter(lambda x:  x["ok"] == False, self.predicates ))
+        good = list(filter(lambda x:  x["bug"] == False, self.predicates ))
+        bad = list(filter(lambda x:  x["bug"] == True, self.predicates ))
 
         return len(bad), good, bad
 
@@ -321,11 +324,46 @@ class Parsons():
             ( "['123456','12345','1234','123','12','1'] = ['123456','12345','1234'] ", self.mf(['123456','12345','1234','123','12','1']), ['123456','12345','1234']),
         ])
 
-    
-    def Parson_Karavirta2012Figure3():
+
+# write a function getSum(numList) that returns the sum of a list of numbers.
+# def getSum(numList):
+# vs
+# construct a function that finds the maximum value in a given list
+# def findmax(alist):
+        # return self.set_predicates_return([
+        #     ("[] = 0", self.mf([]), 0),
+        #     ("[0] = 0", self.mf([0]), 0),
+
+
+# import trying: Ericson2017figure1_1 whole: ../data/V/V1/Ericson2017figure1/Ericson2017figure1_1.py
+# import happy : Ericson2017figure1_1
+# source code: def getSum(numList):
+#     sum = 0
+#     for num in numList:
+#         sum = sum + num
+#     return sum
+# attribute function happy getSum
+# testFolderProblemFile calling testit
+# testit start: Ericson2017figure1
+#         testit start: Ericson2017figure1
+# testit: fname: getSum  fn: <bound method Parsons.Parson_Ericson2017figure1 of <MM.Parsons object at 0x116079d20>>
+
+
+# testit start: Karavirta2012Figure3
+
+# testit: fname: findmax  fn: <bound method Parsons.Parson_Karavirta2012Figure3 of <MM.Parsons object at 0x102755d20>>
+# {'error': 'ERROR: error running File: ../data/V/V1/Karavirta2012Figure3/Karavirta2012Figure3_1.py',
+# 'exception': 'Parsons.Parson_Karavirta2012Figure3() takes 0 positional arguments but 1 was given'}
+#    runtime issue {'folder': '../data/V/V1', 'figure': 'Karavirta2012Figure3', 'file': 'Karavirta2012Figure3_1.py',
+# 'fullfile': '../data/V/V1/Karavirta2012Figure3/Karavirta2012Figure3_1.py', 'bug': 1,
+# 'msg': 'error running ../data/V/V1/Karavirta2012Figure3/Karavirta2012Figure3_1.py',
+# 'actual': 'Parsons.Parson_Karavirta2012Figure3() takes 0 positional arguments but 1 was given', 'expected': 'should run', 'errortype': 'runtime error'}
+# success removing module: Karavirta2012Figure3_1
+# testfile returns fails: 1 wins: 0
+
+    def Parson_Karavirta2012Figure3(self):
         return self.set_predicates_return([
             # ( "[]", self.mf([]), 999999), # blink test
-            ( "[]", self.mf([]), None),
             ( "[-9]", self.mf([-9]), -9),
             ( "[-9,-8]", self.mf([-9,-8]), -8),
             ( "[-9,-8,-10]", self.mf([-9,-8,-10]), -8),
@@ -339,47 +377,75 @@ class Parsons():
         ])
 
 
+    def stringOrFunction(self, jive):
+        # print("stringOrFunction: ", jive, file=sys.stderr)
+        note, f, arg1, arg2, expect = jive
+        v1 = None
+        v2 = None
+        try:
+            v1 = f(arg1)
+            self.log(2, f'stringOrFunction worked: {str(v1)}')
+            v2 = None
+            if (callable(v1)):
+                try:
+                    v2 = v1(arg2)
+                    happy = v2 == expect
+                    return self.entry(not happy, note, v2, expect, '')
+                except:
+                    ff = f'ERROR: Weinmann2021figure1 stringOrFunction 1  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
+                    ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
+                    self.logerr(2, ee)
+                    return self.entry(True, note, str(sys.exc_info()[1]), expect, 'runtime error')
+            else:
+                if (type(v1) is str):
+                    happy = v1 == expect
+                    return self.entry(not happy, note, str(sys.exc_info()[1]), expect, '')
+                
+                return self.entry(True, note, v1, expect, '')
+            
+        except:
+            ff = f'ERROR: Weinmann2021figure1 stringOrFunction 2  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
+            ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
+            self.logerr(2, ee)
+            return self.entry(True, note, v1, expect, '')
+
     def Parson_Weinmann2021figure1(self):
-        def stringOrFunction(self, jive):
+        def stringOrFunctionOld(self, jive):
             # print("stringOrFunction: ", jive, file=sys.stderr)
             note, f, arg1, arg2, expect = jive
             v1 = None
             v2 = None
             try:
                 v1 = f(arg1)
-                # print('stringOrFunction: f(arg1)', file=sys.stderr)
+                self.log(2, f'stringOrFunction worked: {str(v1)}')
                 v2 = None
-                # print('mf worked...:', v1)
                 if (callable(v1)):
                     try:
-                        # print('stringOrFunction: v1 was callable', file=sys.stderr)
                         v2 = v1(arg2)
                         happy = v2 == expect
-                        return self.entry(happy, note, v2, expect, '')
+                        return self.entry(not happy, note, v2, expect, '')
                     except:
-                        # print('stringOrFunction: v1 was NOT callable', file=sys.stderr)
                         ff = f'ERROR: Weinmann2021figure1 stringOrFunction 1  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
                         ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
-                        self.errLog(ee)
-                        return self.entry(False, note, str(sys.exc_info()[1]), expect, 'runtime error')
-                    # return {"msg": note, "ok": False, "actual": v2}
+                        self.logerr(2, ee)
+                        return self.entry(True, note, str(sys.exc_info()[1]), expect, 'runtime error')
+                    # return {"msg": note, "bug": True, "actual": v2}
                 else:
                     if (type(v1) is str):
                         # print("stringOrFunction returning v1", file=sys.stderr)
                         happy = v1 == expect
-                        return self.entry(happy, note, str(sys.exc_info()[1]), expect, '')
+                        return self.entry(not happy, note, str(sys.exc_info()[1]), expect, '')
                     
-                    return self.entry(False, note, v1, expect, '')
+                    return self.entry(True, note, v1, expect, '')
                 
             except:
                 ff = f'ERROR: Weinmann2021figure1 stringOrFunction 2  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
                 ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
-                self.errLog(ee)
-                return self.entry(False, note, v1, expect, '')
+                self.logerr(2, ee)
+                return self.entry(True, note, v1, expect, '')
 
         self.predicates = []
         args = [
-            ( "[] = 'All odd'", self.mf, [], '', 'All odd' ),
             ( "[1] = 'All odd'", self.mf, [1], '', 'All odd' ),
             ( "[1,3] = 'All odd'", self.mf, [1,3], '', 'All odd' ),
             ( "[1,3,5] = 'All odd'", self.mf, [1,3,5], '', 'All odd' ),
@@ -401,12 +467,15 @@ class Parsons():
             ( "[-4, 1, 1] = 5 1", self.mf, [-4, 1, 1], 5, 1 ),
             
         ]
+        # self.predicates = list(map ( self.stringOrFunction, args ))
         self.predicates = list(map ( self.stringOrFunction, args ))
-        good = list(filter(lambda x:  x["ok"] == True, self.predicates ))
-        bad = list(filter(lambda x:  x["ok"] == False, self.predicates ))
+        good = list(filter(lambda x:  x["bug"] == False, self.predicates ))
+        bad = list(filter(lambda x:  x["bug"] == True, self.predicates ))
         return len(bad), good, bad
 
-
+    #
+    # ============================================================================================
+    # 
         
     def setXref(self):
         self.xref = {}
@@ -426,16 +495,17 @@ class Parsons():
         ]:
             self.xref[ x[0] ] = (x[1], x[2])
             
-        
-    def entry(self, ok, note, actual, expected, errortype):
-        yo = 1
-        if ok:
-            yo = 0
+
+    def entry(self, bug, note, actual, expected, errortype):
+        yo = 0
+        if bug:
+            yo = 1
             
         return {"folder": self.folder,
                 "figure": self.me,
-                "file": self.dafile,
-                "ok" : yo,
+                "file": self.basename,
+                "fullfile": self.dafile,
+                "bug" : yo,
                 "msg": note,
                 "actual" : actual,
                 "expected": expected,
@@ -443,9 +513,6 @@ class Parsons():
                 }
 
     
-    def errLog(self, txt):
-        print(txt, file=sys.stderr)
-
     def setLog(self, n):
         self.loglevel = n
         # print("self.loglevel is now: " + str(self.loglevel) + ' after receiving: ' + str(n))
@@ -453,53 +520,43 @@ class Parsons():
     def log(self, lvl, msg):
         if (lvl < self.loglevel):
             print(msg)
-    
 
-    # self.predicates = list(map ( self.fixem, args ))
-    #
-    def fixem(self, args):
+    def logerr(self, lvl, msg):
+        if (lvl < self.loglevel):
+            print(msg, file=sys.stderr)
+
+            
+    def getFoldersIn(self, folder):
+        files = os.listdir(folder)
+        f = list( filter( lambda x: os.path.isdir(os.path.join(folder, x)),  files) ) 
+        return f
+
+
+    def checkem(self, args):
         note, result, expected = args
-        # print("fixem...")
         rc = False
-        
         if ( (type(expected) is int ) or (type(expected) is float)):
             rc = abs(  abs(result) - abs(expected)) < 0.0001
         else:
             rc = result == expected
-
         errortype = ''
         if not rc:
             errortype = 'output incorrect'
-
-        return self.entry(rc, note, result, expected, errortype)
+        return self.entry(not rc, note, result, expected, errortype)
 
 
     def set_predicates(self, alist):
-        self.predicates = list(map ( self.fixem, alist ))
+        self.predicates = list(map ( self.checkem, alist ))
 
     def set_predicates_return(self, alist):
         self.set_predicates(alist)
-        self.log(1,'set_predicates_return: ' + str(self.predicates))
+        self.log(2,'set_predicates_return: ' + str(self.predicates))
 
-        good = list(filter(lambda x: x["ok"] == True, self.predicates ))
-        bad = list(filter(lambda x: x["ok"] == False, self.predicates ))
-        self.log(1,'set_predicates_return good: ' + str(good))
-        self.log(1,'set_predicates_return bad : ' + str(bad))
+        good = list(filter(lambda x: x["bug"] == False, self.predicates ))
+        bad = list(filter(lambda x: x["bug"] == True, self.predicates ))
+        self.log(2,'set_predicates_return good: ' + str(good))
+        self.log(2,'set_predicates_return bad : ' + str(bad))
         return len(bad), good, bad
-
-    
-    # def expect(self, note, f, args, expect):
-    #     rc = None
-    #     try:
-    #         rc = f(args)
-    #     except:
-    #         # print("expect caught exception of f(args)")
-    #         return note, False, rc
-    #     errortype = ''
-    #     happy = rc == expect
-    #     if not happy:
-    #         errortype = 'output incorrect'
-    #     return self.entry(happy, note, rc, expect, errortype)
 
 
     def expectN(self, note, f, args, expect):
@@ -512,16 +569,16 @@ class Parsons():
         except:
             ff = f'ERROR: M.py expectN  Folder: {self.folder} File: {self.dafile}\nNote: {note} args: {args} expect: {expect}'
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1]) }
-            self.errLog(ee)
-            return self.entry(False, note, actual, expect, "runtime error")
-            # return {"msg": note, "ok": False, "actual": actual, "expected": expect, "errortype": "runtime error"}
+            self.logerr(2, ee)
+            return self.entry(True, note, actual, expect, "runtime error")
+            # return {"msg": note, "bug": False, "actual": actual, "expected": expect, "errortype": "runtime error"}
 
         withinlimit = abs(abs(actual) - abs(expect)) < 0.001
         if not withinlimit:
             errortype = 'output incorrect'
 
-        # return {"msg": note, "ok":  withinlimit, "actual": actual, "errortype": errortype}
-        return self.entry(withinlimit, note, actual, expect, errortype)
+        # return {"msg": note, "bug":  withinlimit, "actual": actual, "errortype": errortype}
+        return self.entry(not withinlimit, note, actual, expect, errortype)
 
 
     def me(self):
@@ -533,89 +590,136 @@ class Parsons():
     def testit(self, problem):
         self.log(2, f'\ntestit start: {problem}') 
         fn, fname = self.xref[problem]
-        self.log(2, f'\ntestit: {fname} {fn} ') 
-
+        self.log(2, f'\ntestit: fname: {fname}  fn: {fn} ') 
         rc = fn()
         self.log(2, f'\ntestit: rc {rc} ') 
-
         return rc
+
+
 
     def resetResults(self):
         self.results = []
+        self.fails = []
+        self.wins = []
 
     def addResults(self, things):
         self.results = self.results + things
     
+
+    #
+    # just the file
+    #
     def getFileNames(self, folder, problem):
-        dastring = f'./{folder}/{problem}/{problem}*.py'
+        dastring = f'{folder}/{problem}/{problem}*.py'
+        self.ff = None
+        self.log(1, f'getFileNames globs b4  : {self.ff}  glob: {dastring}')
+        ff = glob.glob(dastring)
+        justbase = list (map( os.path.basename, ff))
+        self.log(1, f'getFileNames nices     : {justbase}')
+        return justbase
+
+    #
+    # the whole path
+    #
+    def getFileNamesPath(self, folder, problem):
+        dastring = f'{folder}/{problem}/{problem}*.py'
         self.ff = None
         self.log(1, f'getFileNames globs b4  : {self.ff}  glob: {dastring}')
         ff = glob.glob(dastring)
         self.log(1, f'getFileNames globs affa: {ff}  glob: {dastring}')
         return ff
 
+    def getProblems(self):
+        # return ['Hou2022figure2', 'Karavirta2012Figure3', 'Weinmann2021figure1']
+        return ['Ericson2017figure1', 'Ericson2017figure4', 'Ericson2018figure5', 
+                'Ericson2022figure2', 'Ericson2022figure3', 'Ericson2022figure4', 'Ericson2022figure8', 
+                'Haynes_Magyar2022figure2', 'Haynes_Magyar2022figure4', 
+                'Hou2022figure2', 'Karavirta2012Figure3', 'Weinmann2021figure1']
 
 
-    def testFolder(self, folder, problem, files):
+# # ------------------------------------------------------------------------------
+
+    def testProblems(self, folder, problems, reset=False):
+        self.log(1,f'\ntestProblems() folder: {folder} problems: {problems} reset: {reset}')
+        if reset:
+            self.resetResults()
+        for p in problems:
+            fnames = list( self.getFileNames(folder, p) )
+            self.log(2,f'   testProblems running: {p} files: {fnames}')
+            self.testFolderProblemFiles(folder, p, fnames)
+        return self.results
+
+
+    def testFolderProblemFiles(self, folder, problem, files):
+        self.log(1,f'\ntestFolderProblemFiles() folder: {folder} problem: {problem} files: {files}')
+        p = Path('.')
         for f in files:
             self.addResults(
-                self.testFile(folder, problem, f)
+                self.testFolderProblemFile(folder, problem, f)
             )
 
-
-    def testProblems(self, folder, problems ):
-        self.log(1,f'\ntestProblems() folder: {folder} problems: {problems}')
-        for p in problems:
-            self.testFolder(folder, p, self.getFileNames(folder, p))
+    #
+    # nerf through subfolders 
+    #
+    def testAll(self, folder= '../data/V'):
+        self.resetResults()
+        for adir in self.getFoldersIn(folder):
+            self.log(1,f'testAll folder: {adir} --------------------------------------------------------------')
+            apath = os.path.join(folder, adir)
+            self.testProblems(apath, self.getProblems())
         return self.results
 
     #
     # testFile('./V/V1', 'Ericson2018figure5', 'Parson_Ericson2018figure5_13.py')
     #
-    def testFile(self, folder, problem, afile):
-        self.log(1, f'\ntestFile() folder: {folder} problem: {problem} file: {afile}')
+    def testFolderProblemFile(self, folder, problem, afile):
+        self.log(1, f'\ntestFolderProblemFile() folder: {folder} problem: {problem} file: {afile}')
+        # self.dafile = f'{folder}/{problem}/{afile}'
+        self.dafile = os.path.join(folder, problem, afile)
         self.folder = folder
         self.me = problem
-        self.dafile = afile
-        
-        mpath = f'./{folder}/{problem}'
-
-        seeking = f'{folder}/{problem}/{afile}'
-        self.log(1, f'  seeking: {seeking}')
+        self.basename = afile
+                
+        # mpath = f'{folder}/{problem}'
+        mpath = os.path.join(folder, problem)
+        seeking = os.path.join(folder, problem, afile)
+        self.log(2, f'  seeking: {seeking}')
 
         there = os.path.exists(seeking+".py")
-        self.log(1, f'  seeking? {there}: {seeking}')
+        self.log(2, f'  seeking? {there}: {seeking}')
         f = os.path.abspath(seeking)
 
         fails = 0
 
         sys.path.insert(0, mpath)
                 
-        self.log(1,f'testFile() xref [{problem}]...')
+        self.log(2,f'testFolderProblemFile() xref [{problem}]...')
         m, f = self.xref[problem]
 
-        self.log(1,"\ntestFile start\n")
+        self.log(2,"\ntestFolderProblemFile start\n")
         # self.dafile = f'{problem}_{i}'
+        expect_export = False
         try:
-            justfile = os.path.basename(afile)[:-3]
-            self.log(2,f'\nimport trying: {justfile} whole: {afile}')
-            self.m = __import__(justfile)
-            self.log(2,f'\nimport happy : {justfile}')
+            modulename = os.path.basename(self.dafile)[:-3]
+            self.log(3,f'\nimport trying: {modulename} whole: {self.dafile}')
+            self.m = __import__(modulename)
+            expect_export = True
+            self.log(3,f'\nimport happy : {modulename}')
             try:
-                self.log(2,"source code: " + inspect.getsource(self.m))
+                self.log(3,"source code: " + inspect.getsource(self.m))
             except:
                 print("inspect not happy.")
-                
+
             if (hasattr(self.m, f)):
-                self.log(2,"attribute function happy " + f)
+                self.log(3,"attribute function happy " + f)
                 self.mf = getattr(self.m, f)                            
 
             try: 
-                self.log(1,"\ntestFile calling testit\n")
+                self.log(3,"\ntestFolderProblemFile calling testit\n")
 
                 nfail, good, bad = self.testit(problem)
 
-                self.log(2,f'\n\ntestit()====================================\n fail: {nfail} \n  good: {good} \n  bad: {bad} ')
+                self.log(3,f'\n\ntestit()====================================\n fail: {nfail} \n  good: {good} \n  bad: {bad} ')
                 if (nfail >0):
                     fails += 1
 
@@ -623,30 +727,30 @@ class Parsons():
                 self.wins = self.wins + good 
 
             except:
-                ff = f'ERROR: error running File: {afile}'
+                ff = f'ERROR: error running File: {self.dafile}'
                 ee = {"error" : ff, "exception" :  str(sys.exc_info()[1]) }
-                print(ee, file=sys.stderr)
+                self.logerr(2, ee)
 
                 fails += 1
-                bug = self.entry(False,
-                                     "error running " + afile,
-                                     str(sys.exc_info()[1]),
-                                     'should run',
-                                     'runtime error'
-                                     )
+                bug = self.entry(True,
+                                 "error running " + self.dafile,
+                                 str(sys.exc_info()[1]),
+                                 'should run',
+                                 'runtime error'
+                                 )
                 self.log(2,"   runtime issue " + str(bug))
                 self.fails.append( bug )
     
         except:
-            ff = f'ERROR: problem with import  File: {afile}'
+            ff = f'ERROR: problem with import  File: {self.dafile}'
             ee = {"error" : ff, "exception" :  str(sys.exc_info()[1]) }
-            print(ee, file=sys.stderr)
+            self.logerr(2, ee)
 
             fails += 1
 
             self.fails.append(
-                self.entry(False,
-                           "error importing source code " + afile,
+                self.entry(True,
+                           "error importing source code " + self.dafile,
                            str(sys.exc_info()[1]),
                            'should import',
                            "import error"
@@ -654,127 +758,20 @@ class Parsons():
             )
 
         try:
-            del sys.modules[self.dafile]
-            log(2, "we migh have just removed module: " + str(self.dafile))
+            del sys.modules[modulename]
+            # del sys.modules[self.dafile]
+            self.log(2, f'success removing module: {modulename}')
         except:
-            # oh well...
-            pass
+            #
+            # not necessarily bad, might not have imported ?
+            #
+            if expect_export:
+                self.log(1, f'error: could not remove module: {modulename}')
 
         # return fails
+        self.log(1, f'testfile returns fails: {len(self.fails)} wins: {len(self.wins)}')
         return self.fails + self.wins
-
         
-    #
-    # check every predicate against every file
-    #
-    def zloopit(self, dbg):
-        self.setLog(dbg)
-        fails = 0
-        mpath = f'./{self.folder}/{self.me}'
-
-        self.log(1,"loopit enumerate..." + str(list(self.ff)))
-        if ( len(self.ff) < 1) :
-            # folder typo?
-            ff = f'ERROR: no input files found for [{self.me}] folder: {self.ff}'
-            self.errLog(ff)
-            fails += 1
-            self.log(2,"  fail no input files")
-            self.fails.append(
-                self.entry(False,
-                           "error no input files found in folder " + str(self.ff),
-                           "error",
-                           "valid folder",
-                           "empty folder"
-                           )
-                )
-
-        # in preparation for import, add correct folder to path
-        #
-        # sys.modules.clear()
-        self.log(1,f'\nloopit path b4: [{mpath}] folder: {self.folder} me: {self.me} \n\npath: {sys.path}')
-        sys.path.insert(0, mpath)
-        self.log(1,f'\nloopit path af: [{mpath}] folder: {self.folder} me: {self.me} \n\npath: {sys.path}')
-                
-        for i, f in enumerate(self.ff):
-            self.log(1,"\nloopit enumerate start\n")
-            self.dafile = f'{self.me}_{i}'
-            self.log(1,"\nloopit enumerate dafile " + self.dafile + "\n")
-            try:
-                self.m = __import__(self.dafile)
-                self.log(2,"\nimport happy " + self.dafile)
-                try:
-                    self.log(2,"source code: " + inspect.getsource(self.m))
-                except:
-                    print("inspect not happy.")
-                if (hasattr(self.m, self.mfname)):
-                    self.log(2,"attribute mfname happy " + self.mfname)
-                    self.mf = getattr(self.m, self.mfname)                            
-
-                try: 
-                    self.log(1,"\nloopit calling testit\n")
-
-                    nfail, good, bad = self.testit()
-
-                    self.log(2,f'\n\ntestit()====================================\n fail: {nfail} \n  good: {good} \n  bad: {bad} ')
-                    # print("nfail: ", nfail)
-                    # print("bad: ", bad, file=sys.stderr)
-                    if (nfail >0):
-                        fails += 1
-
-                    self.fails = self.fails + bad
-                    self.wins = self.wins + good 
-
-                except:
-                    ff = f'ERROR: error running File: {self.dafile}'
-                    ee = {"error" : ff, "exception" :  str(sys.exc_info()[1]) }
-                    print(ee, file=sys.stderr)
-
-                    fails += 1
-                    bug = self.entry(False,
-                                     "error running " + self.dafile,
-                                     str(sys.exc_info()[1]),
-                                     'should run',
-                                     'runtime error'
-                                     )
-                    self.log(2,"   runtime issue " + str(bug))
-                    self.fails.append( bug )
-    
-            except:
-                ff = f'ERROR: problem with import  File: {self.dafile}'
-                # ee = {"error" : ff, "exception" : str( sys.exc_info()[1] )  }
-                # ee = {"error" : ff, "exception" :  sys.exc_info()[1]  }
-                ee = {"error" : ff, "exception" :  str(sys.exc_info()[1]) }
-                print(ee, file=sys.stderr)
-
-                fails += 1
-    # def entry(self, ok, note, actual, expected, errortype):
-                self.fails.append( self.entry(False,
-                                              "error importing source code " + self.dafile,
-                                              str(sys.exc_info()[1]),
-                                              'should import',
-                                              "import error"
-                                              )
-                                  )
-            #                         "issues" : [{"msg": "error importing source code " + self.dafile,
-            #                                      "ok": False,
-            #                                      "actual": str(sys.exc_info()),
-            #                                      "errortype": "import error"
-            #                                      }]} )
-            try:
-                del sys.modules[self.dafile]
-                log(2, "we migh have just removed module: " + str(self.dafile))
-            except:
-                # oh well...
-                pass
-
-        # s = sys.modules
-        # print(s)
-        # # print("sys.path b4 remove: ", sys.path)
-        # sys.path.remove(mpath)
-        # print("sys.path affa remove: ", sys.path)
-        # # sys.path.pop()
-        return fails
-
 
 
     def ppjson(self):
@@ -809,3 +806,16 @@ class Parsons():
             folder = sys.argv[1]
         # print("folder: ", folder)
         return folder
+
+        # def expect(self, note, f, args, expect):
+    #     rc = None
+    #     try:
+    #         rc = f(args)
+    #     except:
+    #         # print("expect caught exception of f(args)")
+    #         return note, False, rc
+    #     errortype = ''
+    #     happy = rc == expect
+    #     if not happy:
+    #         errortype = 'output incorrect'
+    #     return self.entry(not happy, note, rc, expect, errortype)
