@@ -64,3 +64,20 @@ folder	figure	file
 27	V3	Haynes_Magyar2022figure2	4
 28	V3	Haynes_Magyar2022figure4	10
 29	V3	Weinmann2021figure1	1
+
+
+
+folder	../data/V/V_Produce_the_right_answer	../data/V/V_Put_the_lines_in_order_to_solve_the_problem	../data/V/V_Reorder_and_indent_the_lines	../data/V/V_Reorder_and_indent_the_lines_if_needed	../data/V/V_Reorder_the_lines	../data/V/V_Sequence_the_lines_correctly	../data/V/V_nan
+figure							
+Ericson2017figure1	13.0	10.0	2.0	1.0	10.0	10.0	4.0
+Ericson2017figure4	15.0	11.0	5.0	3.0	19.0	9.0	4.0
+Ericson2018figure5	16.0	15.0	15.0	14.0	18.0	16.0	15.0
+Ericson2022figure2	10.0	13.0	9.0	5.0	16.0	10.0	2.0
+Ericson2022figure3	1.0	NaN	NaN	NaN	NaN	NaN	NaN
+Ericson2022figure4	8.0	7.0	8.0	7.0	8.0	8.0	9.0
+Ericson2022figure8	3.0	7.0	5.0	3.0	8.0	3.0	5.0
+Haynes_Magyar2022figure2	14.0	17.0	2.0	2.0	18.0	15.0	1.0
+Haynes_Magyar2022figure4	16.0	19.0	11.0	12.0	19.0	17.0	10.0
+Hou2022figure2	16.0	16.0	4.0	11.0	16.0	14.0	9.0
+Karavirta2012Figure3	7.0	5.0	1.0	NaN	9.0	NaN	3.0
+Weinmann2021figure1	NaN	5.0	NaN	NaN	6.0	1.0	5.0
