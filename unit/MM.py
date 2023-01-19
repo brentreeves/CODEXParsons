@@ -518,7 +518,7 @@ class Parsons():
         # print("self.loglevel is now: " + str(self.loglevel) + ' after receiving: ' + str(n))
 
     def log(self, lvl, msg):
-        if (lvl < self.loglevel):
+        if (lvl <= self.loglevel):
             print(msg)
 
     def logerr(self, lvl, msg):
@@ -667,6 +667,7 @@ class Parsons():
             self.log(1,f'testAll folder: {adir} --------------------------------------------------------------')
             apath = os.path.join(folder, adir)
             self.testProblems(apath, self.getProblems())
+            self.log(1,f'result size now: {len(self.results)}')
         return self.results
 
     #
@@ -679,6 +680,8 @@ class Parsons():
         self.folder = folder
         self.me = problem
         self.basename = afile
+        myfails = []
+        mywins = []
                 
         # mpath = f'{folder}/{problem}'
         mpath = os.path.join(folder, problem)
@@ -723,8 +726,10 @@ class Parsons():
                 if (nfail >0):
                     fails += 1
 
-                self.fails = self.fails + bad
-                self.wins = self.wins + good 
+                myfails = myfails + bad
+                mywins = mywins + good
+                # self.fails = self.fails + bad
+                # self.wins = self.wins + good 
 
             except:
                 ff = f'ERROR: error running File: {self.dafile}'
@@ -739,7 +744,8 @@ class Parsons():
                                  'runtime error'
                                  )
                 self.log(2,"   runtime issue " + str(bug))
-                self.fails.append( bug )
+                # self.fails.append( bug )
+                myfails.append( bug )
     
         except:
             ff = f'ERROR: problem with import  File: {self.dafile}'
@@ -748,7 +754,8 @@ class Parsons():
 
             fails += 1
 
-            self.fails.append(
+            # self.fails.append(
+            myfails.append(
                 self.entry(True,
                            "error importing source code " + self.dafile,
                            str(sys.exc_info()[1]),
@@ -769,8 +776,8 @@ class Parsons():
                 self.log(1, f'error: could not remove module: {modulename}')
 
         # return fails
-        self.log(1, f'testfile returns fails: {len(self.fails)} wins: {len(self.wins)}')
-        return self.fails + self.wins
+        self.log(1, f'testFolderProblemFile returns fails: {len(myfails)} wins: {len(mywins)}')
+        return myfails + mywins
         
 
 

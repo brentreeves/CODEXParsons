@@ -1,0 +1,11 @@
+def getAverageDropLowest(numList):
+    sum = 0
+    lowest = numList[0]
+    for value in numList:
+        sum = sum + value
+        if value < lowest:
+            lowest = value
+    if len(numList) == 0:
+        return 0
+    return (sum - lowest) / (len(numList) - 1)
+ 

@@ -9,7 +9,7 @@ import MM as m
 n = m.Parsons()
 
 n.resetResults()
-n.setLog(0)
+n.setLog(1)
 alls = n.testAll()
 df = pd.json_normalize(alls,meta=['folder', 'figure', 'file', 'fullfile', 'bug', 'msg', 'actual', 'expected', 'errortype'])
 
