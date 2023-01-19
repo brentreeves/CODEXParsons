@@ -1,3 +1,10 @@
+# bnr
+.DS_Store
+data/z*
+old/
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
