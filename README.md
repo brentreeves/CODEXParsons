@@ -2,6 +2,13 @@
 # CODEXParsons
 Testing CODEX with Parsons problems
 
+## New
+Two notebooks:
+1. analyze read a csv and distribute things into folders/files
+2. unit/reports read a csv, distribute things, run unit tests on them
+3. unit/PCA principal component analysis on loops, ifs, linecount, returns
+
+## Old:
 Two major parts:
 
 # The first part lives in /unittests
