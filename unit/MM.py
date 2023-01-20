@@ -711,7 +711,7 @@ class Parsons():
             try:
                 self.log(3,"source code: " + inspect.getsource(self.m))
             except:
-                print("inspect not happy.")
+                self.log(3,"inspect not happy.")
 
             if (hasattr(self.m, f)):
                 self.log(3,"attribute function happy " + f)
