@@ -2,8 +2,8 @@
 .DS_Store
 data/z*
 old/
-
-
+*.xlsx
+*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
