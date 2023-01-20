@@ -1,4 +1,3 @@
-# Put the code in order to return the average of the values in a list and protect against divide by zero error.
 def getAverageDropLowest(numList):
 	if len(numList) == 0:
 		return 0
