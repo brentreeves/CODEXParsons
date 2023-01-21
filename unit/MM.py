@@ -51,7 +51,20 @@ class Parsons():
         self.log(1, f'setUpFolder globs b4: {self.ff}  glob: {dastring}')
         self.ff = glob.glob(dastring)
         self.log(1, f'setUpFolder globs affa: {self.ff}  glob: {dastring}')
+
         # print(f'setUpClass globs: affa: {str(self.ff)}  glob: {dastring}')
+
+
+    def errortype(self, key):
+        msgs = {'output': 'output incorrect',
+                'runtime': 'runtime error',
+                'import': 'import error'}
+        if not key in msgs:
+            self.logerr(1, f'ERROR - invalid error code: {key}')
+            # print( f'ERROR - invalid error code: {key}')
+            return 'unknown error'
+        else:
+            return msgs[key]
 
       
     def Parson_Ericson2017figure1(self):
@@ -157,49 +170,49 @@ class Parsons():
                 except:
                     self.logerr(2, "ERROR initials()")
                     actual = str(sys.exc_info()[1])
-                    return self.entry(True,
+                    return self.keep_sad(
                                   "Error initials() not happy",
                                   actual,
                                   "initials method",
-                                  'runtime error')
+                                  self.errortype('runtime'))
 
                 if (initials != true_initials):
-                    return self.entry(True,
+                    return self.keep_sad(
                                   note,
                                   initials,
                                   true_initials,
-                                  'output incorrect')
+                                  self.errortype('output'))
 
                 daname = ''
                 try:
                     daname = str(p1)
                 except:
                     self.logerr(2, "ERROR __str__()")
-                    return self.entry(True,
-                                  "Error __str__ not happy",
-                                  str(sys.exc_info()[1]),
-                                  "__str__ should be defined"
-                                  'runtime error')
+                    return self.keep_sad(
+                                      "Error __str__ not happy",
+                                      str(sys.exc_info()[1]),
+                                      "def __str__(self): return should be defined",
+                                      self.errortype('runtime'))
 
                 if (daname != true_name):
-                    return self.entry(True,
+                    return self.keep_sad(
                                   note,
                                   daname,
                                   true_name,
-                                  'output incorrect')
+                                  self.errortype('output'))
                 self.log(2, f'class returning happiness {note} name {daname}')
-                return self.entry(False, note, daname, '', '')
+                return self.keep_happy(note, daname, '')
             except:
                 # print("safely caught exception")
                 ff = f'ERROR: File: {self.dafile}'
                 ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
                 self.logerr(2, ee)
 
-                return self.entry(True,
+                return self.keep_sad(
                                   note,
                                   "Could not make a Person",
                                   "class Person:...",
-                                  'runtime error')
+                                  self.errortype('runtime'))
             # end classy
         args = [
             # ("a b = 'ab' 'a b'", 'a','b','a b', 'zz'), # blink test
@@ -357,7 +370,7 @@ class Parsons():
 #    runtime issue {'folder': '../data/V/V1', 'figure': 'Karavirta2012Figure3', 'file': 'Karavirta2012Figure3_1.py',
 # 'fullfile': '../data/V/V1/Karavirta2012Figure3/Karavirta2012Figure3_1.py', 'bug': 1,
 # 'msg': 'error running ../data/V/V1/Karavirta2012Figure3/Karavirta2012Figure3_1.py',
-# 'actual': 'Parsons.Parson_Karavirta2012Figure3() takes 0 positional arguments but 1 was given', 'expected': 'should run', 'errortype': 'runtime error'}
+# 'actual': 'Parsons.Parson_Karavirta2012Figure3() takes 0 positional arguments but 1 was given', 'expected': 'should run', 'errortype': self.errortype('runtime')}
 # success removing module: Karavirta2012Figure3_1
 # testfile returns fails: 1 wins: 0
 
@@ -390,24 +403,24 @@ class Parsons():
                 try:
                     v2 = v1(arg2)
                     happy = v2 == expect
-                    return self.entry(not happy, note, v2, expect, '')
+                    return self.keep(not happy, note, v2, expect, self.errortype('output'))
                 except:
                     ff = f'ERROR: Weinmann2021figure1 stringOrFunction 1  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
                     ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
                     self.logerr(2, ee)
-                    return self.entry(True, note, str(sys.exc_info()[1]), expect, 'runtime error')
+                    return self.keep_sad(note, str(sys.exc_info()[1]), expect, self.errortype('runtime'))
             else:
                 if (type(v1) is str):
                     happy = v1 == expect
-                    return self.entry(not happy, note, str(sys.exc_info()[1]), expect, '')
+                    return self.keep(not happy, note, v1, expect, self.errortype('output'))
                 
-                return self.entry(True, note, v1, expect, '')
+                return self.keep_sad(note, v1, expect, self.errortype('output'))
             
         except:
             ff = f'ERROR: Weinmann2021figure1 stringOrFunction 2  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
             self.logerr(2, ee)
-            return self.entry(True, note, v1, expect, '')
+            return self.keep_sad(note, v1, expect, self.errortype('runtime'))
 
     def Parson_Weinmann2021figure1(self):
         def stringOrFunctionOld(self, jive):
@@ -423,26 +436,27 @@ class Parsons():
                     try:
                         v2 = v1(arg2)
                         happy = v2 == expect
-                        return self.entry(not happy, note, v2, expect, '')
+                        return self.keep(not happy, note, v2, expect, self.errortype('output'))
+                            
                     except:
                         ff = f'ERROR: Weinmann2021figure1 stringOrFunction 1  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
                         ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
                         self.logerr(2, ee)
-                        return self.entry(True, note, str(sys.exc_info()[1]), expect, 'runtime error')
+                        return self.keep_sad(note, str(sys.exc_info()[1]), expect, self.errortype('runtime'))
                     # return {"msg": note, "bug": True, "actual": v2}
                 else:
                     if (type(v1) is str):
                         # print("stringOrFunction returning v1", file=sys.stderr)
                         happy = v1 == expect
-                        return self.entry(not happy, note, str(sys.exc_info()[1]), expect, '')
+                        return self.keep(not happy, note, str(sys.exc_info()[1]), expect, self.errortype('output'))
                     
-                    return self.entry(True, note, v1, expect, '')
+                    return self.keep_sad(note, v1, expect, self.errortype('output'))
                 
             except:
                 ff = f'ERROR: Weinmann2021figure1 stringOrFunction 2  Folder: {self.folder} File: {self.dafile}\nNote: {note} arg1: {arg1} arg2: {arg2}'
                 ee = {"error" : ff, "exception" : str(sys.exc_info()[1])}
                 self.logerr(2, ee)
-                return self.entry(True, note, v1, expect, '')
+                return self.keep_sad(note, v1, expect, self.errortype('runtime'))
 
         self.predicates = []
         args = [
@@ -496,21 +510,29 @@ class Parsons():
             self.xref[ x[0] ] = (x[1], x[2])
             
 
-    def entry(self, bug, note, actual, expected, errortype):
-        yo = 0
-        if bug:
-            yo = 1
-            
+    def entry(self, bug, note, actual, expected, errortype=''):
         return {"folder": self.folder,
                 "figure": self.me,
                 "file": self.basename,
                 "fullfile": self.dafile,
-                "bug" : yo,
+                "bug" : bug,
                 "msg": note,
                 "actual" : actual,
                 "expected": expected,
                 "errortype": errortype
                 }
+
+    def keep_happy(self, note, actual, expected):
+        return self.entry(0, note, actual, expected, '')
+
+    def keep_sad(self, note, actual, expected, errortype):
+        return self.entry(1, note, actual, expected, errortype)
+
+    def keep(self, bug, note, actual, expected, errortype):
+        if bug:
+            return self.keep_sad(note, actual, expected, errortype)
+        else:
+            return self.keep_happy(note, actual, expected)
 
     
     def setLog(self, n):
@@ -541,8 +563,9 @@ class Parsons():
             rc = result == expected
         errortype = ''
         if not rc:
-            errortype = 'output incorrect'
-        return self.entry(not rc, note, result, expected, errortype)
+            errortype = self.errortype('output')
+        return self.keep(not rc, note, result, expected, errortype)
+
 
 
     def set_predicates(self, alist):
@@ -570,15 +593,13 @@ class Parsons():
             ff = f'ERROR: M.py expectN  Folder: {self.folder} File: {self.dafile}\nNote: {note} args: {args} expect: {expect}'
             ee = {"error" : ff, "exception" : str(sys.exc_info()[1]) }
             self.logerr(2, ee)
-            return self.entry(True, note, actual, expect, "runtime error")
-            # return {"msg": note, "bug": False, "actual": actual, "expected": expect, "errortype": "runtime error"}
+            return self.keep_sad(note, actual, expect, self.errortype('runtime'))
 
         withinlimit = abs(abs(actual) - abs(expect)) < 0.001
         if not withinlimit:
-            errortype = 'output incorrect'
+            errortype = self.errortype('output')
 
-        # return {"msg": note, "bug":  withinlimit, "actual": actual, "errortype": errortype}
-        return self.entry(not withinlimit, note, actual, expect, errortype)
+        return self.keep(not withinlimit, note, actual, expect, errortype)
 
 
     def me(self):
@@ -737,11 +758,10 @@ class Parsons():
                 self.logerr(2, ee)
 
                 fails += 1
-                bug = self.entry(True,
-                                 "error running " + self.dafile,
+                bug = self.keep_sad("error running " + self.dafile,
                                  str(sys.exc_info()[1]),
                                  'should run',
-                                 'runtime error'
+                                 self.errortype('runtime')
                                  )
                 self.log(2,"   runtime issue " + str(bug))
                 # self.fails.append( bug )
@@ -756,11 +776,10 @@ class Parsons():
 
             # self.fails.append(
             myfails.append(
-                self.entry(True,
-                           "error importing source code " + self.dafile,
+                self.keep_sad("error importing source code " + self.dafile,
                            str(sys.exc_info()[1]),
                            'should import',
-                           "import error"
+                           self.errortype('import')
                            )
             )
 
@@ -814,15 +833,3 @@ class Parsons():
         # print("folder: ", folder)
         return folder
 
-        # def expect(self, note, f, args, expect):
-    #     rc = None
-    #     try:
-    #         rc = f(args)
-    #     except:
-    #         # print("expect caught exception of f(args)")
-    #         return note, False, rc
-    #     errortype = ''
-    #     happy = rc == expect
-    #     if not happy:
-    #         errortype = 'output incorrect'
-    #     return self.entry(not happy, note, rc, expect, errortype)

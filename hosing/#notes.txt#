@@ -1,0 +1,96 @@
+\begin{subsection}Two variations for each of the six prompts{/subsection}
+Each parsons was submitted with 6 different prompts and 2 different ending lines.
+
+{\ol}
+Reorder_and_indent_the_lines
+Reorder_and_indent_the_lines_if_needed
+Reorder_the_lines
+Sequence_the_lines_correctly
+Put_the_lines_in_order_to_solve_the_problem
+Produce_the_right_answer
+{\ol}
+
+
+For each of the six prompts,
+Reorder and indent the lines
+Reorder and indent the lines if needed
+Reorder the lines
+Sequence the lines correctly
+Put the lines in order to solve the problem
+Produce the right answer
+we submitted two alternates to codex.  The 'unprimed' submissions ended with '# Solution'.  The 'primed' submission ended with '# Solution with indentation'.
+
+\item Reorder and indent the lines
+\item Reorder and indent the lines if needed
+\item Reorder the lines
+\item Sequence the lines correctly
+\item Put the lines in order to solve the problem
+\item Produce the right answer
+
+
+[V1Main s35]
+We expected 'primed' to consistently outperform 'unprimed', but that did not happen.
+We calculated the average misses for each problem separately for primed and unprimed.
+
+[if nan_primed included]
+Only 7 problems performed better with 'primed' and there was no correlation betwen the differences and overall performance of the problem.
+
+[else nan_primed excluded:]
+Only 8 problems performed better with 'primed' and there was no correlation betwen the differences and overall performance of the problem.
+[endif nan_primed included]
+
+Figure X shows the number of program failures by Problem and Prompt.  
+
+=====
+OLD =
+
+
+
+\begin{table}[htb]
+\caption{Errors by Prompt. Of 20 programs in each Version, how many failed to load or run correctly?}
+\begin{tabular}{lccccc}
+
+{\bf Parsons Problems} &	{\bf CC\footnotemark[1]} & {\bf V1} & {\bf V2} & {\bf V3} & {\bf Sum} \\
+\toprule
+Ericson2017figure1 & 2 & 0 & 4 & 5 & 9  \\
+Ericson2018figure5 & 4 & 0 & 3 & 6 & 9  \\
+Ericson2022figure2 & 3 & 2 & 8 & 3 & 13  \\
+Ericson2022figure3 & \-- & 1 & 7 & 6 & 14  \\
+Ericson2022figure4 & 6 & 1 & 10 & 6 & 17  \\
+Ericson2022figure8 & 4 & 1 & 1 & 8 & 10 \\
+Haynes\_Magyar2022figure2 & 4 & 4 & 15 & 16 & 35  \\
+Haynes\_Magyar2022figure4 & 3 & 5 & 8 & 10 & 23  \\
+Hou2022figure2 & 3 & 0 & 4 & 0 & 4  \\
+Karavirta2012Figure3 & 4 & 8 & 9 & 4 & 21 \\
+Weinmann2021figure1 & 3 & 1 & 4 & 1 & 6  \\
+Grand Total &  & 23 & 73 & 65 & 161  \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize $^1$Cyclomatic Complexity}
+\label{tab:summary}
+\end{tabular}
+\end{table}
+
+Although we tested Ericson2017figure4, we exclude it from the analysis here.  It was so difficult to understand that we could not make a good white-box test suite.  When we did make a test suite based on observation, i.e. black box testing, none of the 60 codex solutions worked.  They suffered from either "import" or "runtime" errors, meaning none of them were even able to run.
+
+\begin{table}[htb]
+\caption{Of programs in each prompt version, what percent executed correctly?}
+\begin{tabular}{lccccc}
+
+Parsons Problem & Cyclomatic Complexity & V1 & V2 & V3 & Overall \\
+\toprule
+Ericson2017figure1 & 2 & 100 & 80 & 75 & 85 \\
+Ericson2018figure5 & 4 & 100 & 85 & 70 & 85 \\
+Ericson2022figure2 & 3 & 90 & 60 & 85 & 78 \\
+Ericson2022figure3 & \-- & 95 & 65 & 70 & 77 \\
+Ericson2022figure4 & 6 & 95 & 50 & 70 & 72 \\
+Ericson2022figure8 & 4 & 95 & 95 & 60 & 83 \\
+Haynes\_Magyar2022figure2 & 4 & 80 & 25 & 20 & 42 \\
+Haynes\_Magyar2022figure4 & 3 & 75 & 60 & 50 & 62 \\
+Hou2022figure2 & 3 & 100 & 80 & 100 & 93  \\
+Karavirta2012Figure3 & 4 & 60 & 55 & 80 & 65  \\
+Weinmann2021figure1 & 3 & 95 & 80 & 95 & 90  \\
+\bottomrule
+\label{tab:percent}
+\end{tabular}
+\end{table}
+
