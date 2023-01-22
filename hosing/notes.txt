@@ -1,3 +1,10 @@
+We defined three types of errors.  An "import error" results when you try to run a python program that contains syntax errors, for example improper indenting.  If you are able to successfully load a program, the next error we saw is a "runtime error," for example a divide-by-zero that isn't protected with a try/catch exception handling construct.  If a program loads and runs ok, the last error we saw was when it failed to produce expected output.  We labeled this type error "output error."
+
+By far the most frequent error was "import error".  This is not surprising, since lines are being rearranged and indented in a language whose syntax relies on indentation.  "Output errors" were the fewest, at about half of the "runtime errors", which were about.  
+
+
+
+
 \begin{subsection}Two variations for each of the six prompts{/subsection}
 Each parsons was submitted with 6 different prompts and 2 different ending lines.
 

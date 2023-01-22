@@ -4,6 +4,8 @@ data/z*
 old/
 *.xlsx
 *.csv
+hosing/
+image/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
