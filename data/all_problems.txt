@@ -1,3 +1,16 @@
+# static worst 3 begin
+
+problems/Karavirta2012Figure3.py
+# construct a function that finds the maximum value in a given list
+def findmax(alist):
+	if len(alist) > 0:
+		curmax=alist[0]
+		for item in alist:
+			if item > curmax:
+				curmax=item
+
+	return curmax
+
  
 problems/Ericson2017figure1.py
 # write a function getSum(numList) that returns the sum of a list of numbers.
@@ -6,17 +19,7 @@ def getSum(numList):
 	for num in numList:
 		sum = sum + num
 		return sum
- 
-problems/Ericson2017figure4.py
-# write a function to return the average of values in a list, given a start and end index, for example avgValuesInRange([1,2,3,4,5],0,2) is 2.0 and avgValuesInRange([1,2,3,4,5],2,4) is 4.0
-def avgValuesInRange(numList, start, end):
-	sum = 0
-	for index in range(start,end+1):
-		value = numList[index]
-		sum = sum + value
-	if (end - start + 1) >= 1:
-		return sum / (end - start + 1)
-	return 0
+
  
 problems/Ericson2018figure5.py
 # write a function to return true if the difference between the maximum and minimum value between a given start and end index (inclusive) was 10 or less. 
@@ -30,6 +33,57 @@ def isLevel(elList, start, end):
 		if value < min:
 			min = value
 	return (max-min) <= 10
+
+# static worst 3 end
+
+#static best 3 start
+
+problems/Ericson2022figure3.py
+# Put the code in order to define a Person class with a constructor (__init__), a method to print the object attributes (__str__), and an initials method which returns the first letter of the first name and the first letter of the last name.
+class Person:
+Class Person:
+	def __init__(self, first, last):
+	def __init__(first, last):
+		self.first = first
+		self.last = last
+	def __str__(self):
+		return (self.first + " " + self.last)
+		return (self.first + self.last)
+	def initials(self):
+		return(self.first[0] + self.last[0])
+		return(self.first[1] + self.last[1])
+
+problems/Weinmann2021figure1.py
+# Write a function to return a function which takes an argument x and adds it to the last even element in the given list.
+def last_even_adder(li):
+    for index in range(len(li)-1, -1, -1):
+        if li[index] % 2 == 0:
+            return lambda x: x + li[index]
+    return 'All odd'
+
+
+problems/Haynes_Magyar2022figure2.py
+# Put the blocks in order to define the function has22 to return True if there are at least two items in the list nums that are adjacent and both equal to 2, otherwise return False. For example, return True for has22([1,2,2]) since there are two adjacent items equal to 2 (at index 1 and 2) and False for has22(2,1,2) since the 2's are not adjacent
+def has22(nums):
+	for i in range (len(nums)-1):
+		if nums[i] == 2 and nums [i+1] == 2:
+			return True
+	return False
+ 
+
+#static best 3 end
+
+problems/Ericson2017figure4.py
+# write a function to return the average of values in a list, given a start and end index, for example avgValuesInRange([1,2,3,4,5],0,2) is 2.0 and avgValuesInRange([1,2,3,4,5],2,4) is 4.0
+def avgValuesInRange(numList, start, end):
+	sum = 0
+	for index in range(start,end+1):
+		value = numList[index]
+		sum = sum + value
+	if (end - start + 1) >= 1:
+		return sum / (end - start + 1)
+	return 0
+ 
  
 problems/Ericson2022figure2.py
 # Finish the function below to return 'too low' if the guess is less than the passed target, 'correct' if they are equal, and 'too high' if the guess is greater than the passed target. For example, check_guess(5,7) returns 'too low', check_guess(7,7) returns 'correct', and check_guess(9,7) returns 'too high'. There are three extra blocks that are not needed in a correct solution
@@ -89,14 +143,6 @@ def getAverageDropLowest(numList):
 			lowest = value
 	return (sum - lowest) / (len(numList) - 1)
  
-problems/Haynes_Magyar2022figure2.py
-# Put the blocks in order to define the function has22 to return True if there are at least two items in the list nums that are adjacent and both equal to 2, otherwise return False. For example, return True for has22([1,2,2]) since there are two adjacent items equal to 2 (at index 1 and 2) and False for has22(2,1,2) since the 2's are not adjacent
-def has22(nums):
-	for i in range (len(nums)-1):
-		if nums[i] == 2 and nums [i+1] == 2:
-			return True
-	return False
- 
 problems/Haynes_Magyar2022figure4.py
 # Finish the function to define countInRange that returns a count of the number of tines that a target value appears in a list between the start and end indices (inclusive). For example, countInRange(1,2,4,[1,2,1,1,1,1]) should return 3 since there are three 1s between index 2 and 4 inclusive.
 def countInRange(target, start, end, numList):
@@ -116,22 +162,5 @@ def filter_strings(str_list):
 			new_list.append(word)
 	return new_list
  
-problems/Karavirta2012Figure3.py
-# construct a function that finds the maximum value in a given list
-def findmax(alist):
-	if len(alist) > 0:
-		curmax=alist[0]
-		for item in alist:
-			if item > curmax:
-				curmax=item
-
-	return curmax
 
  
-problems/Weinmann2021figure1.py
-# Write a function to return a function which takes an argument x and adds it to the last even element in the given list.
-def last_even_adder(li):
-    for index in range(len(li)-1, -1, -1):
-        if li[index] % 2 == 0:
-            return lambda x: x + li[index]
-    return 'All odd'
