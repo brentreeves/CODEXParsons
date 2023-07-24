@@ -1,3 +1,7 @@
+1. Top 2 are not right
+2. 18fig5 is perfect: 20 statics, but 5 dynamics pass
+3. 17fig4 perfect parsons: officially correct solution
+
 Explain Top worst three statics:
 
 1. Karavirta2012figure3
