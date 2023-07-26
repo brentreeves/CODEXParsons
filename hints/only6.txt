@@ -1,0 +1,61 @@
+# Weinmann2021figure1.txt
+#Provide hints on how to put the lines of the code below to create the function. last_even_adder(li), which takes an argument x and adds it to the last even element in the given list.
+def last_even_adder(li):
+	for index in range (len(li)-1,-1,-1):
+		# if(li(index)) % 2 == 0:
+		if(li[index]) % 2 == 0:
+			return lambda x : x + li(index)
+	return 'All odd'
+
+
+# Haynes-Magyar2022figure2.txt
+#Provide hints on how to put the lines of the code below in order to define the function, has22(nums),that returns True if there are at least two items in the list nums that are adjacent and both equal to 2, otherwise return False. For example, return True for has22([1,2,2]) since there are two adjacent items equal to 2 (at index 1 and 2) and False for has22(2,1,2) since the 2's are not adjacent
+def has22(nums):
+	for i in range (len(numbs)-1):
+		if nums[i] == 2 and num [i+1] == 2:
+			return True
+	return False
+
+
+# Haynes-Magyar2022figure4.txt
+#Provide hints on how to put the lines of the code below in order to define the function, countInRange(target, start, end, numList), that returns a count of the number of tines that a target value appears in a list between the start and end indices (inclusive). For example, countInRange(1,2,4,[1,2,1,1,1,1]) should return 3 since there are three 1s between index 2 and 4 incl
+def countInRange(target, start, end, numList):
+	count = 0
+	for index in range(start, end+1):
+		current = numList[index]
+		if current == target:
+			count = count + 1
+	return count
+
+# Ericson2022figure2.txt
+#Provide hints on how to put the lines of the code below in order to create the function, check_guess(guess, target), which returns 'too low' if the guess is less than the passed target, 'correct' if they are equal, and 'too high' if the guess is greater than the passed target. For example, check_guess(5,7) returns 'too low', check_guess(7,7) returns 'correct', and check_guess(9,7) returns 'too high'. There are three extra blocks that are not needed in a correct solution
+def check_guess(guess,target):
+	if guess < target:
+		return 'too low'
+	elif guess == target:
+		return 'correct'
+	else:
+		return 'too high'
+
+# Ericson2022figure4.txt
+#Provide hints on how to put lines of the code below in order to create the function, alarm_clock(day, vacation). Given a day of the week encoded as 0=Sum, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekends it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+def alarm_clock(day, vacation):
+	if vacation:
+		if day == 0 or day == 6:
+			return 'off'
+		else:
+			return '10:00'
+	else:
+		if day == 0 or day == 6:
+			return '10:00'
+		else:
+			return '7:00'
+
+# Hou2022figure2.txt
+#Provide hints on how to put the lines of the code below in order to create the function, filter_strings(str_list), which takes a list of strings, str_list, and return a new list with all the strings from the passed list in the same order that have a length greater than 3. For example, filter_strings(["Run", "she", "said"]) should return ["said"] and filter _strings(["It", "was", "a", "dark", "night"]) should return ["dark", "night"]
+def filter_strings(str_list):
+	new_list = []
+	for word in str_list:
+		if len(word) > 3:
+			new_list.append(word)
+	return new_list
