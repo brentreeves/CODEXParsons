@@ -1,0 +1,7 @@
+-out6.txt  has the 6 parsons code that you wanted me to use
+-instruction about the output files: 
+ For each code block I created 20 scrambling, so when you look at the output file the first 20  rows are from Weinmann2021figure1.txt, 
+ the next 20 rows are from Haynes-Magyar2022figure2.txt and so on
+-output0.csv has the output with temperature set to 0
+-output07.csv has the output with temperature set to 0.7
+-gptquery.ipnyb is the script
